@@ -654,6 +654,44 @@
       renderJobs();
     });
 
+    function getCompanyCareerUrl(job) {
+      const url = job.url || '';
+      if (url.includes('jobs.lever.co/')) {
+        const parts = url.split('jobs.lever.co/')[1].split('/');
+        return `https://jobs.lever.co/${parts[0]}`;
+      }
+      if (url.includes('job-boards.greenhouse.io/')) {
+        const parts = url.split('job-boards.greenhouse.io/')[1].split('/');
+        return `https://job-boards.greenhouse.io/${parts[0]}`;
+      }
+      if (url.includes('boards.greenhouse.io/')) {
+        const parts = url.split('boards.greenhouse.io/')[1].split('/');
+        return `https://boards.greenhouse.io/${parts[0]}`;
+      }
+      if (url.includes('jobs.smartrecruiters.com/')) {
+        const parts = url.split('jobs.smartrecruiters.com/')[1].split('/');
+        return `https://jobs.smartrecruiters.com/${parts[0]}`;
+      }
+      if (url.includes('databricks.com')) {
+        return 'https://www.databricks.com/company/careers';
+      }
+      if (url.includes('mongodb.com')) {
+        return 'https://www.mongodb.com/careers';
+      }
+      if (url.includes('elastic.co')) {
+        return 'https://www.elastic.co/about/careers';
+      }
+      if (url.includes('bosch')) {
+        return 'https://www.bosch.in/careers';
+      }
+      try {
+        const parsed = new URL(url);
+        return `${parsed.protocol}//${parsed.hostname}`;
+      } catch (e) {
+        return url;
+      }
+    }
+
     function renderJobs() {
       const sortVal = document.getElementById('sortSelect').value;
 
@@ -758,26 +796,37 @@
                   <span class="w-1.5 h-1.5 rounded-full bg-[#047857]"></span>
                   ${job.experience_level || '0-1 YOE (Students & Freshers)'}
                 </span>
+                <span class="px-2 py-0.5 rounded-md bg-[#FFFDF2] text-[#4C63DB] font-bold text-[10px] border border-[#D5D7DA]">
+                  ${job.ats_type || 'Direct ATS'}
+                </span>
+              </div>
+              
+              <!-- TWO DISTINCT ACTION BUTTONS -->
+              <div class="grid grid-cols-2 gap-2 mt-1">
+                <!-- Button 1: Direct ATS Application Page -->
                 <a 
                   href="${job.url}" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  class="px-2.5 py-1 rounded-md bg-[#FFFDF2] hover:bg-[#FFE88A] text-[#4C63DB] hover:text-[#002032] font-bold text-[10px] border border-[#D5D7DA] hover:border-[#4C63DB] transition flex items-center gap-1 cursor-pointer group/ats"
-                  title="Open live ${job.ats_type || 'ATS'} application page"
+                  class="w-full text-center py-2.5 px-3 rounded-full text-xs font-extrabold bg-[#002032] hover:bg-[#4C63DB] text-white transition shadow-sm flex items-center justify-center gap-1.5 cursor-pointer"
+                  title="Direct ATS Application Form (${job.ats_type || 'ATS'})"
                 >
-                  <span>${job.ats_type || 'Direct ATS'}</span>
-                  <svg class="w-3 h-3 text-[#4C63DB] group-hover/ats:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                  <span>⚡ Direct ATS</span>
+                  <svg class="w-3.5 h-3.5 text-[#FFE88A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+
+                <!-- Button 2: Official Company Career Site -->
+                <a 
+                  href="${getCompanyCareerUrl(job)}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="w-full text-center py-2.5 px-3 rounded-full text-xs font-bold bg-white hover:bg-[#EDEFF2] text-[#002032] border border-[#D5D7DA] hover:border-[#4C63DB] transition flex items-center justify-center gap-1.5 cursor-pointer"
+                  title="Visit ${job.company}'s official careers portal"
+                >
+                  <span>🏢 Career Site</span>
+                  <svg class="w-3.5 h-3.5 text-[#4C63DB]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
               </div>
-              <a 
-                href="${job.url}" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="w-full text-center py-2.5 px-4 rounded-full text-xs font-extrabold bg-[#002032] hover:bg-[#4C63DB] text-white transition shadow-sm flex items-center justify-center gap-2 cursor-pointer"
-              >
-                <span>Apply on ${job.company} (${job.ats_type || 'Direct ATS'})</span>
-                <svg class="w-3.5 h-3.5 text-[#FFE88A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-              </a>
             </div>
           </div>
         `;

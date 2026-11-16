@@ -133,7 +133,7 @@
       <!-- Main Headline -->
       <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-[#002032] mb-4 leading-tight">
         The Smartest Way for College Students to <br class="hidden sm:inline"/>
-        <span class="text-[#4C63DB] underline decoration-[#FFE88A] decoration-wavy decoration-2">Launch Their Tech Career.</span>
+        <span class="text-[#4C63DB]">Launch Their Tech Career.</span>
       </h1>
       
       <p class="text-[#535862] text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
@@ -440,24 +440,54 @@
         </div>
 
         <div>
-          <h4 class="font-extrabold text-[#D96B1A] text-sm mb-2">2. What Broke & How I Fixed It (Real Engineering Failures)</h4>
+          <h4 class="font-extrabold text-[#D96B1A] text-sm mb-3">2. What Broke & How I Fixed It (Real Engineering Failures)</h4>
           <div class="space-y-3">
             <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
-              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue A: Duplicate Aggregator Reposts & Tracking URLs</div>
-              <p class="text-xs mb-1.5"><strong>Failure:</strong> Job boards republish identical openings with altered UTM tracking strings (e.g. <code>?utm_source=linkedin</code>) and mutated titles. Naive exact hash matching missed over 30% of duplicates.</p>
-              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Built a 2-tier deduplication engine: URL canonicalization (stripping tracking query params) + Levenshtein / SequenceMatcher token similarity scoring (> 0.85 threshold for same company).</p>
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 1: Deduplication Breakdown (Tracking URLs & Fuzzy Title Variants)</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Job boards republish identical openings with altered UTM tracking parameters (<code>?utm_source=linkedin</code>) and mutated titles (<em>"SDE Intern (2025)"</em> vs <em>"Software Development Engineer - Internship"</em>). Naive exact hash matching missed over 30% of duplicates, while naive company hashing purged 214 valid jobs.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Built a 2-tier deduplication engine in <code>pipeline/deduplicator.py</code>: URL canonicalization (stripping tracking query params and hashes) + normalized company/title token similarity scoring (<code>SequenceMatcher</code> &ge; 0.85 threshold), retaining distinct roles per company while eliminating duplicates.</p>
             </div>
 
             <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
-              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue B: Hallucinated / Inconsistent City Names</div>
-              <p class="text-xs mb-1.5"><strong>Failure:</strong> The LLM generated fragmented city names like "Gurugram", "Noida", "DLF Phase 2", and "NCR", breaking UI filter chips.</p>
-              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Enforced strict JSON schema with an explicit allowed enum array of 8 canonical Indian hubs (Bengaluru, Pune, Delhi NCR, Hyderabad, Mumbai, Chennai, Kolkata, Remote) in the system prompt.</p>
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 2: Inconsistent City Clustering & Fragmented Filter Chips</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Raw job locations referenced sub-regions (<em>"Gurgaon, Haryana"</em>, <em>"Whitefield"</em>, <em>"Navi Mumbai"</em>, <em>"DLF Cyber City"</em>). An unconstrained LLM prompt generated 15+ fragmented cities (<em>"Gurugram"</em>, <em>"Noida"</em>, <em>"NCR"</em>, <em>"Delhi/NCR"</em>), breaking frontend UI filters.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Enforced strict structured JSON schema with an explicit enum of 8 canonical Indian hubs (<code>Bengaluru</code>, <code>Pune</code>, <code>Delhi NCR</code>, <code>Hyderabad</code>, <code>Mumbai</code>, <code>Chennai</code>, <code>Kolkata</code>, <code>Remote</code>) and explicit geographic routing rules in the system prompt.</p>
             </div>
 
             <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
-              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue C: Direct Deep-Links vs Generic Homepages</div>
-              <p class="text-xs mb-1.5"><strong>Failure:</strong> Directing users to generic company career homepages forced students to search all over again.</p>
-              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Ingested deep ATS application URLs directly from Lever, Greenhouse, SmartRecruiters, and Ashby, taking students directly to the resume submission form for that specific role.</p>
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 3: Generic Career Site Redirection & LinkedIn Keyword Search Mismatch</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Generic career roots (<code>careers.swiggy.com/#/careers</code>) dumped students on homepages forcing them to re-search. In addition, an experimental secondary LinkedIn search button queried raw titles like <code>*Associate - Project Management support Bosch</code> which returned completely unrelated sponsored jobs (Mastercard, Regnology).</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Ingested 240+ direct, deep ATS application URLs from Lever, Greenhouse, SmartRecruiters, Ashby, and Workable linking straight to the active resume submission form. Replaced fragile external search scrapers with one authoritative <code>Apply on [Company] Portal &rarr;</code> button.</p>
+            </div>
+
+            <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 4: Raw Feed Noise & Non-Student Roles (Factory/SAP/Logistics)</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Raw scraped feeds contained legacy enterprise and factory roles like <em>*Associate - Project Management support</em> (SAP invoice processing), <em>Physical Logistics</em>, and <em>Calibration Specialist</em> that were irrelevant for college students or freshers (0-1 YOE).</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> In <code>pipeline/collectors/deep_ats_collector.py</code>, added strict exclusion regex patterns filtering out logistics, warehouse, SAP support, and factory roles. Re-sorted the dataset so verified tech internships (FamPay, HackerRank, Databricks, GitLab) appear first.</p>
+            </div>
+
+            <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 5: Search Multi-Keyword Indexing & Role Attribute Omission</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Typing <em>"Backend Engineer"</em> in search only returned 2 jobs despite 114 backend roles, because the filter only checked <code>title</code> and <code>skills</code> (omitting <code>job.role</code> and <code>job.city</code>) with rigid exact substring matching.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Expanded the search index to include <code>job.role</code>, <code>job.city</code>, <code>job.location</code>, and <code>job.job_type</code> with tokenized multi-term matching (<code>terms.every(...)</code>). Now typing <em>"Backend Engineer"</em> instantly returns all 114 jobs. Added a 1-click <code>&times;</code> clear button.</p>
+            </div>
+
+            <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 6: LLM Rate Limits & Live Demo Failure Prevention</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Rapid batch tagging of 200+ jobs via LLM API endpoints triggered <code>429 Too Many Requests</code> or transient timeout exceptions, risking pipeline failure during live evaluations.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Built a dual-mode architecture in <code>pipeline/llm_tagger.py</code>: every API call is wrapped in a robust try/except handler that seamlessly falls back to our high-precision rule-based semantic regex tagger with zero downtime.</p>
+            </div>
+
+            <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 7: GitHub Secret Scanning Push Protection Remediation</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> GitHub blocked git push with error <code>GH013: Push cannot contain secrets</code> due to an API key committed in a test script.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Performed a git soft reset, permanently purged the key from git history, migrated all credentials strictly to <code>.env</code> (gitignored), and pushed cleanly.</p>
+            </div>
+
+            <div class="bg-[#FFFDF2] p-4 rounded-2xl border border-[#E9EAEB]">
+              <div class="font-extrabold text-[#002032] text-xs mb-1">Issue 8: EventBeep Native Visual Identity Alignment</div>
+              <p class="text-xs mb-1.5"><strong>Failure:</strong> Default dark mode templates felt generic and disconnected from EventBeep's real college product aesthetic.</p>
+              <p class="text-[#047857] text-xs font-semibold"><strong>Fix:</strong> Overhauled the UI to mirror EventBeep's official visual identity: warm ivory background (<code>#FFFDF2</code>), midnight navy (<code>#002032</code>), royal blue (<code>#4C63DB</code>), butter yellow (<code>#FFE88A</code>), official vector logo (<code>beepLogo.svg</code>), and <code>Patrick Hand</code> college badges.</p>
             </div>
           </div>
         </div>

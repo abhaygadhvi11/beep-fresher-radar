@@ -41,10 +41,10 @@ Removes tracking parameters (`utm_source`, `utm_medium`, `ref`, `fbclid`, `gclid
 
 ---
 
-## 3. LLM Semantic Categorization (Gemini 1.5 Flash)
-- **Model**: `gemini-1.5-flash`
+## 3. LLM Semantic Categorization (Gemini 2.5 Flash)
+- **Model**: `gemini-2.5-flash`
 - **Temperature**: `0.1` (deterministic classification)
-- **Output Mode**: Strict JSON Schema enforcement
+- **Output Mode**: Strict JSON Schema enforcement with system-level taxonomy grounding
 
 ### Standard Taxonomies
 #### 10 Standard Roles:

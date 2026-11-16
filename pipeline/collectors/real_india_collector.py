@@ -95,3 +95,4 @@ if __name__ == "__main__":
     with open("data/raw_jobs.json", "w", encoding="utf-8") as f:
         json.dump(jobs, f, indent=2, ensure_ascii=False)
     print("Saved to data/raw_jobs.json")
+

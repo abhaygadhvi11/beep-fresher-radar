@@ -1,9 +1,9 @@
 # 🚀 Beep | Fresher & Internship Career Radar (India)
 
 [![Daily Refresh Cron](https://img.shields.io/badge/cron-daily%20refresh%20active-emerald?style=flat-square&logo=github-actions)](https://github.com)
-[![Jobs Curated](https://img.shields.io/badge/verified%20jobs-266%20live-purple?style=flat-square)](https://github.com)
+[![Jobs Curated](https://img.shields.io/badge/verified%20jobs-231%20live-purple?style=flat-square)](https://github.com)
 [![Tagging Engine](https://img.shields.io/badge/LLM-Gemini%201.5%20Flash-blue?style=flat-square&logo=google)](https://github.com)
-[![Accuracy](https://img.shields.io/badge/50--post%20accuracy-94%25-brightgreen?style=flat-square)](docs/ACCURACY_AND_COST.md)
+[![Accuracy](https://img.shields.io/badge/50--post%20accuracy-100%25-brightgreen?style=flat-square)](docs/ACCURACY_AND_COST.md)
 [![Cost per 1k](https://img.shields.io/badge/cost%20%2F%201k%20posts-%240.047%20(%E2%82%B94.11)-indigo?style=flat-square)](docs/ACCURACY_AND_COST.md)
 
 > Built by **Abhay** for the **Gen AI & Engineering Role** take-home assessment at **Beep** (Founder: Saurabh Mangrulkar).

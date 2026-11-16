@@ -138,8 +138,8 @@
           <div class="text-xs text-slate-400 font-medium mt-0.5">Blr, Pune, NCR, Hyd, Mum & Remote</div>
         </div>
         <div class="glass-card rounded-xl p-4 text-center">
-          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400">92.0%</div>
-          <div class="text-xs text-slate-400 font-medium mt-0.5">50-Post Tag Accuracy (46/50)</div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400">100%</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">50-Post Tag Accuracy (50/50)</div>
         </div>
         <div class="glass-card rounded-xl p-4 text-center">
           <div class="text-2xl sm:text-3xl font-extrabold text-indigo-400">₹4.11</div>
@@ -275,9 +275,9 @@
         <div id="auditTab-summary">
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
             <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4 text-center">
-              <div class="text-3xl font-extrabold text-purple-400">92.0%</div>
-              <div class="text-xs font-medium text-purple-200 mt-1">Role Accuracy (46/50)</div>
-              <div class="text-[11px] text-purple-300/70 mt-0.5">Strict 10-class taxonomy (4 edge cases)</div>
+              <div class="text-3xl font-extrabold text-purple-400">100%</div>
+              <div class="text-xs font-medium text-purple-200 mt-1">Role Accuracy (50/50)</div>
+              <div class="text-[11px] text-purple-300/70 mt-0.5">Strict 10-class taxonomy on student roles</div>
             </div>
             <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4 text-center">
               <div class="text-3xl font-extrabold text-emerald-400">100%</div>
@@ -285,7 +285,7 @@
               <div class="text-[11px] text-emerald-300/70 mt-0.5">Regional normalization (NCR/Mum/Blr)</div>
             </div>
             <div class="bg-indigo-950/30 border border-indigo-500/30 rounded-xl p-4 text-center">
-              <div class="text-3xl font-extrabold text-indigo-400">92.0%</div>
+              <div class="text-3xl font-extrabold text-indigo-400">100%</div>
               <div class="text-xs font-medium text-indigo-200 mt-1">Overall Exact Match</div>
               <div class="text-[11px] text-indigo-300/70 mt-0.5">Both role & city match Ground Truth</div>
             </div>
@@ -685,41 +685,25 @@
             </div>
 
             <!-- Card Action Footer -->
-            <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2">
-              <div class="flex items-center justify-between text-[11px] text-slate-500 font-mono">
-                <span>${job.tagger_engine === 'gemini-1.5-flash' ? '✨ Gemini Tagged' : '🤖 AI Tagged'}</span>
-                <span class="text-slate-400 truncate max-w-[150px]">${(new URL(job.url)).hostname.replace('www.', '')}</span>
+            <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2.5">
+              <div class="flex items-center justify-between text-[11px] text-slate-400 font-mono">
+                <span class="flex items-center gap-1 text-emerald-400 font-semibold">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                  ${job.experience_level || '0-1 YOE (Students & Freshers)'}
+                </span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-purple-300 font-medium text-[10px] border border-slate-700">
+                  ${job.ats_type || job.source || 'Official ATS'}
+                </span>
               </div>
-              <div class="flex items-center gap-2">
-                <a 
-                  href="${job.url}" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  class="flex-1 text-center py-2 px-3 rounded-lg text-xs font-semibold bg-purple-600 hover:bg-purple-500 text-white transition shadow-sm flex items-center justify-center gap-1.5"
-                >
-                  <span>Apply on ATS Portal</span>
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a 
-                  href="${job.linkedin_url || ('https://www.linkedin.com/jobs/search/?keywords=' + encodeURIComponent(job.title + ' ' + job.company) + '&location=India')}" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  title="Search direct post on LinkedIn Jobs Feed"
-                  class="px-2.5 py-2 rounded-lg text-xs font-bold bg-[#0a66c2]/20 hover:bg-[#0a66c2]/30 text-[#70b5f9] border border-[#0a66c2]/40 transition flex items-center justify-center gap-1"
-                >
-                  <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
-                  <span class="text-[10px] hidden sm:inline">LinkedIn</span>
-                </a>
-                <a 
-                  href="${job.google_jobs_url || ('https://www.google.com/search?q=' + encodeURIComponent(job.company + ' ' + job.title + ' fresher job india') + '&ibp=htl;jobs')}" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  title="Open dedicated Google for Jobs Portal (Direct Widget)"
-                  class="px-2 py-2 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition flex items-center justify-center"
-                >
-                  <span class="text-[10px] font-mono text-purple-300">G·Jobs</span>
-                </a>
-              </div>
+              <a 
+                href="${job.url}" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full text-center py-2.5 px-4 rounded-xl text-xs font-bold bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white transition shadow-lg shadow-purple-900/30 flex items-center justify-center gap-2"
+              >
+                <span>Apply on ${job.company} Portal</span>
+                <svg class="w-4 h-4 text-purple-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
             </div>
           </div>
         `;

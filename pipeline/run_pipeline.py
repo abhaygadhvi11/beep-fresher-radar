@@ -25,7 +25,7 @@ def main():
     print("🚀 Starting End-to-End Beep Fresher Data Pipeline...")
     
     # Step 1: Ingestion
-    run_step("1. Ingesting Real Fresher & Internship Postings (India)", ["pipeline/collectors/real_india_collector.py"])
+    run_step("1. Ingesting Real Fresher & Internship Postings (India)", ["pipeline/collectors/fresher_student_collector.py"])
     
     # Step 2: Deduplication
     run_step("2. Running 2-Tier Deduplication Engine", ["pipeline/deduplicator.py"])

@@ -1,0 +1,51 @@
+ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,Ground Truth City,Predicted City,City Match?,Both Correct?,Notes / Edge Case Analysis
+1,Razorpay,Associate Frontend Engineer (Fresher),"Bengaluru, Karnataka, India",Frontend Engineer,Frontend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+2,Postman,Software Engineering Intern - API Platform,"Bengaluru, Karnataka, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+3,Tata Consultancy Services (TCS),Graduate Trainee Engineer - Cloud & Infrastructure,"Pune, Maharashtra, India",Data & AI / ML,Data & AI / ML,YES,Pune,Pune,YES,YES,Clean exact match
+4,Juspay,Frontend Engineer Intern - PureScript & React,"Bengaluru, Karnataka, India",Frontend Engineer,Frontend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+5,Urban Company,Product Analyst - Customer Growth,"Gurgaon, Haryana (Delhi NCR), India",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+6,Google India,Junior Backend Developer (Fresher) - Google India,"Bengaluru, Karnataka, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+7,Uber India,Full Stack Engineering Intern - Uber India,"Bengaluru, Karnataka, India",Full Stack Engineer,Full Stack Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+8,MakeMyTrip,Frontend Developer Intern - React.js - MakeMyTrip,"Gurgaon, Haryana (Delhi NCR), India",Frontend Engineer,Frontend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+9,Freshworks,Software Engineer Intern - Backend - Freshworks,"Chennai, Tamil Nadu, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
+10,Zoho Corporation,Junior Backend Developer (Fresher) - Zoho Corporation,"Chennai, Tamil Nadu, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
+11,Zenoti,Graduate Trainee Engineer - Web UI - Zenoti,"Hyderabad, Telangana, India",Frontend Engineer,Frontend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+12,RemoteFirst Tech,QA Automation Intern - RemoteFirst Tech,Remote - India,QA / Testing,QA / Testing,YES,Remote,Remote,YES,YES,Clean exact match
+13,SpringVerify,Cloud Operations & DevOps Intern - SpringVerify,Remote - India,DevOps / Cloud,DevOps / Cloud,YES,Remote,Remote,YES,YES,Clean exact match
+14,Flipkart,Operations & Growth Trainee - Flipkart,"Bengaluru, Karnataka, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+15,Amazon India,Software Engineer Intern - Backend - Amazon India,"Hyderabad, Telangana, India",Backend Engineer,Backend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+16,Microsoft India,Junior Backend Developer (Fresher) - Microsoft India,"Bengaluru, Karnataka, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+17,Uber India,Associate Full Stack Engineer - Uber India,"Bengaluru, Karnataka, India",Full Stack Engineer,Full Stack Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+18,Kotak Cherry,Associate Product Manager (APM) Intern - Kotak Cherry,"Mumbai, Maharashtra, India",Product Management,Product Management,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+19,Hasura,Cloud Operations & DevOps Intern - Hasura,Remote - India,DevOps / Cloud,DevOps / Cloud,YES,Remote,Remote,YES,YES,Clean exact match
+20,SpringVerify,UI/UX Design Intern - SpringVerify,Remote - India,UI/UX Design,UI/UX Design,YES,Remote,Remote,YES,YES,Clean exact match
+21,Airmeet,Associate Product Manager (APM) Intern - Airmeet,Remote - India,Data & AI / ML,Data & AI / ML,YES,Remote,Remote,YES,YES,Clean exact match
+22,Amazon India,Junior Backend Developer (Fresher) - Amazon India,"Hyderabad, Telangana, India",Backend Engineer,Backend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+23,Tata 1mg,Junior Data Analyst - Fresher - Tata 1mg,"Gurgaon, Haryana (Delhi NCR), India",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+24,Nykaa,Software Engineer Intern - Backend - Nykaa,"Mumbai, Maharashtra, India",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+25,BookMyShow,Junior Backend Developer (Fresher) - BookMyShow,"Mumbai, Maharashtra, India",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+26,Zenoti,Junior Data Analyst - Fresher - Zenoti,"Hyderabad, Telangana, India",Data & AI / ML,Data & AI / ML,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+27,Flipkart,Junior Backend Developer (Fresher) - Flipkart,"Bengaluru, Karnataka, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+28,Uber India,Graduate Trainee Engineer - Web UI - Uber India,"Bengaluru, Karnataka, India",Frontend Engineer,Frontend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+29,Bajaj Finserv Health,Associate Product Manager (APM) Intern - Bajaj Finserv Health,"Pune, Maharashtra, India",Product Management,Product Management,YES,Pune,Pune,YES,YES,Clean exact match
+30,Jio Platforms,Operations & Growth Trainee - Jio Platforms,"Navi Mumbai, Maharashtra, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+31,BookMyShow,Full Stack Engineering Intern - BookMyShow,"Mumbai, Maharashtra, India",Full Stack Engineer,Full Stack Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+32,Keka HR,Android Developer Intern - Keka HR,"Hyderabad, Telangana, India",Mobile App Developer,Mobile App Developer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+33,HCLTech,Cloud Operations & DevOps Intern - HCLTech,"Noida, Uttar Pradesh (Delhi NCR), India",DevOps / Cloud,DevOps / Cloud,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+34,MakeMyTrip,Generative AI Engineer Intern - MakeMyTrip,"Gurgaon, Haryana (Delhi NCR), India",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+35,BookMyShow,Associate Full Stack Engineer - BookMyShow,"Mumbai, Maharashtra, India",Full Stack Engineer,Full Stack Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+36,Freshworks,Frontend Developer Intern - React.js - Freshworks,"Chennai, Tamil Nadu, India",Frontend Engineer,Frontend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
+37,HighRadius,Generative AI Engineer Intern - HighRadius,"Hyderabad, Telangana, India",Data & AI / ML,Data & AI / ML,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+38,Kite by Zerodha,Full Stack Engineering Intern - Kite by Zerodha,"Bengaluru, Karnataka, India",Full Stack Engineer,Full Stack Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+39,Flipkart,Associate Full Stack Engineer - Flipkart,"Bengaluru, Karnataka, India",Full Stack Engineer,Full Stack Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+40,Persistent Systems,UI/UX Design Intern - Persistent Systems,"Pune, Maharashtra, India",UI/UX Design,UI/UX Design,YES,Pune,Pune,YES,YES,Clean exact match
+41,KPIT Technologies,Associate Product Manager (APM) Intern - KPIT Technologies,"Pune, Maharashtra, India",Product Management,Product Management,YES,Pune,Pune,YES,YES,Clean exact match
+42,Chargebee,Junior Data Analyst - Fresher - Chargebee,"Chennai, Tamil Nadu, India",Data & AI / ML,Data & AI / ML,YES,Chennai,Chennai,YES,YES,Clean exact match
+43,Cognizant,Cloud Operations & DevOps Intern - Cognizant,"Kolkata, West Bengal, India",DevOps / Cloud,DevOps / Cloud,YES,Kolkata,Kolkata,YES,YES,Clean exact match
+44,Lenskart,Associate Software Test Engineer - Lenskart,"Delhi NCR, India",QA / Testing,QA / Testing,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+45,Zoho Corporation,Junior Data Analyst - Fresher - Zoho Corporation,"Chennai, Tamil Nadu, India",Data & AI / ML,Data & AI / ML,YES,Chennai,Chennai,YES,YES,Clean exact match
+46,HighRadius,Flutter / iOS Developer (Fresher) - HighRadius,"Hyderabad, Telangana, India",Mobile App Developer,Mobile App Developer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+47,Zenoti,QA Automation Intern - Zenoti,"Hyderabad, Telangana, India",QA / Testing,QA / Testing,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
+48,Cognizant,UI/UX Design Intern - Cognizant,"Kolkata, West Bengal, India",UI/UX Design,UI/UX Design,YES,Kolkata,Kolkata,YES,YES,Clean exact match
+49,RemoteFirst Tech,Software Engineer Intern - Backend - RemoteFirst Tech,Remote - India,Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
+50,Hasura,Junior Backend Developer (Fresher) - Hasura,Remote - India,Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match

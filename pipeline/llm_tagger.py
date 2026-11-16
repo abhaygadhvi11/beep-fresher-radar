@@ -171,16 +171,16 @@ def heuristic_tag_job(job: Dict[str, Any]) -> Dict[str, Any]:
 
 def call_gemini_api(job: Dict[str, Any], api_key: str) -> Dict[str, Any]:
     """
-    Calls Google Gemini 1.5 Flash using structured output.
+    Calls Google Gemini 2.5 Flash using structured output.
     """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     
     user_prompt = f"""Job Title: {job.get('title')}
 Company: {job.get('company')}
 Location: {job.get('location')}
 Job Type: {job.get('job_type')}
 Salary info: {job.get('salary_raw', 'Not specified')}
-Description: {job.get('description')}
+Description: {job.get('description', '')[:500]}
 """
 
     payload = {
@@ -199,16 +199,16 @@ Description: {job.get('description')}
     headers = {"Content-Type": "application/json"}
     req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
     
-    with urllib.request.urlopen(req, timeout=15) as response:
+    with urllib.request.urlopen(req, timeout=12) as response:
         res_data = json.loads(response.read().decode("utf-8"))
         candidate = res_data["candidates"][0]["content"]["parts"][0]["text"]
         parsed = json.loads(candidate)
-        parsed["tagger_engine"] = "gemini-1.5-flash"
+        parsed["tagger_engine"] = "gemini-2.5-flash"
         
         # Token usage tracking
         usage = res_data.get("usageMetadata", {})
-        parsed["prompt_tokens"] = usage.get("promptTokenCount", 350)
-        parsed["output_tokens"] = usage.get("candidatesTokenCount", 70)
+        parsed["prompt_tokens"] = usage.get("promptTokenCount", 130)
+        parsed["output_tokens"] = usage.get("candidatesTokenCount", 45)
         return parsed
 
 def tag_all_jobs(jobs: List[Dict[str, Any]], api_key: str = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
@@ -274,8 +274,15 @@ def tag_all_jobs(jobs: List[Dict[str, Any]], api_key: str = None) -> Tuple[List[
 
 if __name__ == "__main__":
     import sys
+    import time
     
     key = os.environ.get("GEMINI_API_KEY", None)
+    if not key and os.path.exists(".env"):
+        with open(".env", "r", encoding="utf-8") as env_f:
+            for line in env_f:
+                if line.strip().startswith("GEMINI_API_KEY="):
+                    key = line.strip().split("GEMINI_API_KEY=")[1].strip().strip('"').strip("'")
+                    
     if len(sys.argv) > 1 and sys.argv[1].startswith("--key="):
         key = sys.argv[1].split("=")[1]
 

@@ -75,3 +75,4 @@ from collections import Counter
 counts = Counter(f['company'] for f in filtered)
 for c, cnt in counts.most_common(15):
     print(f"  {c}: {cnt}")
+

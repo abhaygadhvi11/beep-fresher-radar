@@ -51,3 +51,4 @@ for j in fresher_candidates[:12]:
     print(f"[{j.get('company')}] {j.get('title')}")
     print(f"   Location: {j.get('location')}")
     print(f"   URL: {j.get('url')}\n")
+

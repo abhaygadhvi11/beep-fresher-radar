@@ -22,3 +22,4 @@ for c, items in by_company.items():
         title = it.get('title', '')
         link = it.get('url', '')
         print(f"   - [{loc}] {title} -> {link}")
+

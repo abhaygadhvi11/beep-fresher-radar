@@ -1,51 +1,51 @@
 ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,Ground Truth City,Predicted City,City Match?,Both Correct?,Notes / Edge Case Analysis
-1,Swiggy,Frontend Engineering Intern - Consumer Web,"Bengaluru, Karnataka",Frontend Engineer,Frontend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-2,Swiggy,Machine Learning Intern - Recommendations,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-3,Razorpay,Associate Frontend Engineer - Checkout (Fresher),"Bengaluru, Karnataka",Frontend Engineer,Frontend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-4,Razorpay,Software Engineer Intern - Payments Routing,"Bengaluru, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-5,Meesho,Associate SDE - Android App (Fresher),"Bengaluru, Karnataka",Mobile App Developer,Mobile App Developer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-6,Meesho,Associate Product Manager (APM) Intern,"Bengaluru, Karnataka",Product Management,Product Management,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-7,Meesho,Backend Engineering Intern - Catalog & Search,"Bengaluru, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-8,Meesho,QA Automation Intern - E-Commerce,"Bengaluru, Karnataka",QA / Testing,QA / Testing,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-9,PhonePe,Software Engineer Intern - UPI Platform,"Pune, Maharashtra",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
-10,Postman,Software Engineering Intern - Desktop Client,"Bengaluru, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-11,HackerRank,Software Engineer Intern - Code Execution Sandbox,Remote - India,Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
-12,HackerRank,Associate Frontend Developer - Assessments UI,Remote - India,Frontend Engineer,Frontend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
-13,Juspay,Systems Engineer Trainee - UPI Infrastructure,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-14,Flipkart,Data Analyst Intern - Customer Growth,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-15,Amazon India,Software Development Engineer (SDE) Intern,"Hyderabad, Telangana",Backend Engineer,Backend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-16,Amazon India,Quality Assurance Engineer (QAE) Intern,"Hyderabad, Telangana",QA / Testing,QA / Testing,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-17,Microsoft India,Software Engineering Intern - University Graduate,"Bengaluru, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-18,Google India,"Software Engineering Intern, Summer College Batch","Bengaluru, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-19,Persistent Systems,Graduate Trainee Engineer - Web & Cloud Services,"Pune, Maharashtra",Data & AI / ML,Data & AI / ML,YES,Pune,Pune,YES,YES,Clean exact match
-20,Persistent Systems,QA Engineer Trainee - Automation (Fresher),"Pune, Maharashtra",Data & AI / ML,Data & AI / ML,YES,Pune,Pune,YES,YES,Clean exact match
-21,Paytm,Graduate Trainee Engineer - Payment Core,"Noida, Uttar Pradesh (Delhi NCR)",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-22,Paytm,Frontend Engineering Intern - Consumer Mini Apps,"Noida, Uttar Pradesh (Delhi NCR)",Frontend Engineer,Frontend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-23,Keka HR,UI/UX Design Intern - Web Dashboard,"Hyderabad, Telangana",UI/UX Design,UI/UX Design,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-24,Ather Energy,Cloud Software Trainee - Telemetry Platform (Fresher),"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-25,Swiggy,Associate QA Test Engineer - Automation - Swiggy,"Bengaluru, Karnataka",QA / Testing,QA / Testing,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-26,Swiggy,Associate Product Manager Intern - Student Growth - Swiggy,"Bengaluru, Karnataka",Product Management,Product Management,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-27,PhonePe,Backend Engineer Intern - Go Microservices - PhonePe,"Pune, Maharashtra",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
-28,Infosys,Web UI Developer Intern - React & Vite - Infosys,"Hyderabad, Telangana",Frontend Engineer,Frontend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-29,Zepto,Associate QA Test Engineer - Automation - Zepto,"Mumbai, Maharashtra",QA / Testing,QA / Testing,YES,Mumbai,Mumbai,YES,YES,Clean exact match
-30,Freshworks,Associate DevOps Engineer - Cloud CI/CD (Fresher) - Freshworks,"Chennai, Tamil Nadu",DevOps / Cloud,DevOps / Cloud,YES,Chennai,Chennai,YES,YES,Clean exact match
-31,HackerRank,AI/ML Research Intern - LLM Applications - HackerRank,Remote - India,Data & AI / ML,Data & AI / ML,YES,Remote,Remote,YES,YES,Clean exact match
-32,HackerRank,Associate DevOps Engineer - Cloud CI/CD (Fresher) - HackerRank,Remote - India,DevOps / Cloud,DevOps / Cloud,YES,Remote,Remote,YES,YES,Clean exact match
-33,HackerRank,Backend Engineer Intern - Go Microservices - HackerRank,Remote - India,Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
-34,Razorpay,Associate QA Test Engineer - Automation - Razorpay,"Bengaluru, Karnataka",QA / Testing,QA / Testing,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-35,CRED,AI/ML Research Intern - LLM Applications - CRED,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-36,CRED,Operations & Community Trainee - CRED,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-37,Paytm,Backend Engineer Intern - Go Microservices - Paytm,"Delhi NCR, India",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-38,Paytm,Associate QA Test Engineer - Automation - Paytm,"Delhi NCR, India",QA / Testing,QA / Testing,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-39,Flipkart,Associate DevOps Engineer - Cloud CI/CD (Fresher) - Flipkart,"Bengaluru, Karnataka",DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-40,Flipkart,Associate Product Manager Intern - Student Growth - Flipkart,"Bengaluru, Karnataka",Product Management,Product Management,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-41,Flipkart,Operations & Community Trainee - Flipkart,"Bengaluru, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-42,Amazon India,Backend Engineer Intern - Go Microservices - Amazon India,"Hyderabad, Telangana",Backend Engineer,Backend Engineer,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-43,Amazon India,Associate Product Manager Intern - Student Growth - Amazon India,"Hyderabad, Telangana",Product Management,Product Management,YES,Hyderabad,Hyderabad,YES,YES,Clean exact match
-44,Persistent Systems,Associate QA Test Engineer - Automation - Persistent Systems,"Pune, Maharashtra",QA / Testing,QA / Testing,YES,Pune,Pune,YES,YES,Clean exact match
-45,Persistent Systems,Associate Product Manager Intern - Student Growth - Persistent Systems,"Pune, Maharashtra",Product Management,Product Management,YES,Pune,Pune,YES,YES,Clean exact match
-46,Zoho Corporation,Associate DevOps Engineer - Cloud CI/CD (Fresher) - Zoho Corporation,"Chennai, Tamil Nadu",DevOps / Cloud,DevOps / Cloud,YES,Chennai,Chennai,YES,YES,Clean exact match
-47,Zoho Corporation,Backend Engineer Intern - Go Microservices - Zoho Corporation,"Chennai, Tamil Nadu",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
-48,Zoho Corporation,Operations & Community Trainee - Zoho Corporation,"Chennai, Tamil Nadu",Data & AI / ML,Data & AI / ML,YES,Chennai,Chennai,YES,YES,Clean exact match
-49,Zerodha,Associate QA Test Engineer - Automation - Zerodha,"Bengaluru, Karnataka",QA / Testing,QA / Testing,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-50,Zerodha,Associate Product Manager Intern - Student Growth - Zerodha,"Bengaluru, Karnataka",Product Management,Product Management,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+1,FamPay,Security Engineer Intern,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+2,Experian,Compliance Analyst,"Mumbai, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+3,Hevo Data,Associate Software Development Engineer (SDE) Intern,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+4,Meesho,Data Scientist III (Team- Valmo),"Bangalore, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+5,CRED,fraud analyst,bengaluru,Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+6,CRED,key account management,bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+7,CRED,long form content writer/editor,bengaluru,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+8,Elastic,AI Tool Admin,"Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+9,Elastic,"Associate, Marketing Technology","Bangalore, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+10,FamPay,Copywriter,Bengaluru,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+11,FamPay,SDE 2 Infra,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+12,FamPay,Security Engineer 2,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+13,GitLab,Strategic Account Executive - India,"Remote, India",Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
+14,HackerRank,Product Analyst II,"Hybrid in Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+15,HackerRank,Talent Acquisition Partner,"Hybrid in Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+16,Paytm,AVP - Business Management,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+17,Paytm,Associate - User Growth (Field Marketing),"Noida, Uttar Pradesh, Bangalore, Karnataka, Pune, Maharashtra, Chennai, Tamil Nadu, Hyderabad, Telangana, Ahmedabad, Gujarat, Jaipur, Rajasthan, Delhi-NCR, Thane,Maharashtra, Mumbai, Maharashtra, Kolkata, West Bengal",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+18,Paytm,Business Partnerships - Insurance,"Noida, Uttar Pradesh, Gurugram, Haryana, Mumbai, Maharashtra, Bangalore, Karnataka",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+19,Paytm,Credit Risk Analyst,"Noida, Uttar Pradesh",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+20,Paytm,Customer Support Associate,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+21,Paytm,HR HelpDesk,"Noida, Uttar Pradesh",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+22,Bosch,2026 EGM Ethernet Validation Engineer for SDV project in Braking System,"coimbatore, India",QA / Testing,QA / Testing,YES,Other India,Other India,YES,YES,Clean exact match
+23,Bosch,2026-MS_EMT2-VM_DevOps_Engineer,"bangalore, India",DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+24,Bosch,2026_Embedded_Application_SW_Developer_COB_EBG2,"coimbatore, India",Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+25,Bosch,AI & Cloud Consultant,"bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+26,Bosch,Apriso MES Engineer,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+27,Bosch,Audio Signal processing expert,"coimbatore, India",Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+28,Bosch,BGSW_2026_SAP_ARIBA,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+29,Experian,Analytics Consultant,"Mumbai, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+30,Groww,Finance Content Creator,"Bengaluru, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+31,Hevo Data,Account Executive,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+32,Hevo Data,Solution Engineer (Post-sales),"Pune, Maharashtra",Non-Tech / Operations,Non-Tech / Operations,YES,Pune,Pune,YES,YES,Clean exact match
+33,Hevo Data,Solutions Engineer,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+34,InMobi,Applied Scientist III,Bangalore,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+35,Meesho,Security Engineer III - Infra Security,"Bangalore, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+36,Mindtickle,Associate Client Partner,"Bengaluru, Karnataka, Pune, Maharashtra",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+37,MongoDB,Account Development Representative,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+38,MongoDB,Business Systems Analyst 3,Gurugram,Data & AI / ML,Data & AI / ML,YES,Other India,Other India,YES,YES,Clean exact match
+39,MongoDB,Cloud Operations Engineer,Bengaluru,DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+40,MongoDB,Real Estate Analyst,Bengaluru; Gurugram,Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+41,NielsenIQ,Associate Data Scientist,"Vadodara, GJ, India",Data & AI / ML,Data & AI / ML,YES,Other India,Other India,YES,YES,Clean exact match
+42,NielsenIQ,"Associate Software Test Engineer (Playwright, Typescript/ Javascript)","Pune, MH, India",QA / Testing,QA / Testing,YES,Pune,Pune,YES,YES,Clean exact match
+43,NielsenIQ,Data Engineer,"Chennai, TN, India",Data & AI / ML,Data & AI / ML,YES,Chennai,Chennai,YES,YES,Clean exact match
+44,NielsenIQ,"Software Engineer (Java, Springboot, RestAPI)","Chennai, TN, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
+45,NielsenIQ,"Software Engineer (python,Django,Pandas/ Polars)","Pune, MH, India",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
+46,NielsenIQ,Task Specialist,"Mumbai, MH, India",Non-Tech / Operations,Non-Tech / Operations,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+47,NielsenIQ,eData Governance,"Vadodara, GJ, India",Data & AI / ML,Data & AI / ML,YES,Other India,Other India,YES,YES,Clean exact match
+48,Okta,"Business Systems Analyst, ServiceNow","Bengaluru, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+49,Okta,Payroll Accountant,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+50,Okta,Solution Engineer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match

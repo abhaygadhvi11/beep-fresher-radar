@@ -171,11 +171,16 @@
         <input 
           type="text" 
           id="searchInput" 
-          placeholder="Search by job title, company (e.g. Swiggy, HackerRank, FamPay, Paytm) or skills (React, Python, SQL)..." 
-          class="w-full pl-12 pr-28 py-3.5 rounded-2xl bg-[#FFFDF2] text-[#181D27] placeholder-[#7A8089] border border-[#D5D7DA] focus:border-[#4C63DB] focus:ring-2 focus:ring-[#4C63DB]/20 text-sm outline-none transition font-medium"
+          placeholder="Search by role (e.g. Backend Engineer), company, skills (React, Python, SQL) or city..." 
+          class="w-full pl-12 pr-32 py-3.5 rounded-2xl bg-[#FFFDF2] text-[#181D27] placeholder-[#7A8089] border border-[#D5D7DA] focus:border-[#4C63DB] focus:ring-2 focus:ring-[#4C63DB]/20 text-sm outline-none transition font-medium"
         />
-        <div id="searchCounter" class="absolute inset-y-0 right-0 pr-4 flex items-center text-xs text-[#535862] font-bold font-mono">
-          226 jobs
+        <div class="absolute inset-y-0 right-0 pr-4 flex items-center gap-2">
+          <button id="clearSearchBtn" onclick="clearSearch()" class="hidden text-[#7A8089] hover:text-[#002032] p-1 rounded-full cursor-pointer transition" title="Clear search">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+          <span id="searchCounter" class="text-xs text-[#535862] font-bold font-mono">
+            226 jobs
+          </span>
         </div>
       </div>
 
@@ -587,20 +592,35 @@
       renderJobs();
     }
 
+    function clearSearch() {
+      searchQuery = '';
+      document.getElementById('searchInput').value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      renderJobs();
+    }
+
     function resetFilters() {
       selectedCity = 'all';
       selectedRole = 'all';
       selectedType = 'all';
       searchQuery = '';
       document.getElementById('searchInput').value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.classList.add('hidden');
       setCityFilter('all');
       setRoleFilter('all');
       setTypeFilter('all');
     }
 
-    // Debounced search
+    // Instant multi-keyword search
     document.getElementById('searchInput').addEventListener('input', (e) => {
       searchQuery = e.target.value.toLowerCase().trim();
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) {
+        if (searchQuery) clearBtn.classList.remove('hidden');
+        else clearBtn.classList.add('hidden');
+      }
       renderJobs();
     });
 
@@ -614,8 +634,10 @@
         
         let matchesSearch = true;
         if (searchQuery) {
-          const content = `${job.title} ${job.company} ${job.description} ${(job.skills || []).join(' ')}`.toLowerCase();
-          matchesSearch = content.includes(searchQuery);
+          const content = `${job.title || ''} ${job.company || ''} ${job.role || ''} ${job.city || ''} ${job.location || ''} ${job.job_type || ''} ${job.description || ''} ${(job.skills || []).join(' ')}`.toLowerCase();
+          const terms = searchQuery.split(/\s+/).filter(Boolean);
+          // Match if the full phrase is in content, or every individual term matches
+          matchesSearch = content.includes(searchQuery) || (terms.length > 0 && terms.every(term => content.includes(term)));
         }
 
         return matchesCity && matchesRole && matchesType && matchesSearch;

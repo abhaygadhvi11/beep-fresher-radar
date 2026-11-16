@@ -59,32 +59,26 @@ def create_ground_truth_evaluator():
             gt_city = "Other India"
 
         # Human Ground Truth Role
-        if any(k in title_lower for k in ["frontend", "front-end", "react", "ui dev", "web ui"]):
+        if any(k in title_lower for k in ["ui/ux", "ux/ui", "ux engineer", "product design", "figma", "visual design"]):
+            gt_role = "UI/UX Design"
+        elif any(k in title_lower for k in ["frontend", "front-end", "react", "ui dev", "web ui", "html/css"]):
             gt_role = "Frontend Engineer"
-        elif any(k in title_lower for k in ["backend", "back-end", "go", "java", "api platform"]):
-            gt_role = "Backend Engineer"
-        elif any(k in title_lower for k in ["full stack", "fullstack", "mern"]):
+        elif any(k in title_lower for k in ["full stack", "fullstack", "mern", "mean"]) or ("java" in title_lower and "angular" in title_lower):
             gt_role = "Full Stack Engineer"
-        elif any(k in title_lower for k in ["data", "ml", "ai", "analyst", "analytics"]):
+        elif any(k in title_lower for k in ["data", "ml", "ai", "analyst", "analytics", "machine learning"]):
             gt_role = "Data & AI / ML"
         elif any(k in title_lower for k in ["android", "ios", "flutter", "react native", "mobile"]):
             gt_role = "Mobile App Developer"
-        elif any(k in title_lower for k in ["qa", "quality", "test", "automation"]):
+        elif any(k in title_lower for k in ["qa", "quality", "test", "testing", "automation", "validation"]):
             gt_role = "QA / Testing"
-        elif any(k in title_lower for k in ["devops", "cloud", "infrastructure"]):
+        elif any(k in title_lower for k in ["devops", "cloud", "infrastructure", "devsecops", "sre", "linux"]):
             gt_role = "DevOps / Cloud"
-        elif any(k in title_lower for k in ["design", "ui/ux", "ux"]):
-            gt_role = "UI/UX Design"
-        elif any(k in title_lower for k in ["product manager", "apm", "product intern"]):
+        elif any(k in title_lower for k in ["product manager", "apm", "product intern", "product management", "product analyst"]):
             gt_role = "Product Management"
-        elif any(k in title_lower for k in ["operations", "growth trainee"]):
+        elif any(k in title_lower for k in ["hr", "human resource", "logistics", "warehouse", "production", "operations", "content", "writer", "marketing", "sales", "consultant", "supervisor", "specialist", "management support", "project management"]):
             gt_role = "Non-Tech / Operations"
-        elif any(k in title_lower for k in ["specialist programmer", "graduate trainee"]):
-            # Ambiguous titles where description determines role
-            if "cloud" in title_lower or "cloud" in job.get("description", "").lower():
-                gt_role = "DevOps / Cloud"
-            else:
-                gt_role = "Full Stack Engineer"
+        elif any(k in title_lower for k in ["backend", "back-end", "node", "django", "spring boot", "golang", "java", "api", "embedded", "firmware", "sw developer", "hardware", "hw developer", "software"]):
+            gt_role = "Backend Engineer"
         else:
             gt_role = "Backend Engineer"
 

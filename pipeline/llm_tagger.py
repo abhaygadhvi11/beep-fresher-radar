@@ -108,32 +108,28 @@ def heuristic_tag_job(job: Dict[str, Any]) -> Dict[str, Any]:
         city = "Other India"
 
     # 2. Determine Role
-    if any(k in title for k in ["frontend", "front-end", "react", "vue", "angular", "ui dev", "web ui"]):
+    if any(k in title for k in ["ui/ux", "ux/ui", "ux engineer", "product design", "figma", "visual design", "ui designer", "ux designer"]):
+        role = "UI/UX Design"
+    elif any(k in title for k in ["frontend", "front-end", "react", "vue", "angular", "ui dev", "web ui", "html/css"]):
         role = "Frontend Engineer"
-    elif any(k in title for k in ["backend", "back-end", "node", "django", "spring boot", "golang", "go dev", "java dev", "api"]):
-        role = "Backend Engineer"
-    elif any(k in title for k in ["full stack", "fullstack", "mern", "mean"]):
+    elif any(k in title for k in ["full stack", "fullstack", "mern", "mean"]) or ("java" in title and "angular" in title):
         role = "Full Stack Engineer"
-    elif any(k in title for k in ["data", "machine learning", "ml", "ai", "generative ai", "nlp", "deep learning", "analyst", "analytics"]):
+    elif any(k in title for k in ["data", "machine learning", "ml", "ai", "generative ai", "nlp", "deep learning", "analyst", "analytics", "computer vision"]):
         role = "Data & AI / ML"
     elif any(k in title for k in ["android", "ios", "flutter", "react native", "mobile"]):
         role = "Mobile App Developer"
-    elif any(k in title for k in ["qa", "quality", "test", "testing", "automation engineer", "sdet"]):
+    elif any(k in title for k in ["qa", "quality", "test", "testing", "automation engineer", "sdet", "validation"]):
         role = "QA / Testing"
-    elif any(k in title for k in ["devops", "cloud", "infrastructure", "sre", "kubernetes", "aws"]):
+    elif any(k in title for k in ["devops", "cloud", "infrastructure", "sre", "kubernetes", "aws", "devsecops", "sysadmin", "linux"]):
         role = "DevOps / Cloud"
-    elif any(k in title for k in ["design", "ui/ux", "ux/ui", "product design", "figma"]):
-        role = "UI/UX Design"
     elif any(k in title for k in ["product manager", "apm", "product intern", "product management", "product analyst"]):
         role = "Product Management"
-    elif any(k in title for k in ["software", "developer", "sde", "engineer", "trainee", "specialist programmer"]):
-        # Default generic engineer to Full Stack or Backend based on desc
-        if "frontend" in desc or "html" in desc or "css" in desc:
-            role = "Full Stack Engineer"
-        else:
-            role = "Backend Engineer"
-    else:
+    elif any(k in title for k in ["backend", "back-end", "node", "django", "spring boot", "golang", "go dev", "java", "api", "embedded", "firmware", "sw developer", "hardware", "hw developer", "software"]):
+        role = "Backend Engineer"
+    elif any(k in title for k in ["hr", "human resource", "logistics", "warehouse", "production", "operations", "content", "writer", "marketing", "sales", "consultant", "supervisor", "specialist", "management support", "project management"]):
         role = "Non-Tech / Operations"
+    else:
+        role = "Backend Engineer"
 
     # 3. Determine Job Type
     if "intern" in title or "internship" in title or "intern" in desc:

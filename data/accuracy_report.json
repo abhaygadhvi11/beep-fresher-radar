@@ -1,11 +1,11 @@
 {
   "sample_size": 50,
-  "role_accuracy_pct": 100.0,
+  "role_accuracy_pct": 92.0,
   "city_accuracy_pct": 100.0,
-  "both_correct_pct": 100.0,
-  "role_matches": 50,
+  "both_correct_pct": 92.0,
+  "role_matches": 46,
   "city_matches": 50,
-  "both_matches": 50,
+  "both_matches": 46,
   "error_analysis": {
     "city_edge_cases": "Ambiguous regional designations like 'NCR', 'Gurgaon', and 'Navi Mumbai' were successfully mapped to standard hubs 'Delhi NCR' and 'Mumbai' with near-perfect 100% precision.",
     "role_edge_cases": "Mismatches occurred primarily on broad campus titles like 'Graduate Trainee Engineer' where the tech domain is embedded in the body rather than title."

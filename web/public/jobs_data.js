@@ -16,14 +16,12 @@ window.INITIAL_JOBS = [
     "dedup_hash": "1311efe4c5c5",
     "role": "Non-Tech / Operations",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
+    "skills": [],
+    "reasoning": "The role 'People Operations Intern' clearly indicates a non-technical, operations-focused position, and the location is explicitly stated as Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 528,
+    "output_tokens": 116
   },
   {
     "id": "beep-job-077",
@@ -40,16 +38,14 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-09-23",
     "canonical_url": "https://jobs.lever.co/fampay/bbbbbfd2-1855-4991-82d5-84ef57607c24",
     "dedup_hash": "8d258c411358",
-    "role": "Backend Engineer",
+    "role": "DevOps / Cloud",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
+    "skills": [],
+    "reasoning": "The role is classified as DevOps / Cloud as Security Engineer roles often involve infrastructure and operational security, and the city is Bengaluru as specified in the job posting.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 544,
+    "output_tokens": 118
   },
   {
     "id": "beep-job-095",
@@ -68,14 +64,15 @@ window.INITIAL_JOBS = [
     "dedup_hash": "5c61487828bb",
     "role": "Data & AI / ML",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "AI",
+      "Machine Learning"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'AI Researcher Intern' clearly falls under Data & AI / ML, and the location 'Bangalore' maps to Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 526,
+    "output_tokens": 121
   },
   {
     "id": "beep-job-102",
@@ -94,14 +91,12 @@ window.INITIAL_JOBS = [
     "dedup_hash": "a76b5aa943c4",
     "role": "Backend Engineer",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
+    "skills": [],
+    "reasoning": "The role is classified as Backend Engineer due to its general Software Development Engineer title, and the city is Bengaluru as per the location rule for Bangalore.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 527,
+    "output_tokens": 114
   },
   {
     "id": "beep-job-209",
@@ -118,16 +113,20 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-11-03",
     "canonical_url": "https://jobs.lever.co/paytm/d093bac9-07c4-4a77-852a-a3c4afcf3c1c",
     "dedup_hash": "3ccece825e22",
-    "role": "Backend Engineer",
+    "role": "Non-Tech / Operations",
     "city": "Delhi NCR",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
+      "Internal Audit",
+      "Process Audits",
+      "Technology Audits",
+      "Data Analytics",
+      "Risk Management"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role focuses on IT audit, compliance, and risk management, classifying it as Non-Tech / Operations, and Noida is categorized as Delhi NCR.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 507,
+    "output_tokens": 139
   },
   {
     "id": "beep-job-047",
@@ -144,16 +143,16 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-08-25",
     "canonical_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8688851002",
     "dedup_hash": "b136656524f7",
-    "role": "Backend Engineer",
+    "role": "Non-Tech / Operations",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
+      "SAP"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'SAP Functional SME' is classified as Non-Tech / Operations due to its focus on business systems and processes, and the city is Bengaluru as specified in the job posting.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 524,
+    "output_tokens": 133
   },
   {
     "id": "beep-job-063",
@@ -170,16 +169,20 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-11-03",
     "canonical_url": "https://jobs.smartrecruiters.com/Experian/744000159304239",
     "dedup_hash": "88364c64e218",
-    "role": "Data & AI / ML",
+    "role": "Non-Tech / Operations",
     "city": "Mumbai",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Compliance",
+      "Regulatory Affairs",
+      "Auditing",
+      "Stakeholder Management",
+      "Data Submissions"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'Compliance Analyst' is non-technical, classifying it under Non-Tech / Operations, and the location is explicitly Mumbai.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 496,
+    "output_tokens": 148
   },
   {
     "id": "beep-job-108",
@@ -198,14 +201,17 @@ window.INITIAL_JOBS = [
     "dedup_hash": "79d08dfa9b0d",
     "role": "Backend Engineer",
     "city": "Bengaluru",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
+      "REST API",
+      "Data Pipelines",
+      "Debugging",
+      "Code Optimization"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role involves implementing SaaS connectors, building REST API components, and optimizing data pipelines, classifying it as Backend Engineer, and the location is explicitly Bangalore.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 536,
+    "output_tokens": 141
   },
   {
     "id": "beep-job-127",
@@ -231,7 +237,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-150",
@@ -255,7 +262,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-154",
@@ -281,7 +289,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-155",
@@ -308,7 +317,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-157",
@@ -332,7 +342,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-161",
@@ -349,16 +360,18 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-10-25",
     "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157671759",
     "dedup_hash": "60960bc2cfd2",
-    "role": "Data & AI / ML",
+    "role": "Non-Tech / Operations",
     "city": "Pune",
-    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "stipend_salary": "₹30,000 - ₹50,000 / mo",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Tax Compliance",
+      "Income Tax",
+      "Tax Provisioning"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role focuses on global income tax compliance and filings, classifying it as Non-Tech / Operations, and the location is explicitly Pune.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 510,
+    "output_tokens": 136
   },
   {
     "id": "beep-job-167",
@@ -384,7 +397,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-176",
@@ -410,7 +424,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-187",
@@ -436,7 +451,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-191",
@@ -462,7 +478,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-036",
@@ -488,7 +505,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-037",
@@ -514,7 +532,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-038",
@@ -540,7 +559,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-039",
@@ -566,7 +586,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-040",
@@ -592,7 +613,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-041",
@@ -618,7 +640,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-042",
@@ -644,7 +667,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-043",
@@ -670,7 +694,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-052",
@@ -696,7 +721,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-053",
@@ -722,7 +748,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-054",
@@ -748,7 +775,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-055",
@@ -774,7 +802,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-056",
@@ -800,7 +829,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-058",
@@ -826,7 +856,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-059",
@@ -852,7 +883,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-060",
@@ -864,7 +896,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Official Portal",
     "description": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data — securing and protecting private information more effectively — Elastic’s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI. What is The Role The Elastic IT team is shifting beyond standard cha",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-09-29",
     "canonical_url": "https://jobs.elastic.co/jobs?gh_jid=8237463&gh_jid=8237463",
@@ -872,13 +904,11 @@ window.INITIAL_JOBS = [
     "role": "UI/UX Design",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'UI/UX Design' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role is classified as UI/UX Design due to the 'UX Engineer' title, and the city is Bengaluru as specified in the location.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 507,
+    "output_tokens": 108
   },
   {
     "id": "beep-job-069",
@@ -890,21 +920,19 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam\n \nFam (previously FamPay) is India's first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ youngest users in India to kickstart their financial journey early in their lives. Founded in 2019 by IIT Roorkee alumni, Fam is backed by investors like Elevation Capital, Y-Combinator, Peak XV (Sequoia Capital) India, Venture Highway, Global Founder's Capital, and angels including Kunal Shah and Amrish Rao.\n \nRole Overview\n \nWe just don't collaborate, we partner with brands!\nYou'll be right in the middle of making those partnerships stronger, sm",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-07-06",
     "canonical_url": "https://jobs.lever.co/fampay/76e5974a-aa6f-4342-81f3-2a99821c2adc",
     "dedup_hash": "c9e25fc9d09c",
-    "role": "Backend Engineer",
+    "role": "Non-Tech / Operations",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role 'Business & Partnerships Associate' clearly falls under Non-Tech / Operations, and the location is explicitly stated as Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 531,
+    "output_tokens": 106
   },
   {
     "id": "beep-job-070",
@@ -916,7 +944,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-06-04",
     "canonical_url": "https://jobs.lever.co/fampay/e908a557-dd9e-41d0-849c-b57914f3ed13",
@@ -925,12 +953,14 @@ window.INITIAL_JOBS = [
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
+      "Content Writing",
+      "Creative Writing",
+      "Marketing Communication"
     ],
-    "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'Copywriter' is classified as 'Non-Tech / Operations' due to its nature, and the city is explicitly stated as 'Bengaluru'.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 516,
+    "output_tokens": 133
   },
   {
     "id": "beep-job-071",
@@ -942,7 +972,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-11-06",
     "canonical_url": "https://jobs.lever.co/fampay/811d4537-ade2-43fa-83c5-e2d07839b402",
@@ -950,13 +980,11 @@ window.INITIAL_JOBS = [
     "role": "Data & AI / ML",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL",
-      "Git"
-    ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role is for a Data Analyst, which falls under Data & AI / ML, and the location is explicitly Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 516,
+    "output_tokens": 104
   },
   {
     "id": "beep-job-072",
@@ -968,7 +996,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-08-21",
     "canonical_url": "https://jobs.lever.co/fampay/01750a61-a53b-433f-8d8c-bfb5a18417f8",
@@ -976,13 +1004,11 @@ window.INITIAL_JOBS = [
     "role": "Data & AI / ML",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL",
-      "Git"
-    ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role is classified as 'Data & AI / ML' due to 'Data Engineer' in the title, and the city is 'Bengaluru' as explicitly stated in the job posting.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 522,
+    "output_tokens": 118
   },
   {
     "id": "beep-job-073",
@@ -994,7 +1020,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-11-04",
     "canonical_url": "https://jobs.lever.co/fampay/a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
@@ -1002,13 +1028,11 @@ window.INITIAL_JOBS = [
     "role": "Non-Tech / Operations",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role 'People Operations Associate' is classified as Non-Tech / Operations, and the location is explicitly stated as Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 517,
+    "output_tokens": 105
   },
   {
     "id": "beep-job-075",
@@ -1020,21 +1044,19 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-10-01",
     "canonical_url": "https://jobs.lever.co/fampay/9b8d4eaa-cd29-4aec-8dcc-a33fd78d5657",
     "dedup_hash": "9af149f282b4",
-    "role": "Backend Engineer",
+    "role": "DevOps / Cloud",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role 'SDE 2 Infra' indicates a focus on infrastructure, aligning with DevOps/Cloud, and the location is explicitly Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 519,
+    "output_tokens": 107
   },
   {
     "id": "beep-job-076",
@@ -1046,21 +1068,19 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Fam (previously FamPay)\n\nFam is India’s first payments app for everyone above 11. FamApp helps make online and offline payments through UPI and FamCard. We are on a mission to raise a new, financially aware generation, and drive 250 million+ young users in India to kickstart their financial journey super early in their life.\n\nWe’re reimagining how the next generation experiences fintech—going beyond payments to build a lifestyle brand that blends money, identity, and everyday experiences into one seamless, intuitive journey.\n\nFounded in 2019 by IIT Roorkee alumni, Fam is backed by some of the most respected investors around the world like Elevation Capital, Y-Combinator, Peak XV (Sequo",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2024-08-29",
     "canonical_url": "https://jobs.lever.co/fampay/df8548ac-a0e4-4cd6-a97c-427231b4b3e9",
     "dedup_hash": "79f66d145676",
-    "role": "Backend Engineer",
+    "role": "DevOps / Cloud",
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "skills": [],
+    "reasoning": "The role is classified as DevOps / Cloud because Security Engineering often involves securing infrastructure, cloud environments, and CI/CD pipelines, aligning with DevSecOps practices, and the city is explicitly Bengaluru.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 518,
+    "output_tokens": 118
   },
   {
     "id": "beep-job-079",
@@ -1086,7 +1106,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-080",
@@ -1112,7 +1133,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-081",
@@ -1138,7 +1160,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-082",
@@ -1164,7 +1187,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-083",
@@ -1190,7 +1214,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-084",
@@ -1216,7 +1241,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-085",
@@ -1242,7 +1268,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-086",
@@ -1268,7 +1295,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-087",
@@ -1294,7 +1322,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-088",
@@ -1320,7 +1349,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-096",
@@ -1346,7 +1376,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-098",
@@ -1358,7 +1389,7 @@ window.INITIAL_JOBS = [
     "ats_type": "Greenhouse ATS",
     "description": "HackerRank helps companies like NVIDIA, Amazon, and Microsoft hire and upskill the next generation of developers based on skills, not pedigree. Our platform is trusted by over 2,500 of the world’s most innovative companies to build strong engineering teams ready for what’s next. Software has entered an era where humans and AI build side by side. As this shift accelerates, the definition of strong technical talent is changing. We give companies better ways to identify and invest in next-generation skills. People at HackerRank care deeply about the impact of their work and sweat the small details so our customers can be wildly successful with products they genuinely love to use. We move with u",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-10-14",
     "canonical_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8273522",
@@ -1367,12 +1398,14 @@ window.INITIAL_JOBS = [
     "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Deep Learning",
+      "Machine Learning",
+      "AI"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'Deep Learning Research Engineer' clearly falls under 'Data & AI / ML', and the location 'Bangalore' maps directly to 'Bengaluru'.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 517,
+    "output_tokens": 132
   },
   {
     "id": "beep-job-099",
@@ -1398,7 +1431,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-100",
@@ -1424,7 +1458,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-101",
@@ -1450,7 +1485,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-104",
@@ -1476,7 +1512,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-206",
@@ -1502,7 +1539,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-207",
@@ -1528,7 +1566,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-208",
@@ -1554,7 +1593,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-210",
@@ -1580,7 +1620,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-211",
@@ -1606,7 +1647,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-212",
@@ -1632,7 +1674,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-213",
@@ -1658,7 +1701,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-214",
@@ -1670,21 +1714,24 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Us:\nPaytm is India's leading financial services company that offers full-stack payments & financial solutions to consumers, offline merchants, and online platforms. The company is on a mission to bring half a billion Indians into the mainstream economy through payments, commerce, banking, investments, and financial services.\nOne97 Communications Limited that owns the brand Paytm is founded by Vijay Shekhar Sharma.\n\nAbout the Team:\n\nThe OCL Grievance Redressal Team manages customer grievances, executive escalations, and regulatory complaints through voice, email, and ticketing channels. As a regulated reporting function, the team ensures timely, accurate, and compliant resolutions while",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-08-03",
     "canonical_url": "https://jobs.lever.co/paytm/715e52dd-0a51-4ff7-be68-855112e56b99",
     "dedup_hash": "a6d3124389eb",
-    "role": "Data & AI / ML",
+    "role": "Non-Tech / Operations",
     "city": "Delhi NCR",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Customer Service",
+      "Email Communication",
+      "Problem Solving",
+      "Grievance Redressal"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role 'CST - Associate - Email CST' is operational and customer-facing, classifying it as Non-Tech / Operations, and Noida is categorized as Delhi NCR.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 516,
+    "output_tokens": 146
   },
   {
     "id": "beep-job-216",
@@ -1710,7 +1757,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-217",
@@ -1722,21 +1770,23 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Us:  \n\nPaytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Paytm’s mission is to serve half a billion Indians and bring them to the mainstream economy with the help of technology. \n\nAbout Role:-\n\nThe Campaign Operations Lead will own campaign delivery, performance optimization, and team excellence for managed service advertisers. This role demands high aptitude, strong analytical depth, and hands-on AdTech expertise, with the ability to connect platform mechanics, measurement, and business outcomes. \n\nYou will lead a t",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-08-06",
     "canonical_url": "https://jobs.lever.co/paytm/ff4be077-f801-4d2d-9ea9-4b062a5eb669",
     "dedup_hash": "7abf229fe64c",
-    "role": "Data & AI / ML",
-    "city": "Delhi NCR",
+    "role": "Non-Tech / Operations",
+    "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Campaign Management",
+      "Performance Optimization",
+      "Ad Operations"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role focuses on campaign operations and management, classifying it as Non-Tech / Operations, and Bengaluru is chosen as the primary tech hub among the listed locations.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 522,
+    "output_tokens": 133
   },
   {
     "id": "beep-job-218",
@@ -1748,21 +1798,23 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Paytm \nPaytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Paytm’s mission is to serve half a billion Indians and bring them to the mainstream economy with the help of technology. \n\nAbout the Role:\nWe are looking for a detail-oriented and proactive CLM Operations candidate to join the Paytm Campaign Lifecycle Management (CLM) team. In this role, you will be responsible for the end-to-end execution of off-deck and on-deck campaigns across multiple channels using CleverTap. You will collaborate closely with Category, Gro",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-09-22",
     "canonical_url": "https://jobs.lever.co/paytm/772f3cdd-4343-4f8d-9140-b40f3b64449a",
     "dedup_hash": "6a91a54c7635",
-    "role": "Data & AI / ML",
+    "role": "Non-Tech / Operations",
     "city": "Delhi NCR",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Campaign Management",
+      "Traffic Management",
+      "Growth Strategy"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role focuses on Campaign and Traffic Management, aligning with Non-Tech / Operations, and Noida is categorized as Delhi NCR.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 513,
+    "output_tokens": 126
   },
   {
     "id": "beep-job-219",
@@ -1774,21 +1826,24 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "About Paytm \nPaytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Paytm’s mission is to serve half a billion Indians and bring them to the mainstream economy with the help of technology. \n\nAbout the Role:\nWe are looking for an experienced Campaign Manager who will manage end-to-end growth campaign execution and will analyze campaign performance, run experiments, optimize engagement/conversion, and work with cross-functional teams to ensure smooth and timely execution.\n\nRequirements:\n●2+ years of hands-on experience in Growth ",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-09-22",
     "canonical_url": "https://jobs.lever.co/paytm/9f059149-ed57-4539-9e06-0855096e7842",
     "dedup_hash": "65163e30f6bc",
-    "role": "Data & AI / ML",
+    "role": "Non-Tech / Operations",
     "city": "Delhi NCR",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "Python",
-      "SQL",
-      "Git"
+      "Campaign Management",
+      "User Growth",
+      "Campaign Execution",
+      "Data Analysis"
     ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role focuses on campaign management and user growth, classifying it as Non-Tech / Operations, and Noida is part of Delhi NCR.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 513,
+    "output_tokens": 134
   },
   {
     "id": "beep-job-220",
@@ -1800,21 +1855,24 @@ window.INITIAL_JOBS = [
     "ats_type": "Lever ATS",
     "description": "Job Title: Client Onboarding & Product Specialist  \nCompany: Paytm \nLocation: Noida \nDepartment: Business / Customer Success / Product \nRole Overview We are looking for a proactive and customer-focused professional to manage the onboarding and adoption journey of new clients at Paytm. The role involves conducting product demos, guiding clients through setup and integrations, resolving onboarding challenges, and ensuring smooth adoption of Paytm’s solutions. The ideal candidate should have strong communication skills, a problem-solving mindset, and the ability to work closely with Sales, Support, and Product teams. \nKey Responsibilities \n Lead new clients through a smooth and structured onboa",
     "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
+    "experience_level": "Fresher",
     "salary_raw": "₹7 - 16 LPA",
     "posted_at": "2026-09-24",
     "canonical_url": "https://jobs.lever.co/paytm/7097240e-c9be-430b-816e-259e96fee507",
     "dedup_hash": "0e5082ec4d04",
-    "role": "Backend Engineer",
+    "role": "Non-Tech / Operations",
     "city": "Delhi NCR",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
+      "Client Onboarding",
+      "Product Demos",
+      "Customer Success",
+      "Client Management"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "reasoning": "The role involves client onboarding and product specialization, classifying it as Non-Tech / Operations, and the location includes Noida and Gurugram, which fall under Delhi NCR.",
+    "tagger_engine": "gemini-2.5-flash",
+    "prompt_tokens": 526,
+    "output_tokens": 143
   },
   {
     "id": "beep-job-221",
@@ -1840,7 +1898,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-222",
@@ -1866,7 +1925,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-223",
@@ -1892,7 +1952,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-224",
@@ -1918,7 +1979,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-225",
@@ -1944,7 +2006,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-226",
@@ -1970,7 +2033,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-227",
@@ -1996,7 +2060,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-228",
@@ -2022,7 +2087,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-229",
@@ -2048,7 +2114,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-230",
@@ -2074,7 +2141,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-231",
@@ -2100,7 +2168,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-232",
@@ -2126,7 +2195,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-233",
@@ -2152,7 +2222,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-234",
@@ -2178,7 +2249,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-237",
@@ -2204,7 +2276,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-239",
@@ -2230,7 +2303,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-240",
@@ -2256,7 +2330,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-001",
@@ -2282,7 +2357,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-002",
@@ -2308,7 +2384,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-003",
@@ -2334,7 +2411,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-004",
@@ -2360,7 +2438,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-005",
@@ -2386,7 +2465,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-006",
@@ -2412,7 +2492,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-007",
@@ -2438,7 +2519,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-008",
@@ -2464,7 +2546,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-009",
@@ -2490,7 +2573,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-010",
@@ -2516,7 +2600,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-011",
@@ -2542,7 +2627,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "Remote end closed connection without response"
   },
   {
     "id": "beep-job-012",
@@ -2568,7 +2654,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-013",
@@ -2594,7 +2681,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-014",
@@ -2620,7 +2708,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-015",
@@ -2646,7 +2735,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-016",
@@ -2672,7 +2762,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-017",
@@ -2698,7 +2789,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-018",
@@ -2724,7 +2816,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-019",
@@ -2750,7 +2843,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-020",
@@ -2776,7 +2870,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-021",
@@ -2802,7 +2897,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-022",
@@ -2826,7 +2922,8 @@ window.INITIAL_JOBS = [
       "Python"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-023",
@@ -2852,7 +2949,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Mobile App Developer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-024",
@@ -2878,7 +2976,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-025",
@@ -2904,7 +3003,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-026",
@@ -2928,7 +3028,8 @@ window.INITIAL_JOBS = [
       "Java"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-027",
@@ -2954,7 +3055,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-028",
@@ -2980,7 +3082,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-029",
@@ -3006,7 +3109,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-030",
@@ -3032,7 +3136,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-031",
@@ -3058,7 +3163,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-032",
@@ -3084,7 +3190,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-033",
@@ -3110,7 +3217,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-034",
@@ -3136,7 +3244,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-035",
@@ -3162,7 +3271,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-044",
@@ -3188,7 +3298,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-045",
@@ -3214,7 +3325,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-046",
@@ -3240,7 +3352,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-048",
@@ -3264,7 +3377,8 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-049",
@@ -3290,7 +3404,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-050",
@@ -3314,7 +3429,8 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-051",
@@ -3340,7 +3456,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-061",
@@ -3366,7 +3483,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-062",
@@ -3392,7 +3510,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-064",
@@ -3418,7 +3537,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-065",
@@ -3444,7 +3564,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-066",
@@ -3470,7 +3591,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-067",
@@ -3496,7 +3618,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-068",
@@ -3522,7 +3645,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-078",
@@ -3548,7 +3672,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-089",
@@ -3574,7 +3699,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-090",
@@ -3600,7 +3726,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-091",
@@ -3626,7 +3753,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-092",
@@ -3652,7 +3780,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-093",
@@ -3678,7 +3807,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-094",
@@ -3704,7 +3834,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-105",
@@ -3730,7 +3861,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-106",
@@ -3756,7 +3888,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-107",
@@ -3782,7 +3915,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-109",
@@ -3808,7 +3942,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-110",
@@ -3834,7 +3969,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-111",
@@ -3860,7 +3996,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-112",
@@ -3886,7 +4023,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-115",
@@ -3912,7 +4050,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-117",
@@ -3938,7 +4077,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-118",
@@ -3964,7 +4104,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-119",
@@ -3990,7 +4131,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-120",
@@ -4016,7 +4158,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-121",
@@ -4042,7 +4185,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-122",
@@ -4068,7 +4212,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-123",
@@ -4094,7 +4239,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-124",
@@ -4120,7 +4266,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-125",
@@ -4146,7 +4293,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-126",
@@ -4172,7 +4320,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-128",
@@ -4198,7 +4347,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-129",
@@ -4224,7 +4374,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-130",
@@ -4250,7 +4401,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-131",
@@ -4276,7 +4428,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-132",
@@ -4302,7 +4455,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-133",
@@ -4328,7 +4482,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-134",
@@ -4354,7 +4509,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-135",
@@ -4380,7 +4536,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-136",
@@ -4406,7 +4563,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-137",
@@ -4432,7 +4590,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-138",
@@ -4458,7 +4617,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-139",
@@ -4484,7 +4644,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-140",
@@ -4508,7 +4669,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-142",
@@ -4532,7 +4694,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-143",
@@ -4558,7 +4721,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-144",
@@ -4582,7 +4746,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-146",
@@ -4608,7 +4773,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-147",
@@ -4634,7 +4800,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-148",
@@ -4660,7 +4827,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-149",
@@ -4686,7 +4854,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-151",
@@ -4710,7 +4879,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-152",
@@ -4734,7 +4904,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-153",
@@ -4758,7 +4929,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-156",
@@ -4782,7 +4954,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-158",
@@ -4806,7 +4979,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-159",
@@ -4830,7 +5004,8 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-162",
@@ -4856,7 +5031,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-163",
@@ -4882,7 +5058,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-164",
@@ -4907,7 +5084,8 @@ window.INITIAL_JOBS = [
       "JavaScript"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-165",
@@ -4931,7 +5109,8 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-166",
@@ -4957,7 +5136,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-168",
@@ -4983,7 +5163,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-169",
@@ -5009,7 +5190,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-170",
@@ -5035,7 +5217,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-171",
@@ -5059,7 +5242,8 @@ window.INITIAL_JOBS = [
       "SQL"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-172",
@@ -5085,7 +5269,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-173",
@@ -5111,7 +5296,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-174",
@@ -5137,7 +5323,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-175",
@@ -5163,7 +5350,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-177",
@@ -5189,7 +5377,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-178",
@@ -5215,7 +5404,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-179",
@@ -5241,7 +5431,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-180",
@@ -5267,7 +5458,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-181",
@@ -5293,7 +5485,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-182",
@@ -5319,7 +5512,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-183",
@@ -5345,7 +5539,8 @@ window.INITIAL_JOBS = [
       "Spring Boot"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-184",
@@ -5372,7 +5567,8 @@ window.INITIAL_JOBS = [
       "Pandas"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-185",
@@ -5399,7 +5595,8 @@ window.INITIAL_JOBS = [
       "Spring Boot"
     ],
     "reasoning": "Tagged as 'Frontend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-186",
@@ -5425,7 +5622,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-188",
@@ -5451,7 +5649,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-189",
@@ -5477,7 +5676,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-190",
@@ -5503,7 +5703,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-192",
@@ -5529,7 +5730,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-193",
@@ -5555,7 +5757,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-194",
@@ -5581,7 +5784,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-195",
@@ -5607,7 +5811,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-196",
@@ -5633,7 +5838,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-197",
@@ -5657,7 +5863,8 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-198",
@@ -5683,7 +5890,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-199",
@@ -5709,7 +5917,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-201",
@@ -5735,7 +5944,8 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-202",
@@ -5761,7 +5971,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-203",
@@ -5787,7 +5998,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-205",
@@ -5813,7 +6025,8 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   },
   {
     "id": "beep-job-077",
@@ -5839,6 +6052,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
+    "tagger_engine": "heuristic_fallback",
+    "error_fallback": "HTTP Error 429: Too Many Requests"
   }
 ];

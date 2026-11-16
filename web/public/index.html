@@ -687,9 +687,8 @@
             <!-- Card Action Footer -->
             <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2.5">
               <div class="flex items-center justify-between text-[11px] text-slate-400 font-mono">
-                <span class="flex items-center gap-1 text-emerald-400 font-semibold">
-                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                  ${job.experience_level || '0-1 YOE (Students & Freshers)'}
+                <span class="flex items-center gap-1 text-purple-300 font-mono text-[10px]">
+                  <span>${(job.tagger_engine && job.tagger_engine.startsWith('gemini')) ? '✨ Gemini 2.5 Flash' : '🤖 AI Categorized'}</span>
                 </span>
                 <span class="px-2 py-0.5 rounded bg-slate-800 text-purple-300 font-medium text-[10px] border border-slate-700">
                   ${job.ats_type || job.source || 'Official ATS'}

@@ -39,17 +39,20 @@ def main():
     # Step 5: Sync with Web Distribution
     print("\n================ [STEP] 5. Syncing Data to Web App ================")
     os.makedirs("web/public", exist_ok=True)
-    shutil.copy("data/tagged_jobs.json", "web/public/jobs.json")
-    shutil.copy("data/validation_50.csv", "web/public/validation_50.csv")
-    shutil.copy("data/accuracy_report.json", "web/public/accuracy_report.json")
+    for target_dir in ["web/public", "."]:
+        shutil.copy("data/tagged_jobs.json", os.path.join(target_dir, "jobs.json"))
+        shutil.copy("data/validation_50.csv", os.path.join(target_dir, "validation_50.csv"))
+        shutil.copy("data/accuracy_report.json", os.path.join(target_dir, "accuracy_report.json"))
+        shutil.copy("web/public/index.html", os.path.join(target_dir, "index.html"))
     
     # Generate standalone zero-CORS script
     with open("data/tagged_jobs.json", "r", encoding="utf-8") as f:
         jobs_data = json.load(f)
-    with open("web/public/jobs_data.js", "w", encoding="utf-8") as f:
-        f.write("window.INITIAL_JOBS = " + json.dumps(jobs_data, indent=2, ensure_ascii=False) + ";\n")
+    for target_dir in ["web/public", "."]:
+        with open(os.path.join(target_dir, "jobs_data.js"), "w", encoding="utf-8") as f:
+            f.write("window.INITIAL_JOBS = " + json.dumps(jobs_data, indent=2, ensure_ascii=False) + ";\n")
         
-    print("✓ Successfully synchronized jobs.json, validation files, and jobs_data.js to web/public/")
+    print("✓ Successfully synchronized jobs.json, validation files, and jobs_data.js to web/public/ and root/")
     
     print("\n🎉 Pipeline Execution Completed Successfully!")
 

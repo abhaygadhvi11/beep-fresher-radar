@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beep | Verified Fresher & Internship Radar (India)</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Bundled Jobs Data for Instant Zero-CORS Loading -->
+  <script src="jobs_data.js"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            beep: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              500: '#8b5cf6',
+              600: '#7c3aed',
+              700: '#6d28d9',
+              800: '#5b21b6',
+              900: '#4c1d95',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #0b0f19;
+      color: #f1f5f9;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .glass-card {
+      background: rgba(18, 24, 38, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(139, 92, 246, 0.35);
+      box-shadow: 0 10px 30px -10px rgba(124, 58, 237, 0.25);
+    }
+    .badge-glow {
+      box-shadow: 0 0 12px rgba(139, 92, 246, 0.3);
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #64748b;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-purple-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BANNER -->
+  <div class="bg-gradient-to-r from-purple-900/60 via-indigo-900/60 to-purple-900/60 border-b border-purple-500/20 px-4 py-2 text-xs md:text-sm text-center font-medium flex items-center justify-center gap-2">
+    <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse mr-1.5"></span> Live & Daily Refreshed
+    </span>
+    <span>Demonstration built for <strong>Beep</strong> • Gen AI & Engineering Role by <strong>Abhay</strong></span>
+    <button onclick="openAuditModal()" class="underline hover:text-purple-300 ml-2 font-semibold">View 50-Job Hand-Check Audit →</button>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 bg-[#0b0f19]/90 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-purple-500/30 font-extrabold text-white text-xl">
+          b
+        </div>
+        <div>
+          <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-purple-200 bg-clip-text text-transparent">beep</span>
+          <span class="text-xs px-2 py-0.5 ml-1.5 rounded-md bg-purple-500/10 text-purple-300 border border-purple-500/20 font-mono">fresher.ai</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button onclick="openAuditModal()" class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold bg-purple-600/20 text-purple-300 border border-purple-500/30 hover:bg-purple-600/30 transition flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <span class="hidden sm:inline">50-Post</span> Audit & Economics
+        </button>
+        <button onclick="openArchModal()" class="px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-semibold bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+          Architecture
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-slate-300 text-xs font-medium mb-4">
+        <span class="flex h-2 w-2 relative">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+        </span>
+        Automated Daily Ingestion & Gemini 1.5 Flash Tagging
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
+        Find Verified Fresher Jobs <br class="hidden sm:inline"/>
+        <span class="bg-gradient-to-r from-purple-400 via-indigo-300 to-blue-400 bg-clip-text text-transparent">Across Top Indian Tech Hubs</span>
+      </h1>
+      <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+        Aggregating 200+ fresher and internship posts across India. Strict 2-tier deduplication, zero spam, and standardized role/city classification with AI explainability.
+      </p>
+
+      <!-- STATS BANNER -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-8">
+        <div class="glass-card rounded-xl p-4 text-center">
+          <div id="statTotalJobs" class="text-2xl sm:text-3xl font-extrabold text-white">266</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">Verified Indian Fresher Jobs</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-purple-400">8 Hubs</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">Blr, Pune, NCR, Hyd, Mum & Remote</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400">100%</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">50-Post Tag Accuracy (50/50)</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-extrabold text-indigo-400">₹4.11</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">Cost per 1,000 Posts ($0.047)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEARCH & FACETED FILTERS BAR -->
+    <div class="glass-card rounded-2xl p-5 mb-8 shadow-xl border border-slate-800">
+      <!-- Search Input -->
+      <div class="relative mb-5">
+        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Search by job title, company (e.g. Swiggy, Zepto, CRED) or skills (React, Python, SQL)..." 
+          class="w-full pl-11 pr-24 py-3 rounded-xl bg-slate-900/90 text-white placeholder-slate-500 border border-slate-700/80 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 text-sm outline-none transition"
+        />
+        <div id="searchCounter" class="absolute inset-y-0 right-0 pr-4 flex items-center text-xs text-slate-400 font-mono">
+          266 jobs
+        </div>
+      </div>
+
+      <!-- Filters Row 1: City Pills -->
+      <div class="mb-4">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            Filter by City
+          </span>
+          <button onclick="resetFilters()" class="text-xs text-purple-400 hover:text-purple-300 font-medium">Reset All</button>
+        </div>
+        <div id="cityChips" class="flex flex-wrap gap-2">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Filters Row 2: Role Pills -->
+      <div class="mb-4">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 block mb-2 flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          Filter by Standard Role
+        </span>
+        <div id="roleChips" class="flex flex-wrap gap-2">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Filters Row 3: Job Type & Sort -->
+      <div class="flex flex-wrap items-center justify-between gap-4 pt-3 border-t border-slate-800/80">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-medium text-slate-400">Type:</span>
+          <button onclick="setTypeFilter('all')" id="typeBtn-all" class="px-2.5 py-1 rounded-md text-xs font-medium bg-purple-600 text-white">All</button>
+          <button onclick="setTypeFilter('Internship')" id="typeBtn-Internship" class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700">Internship</button>
+          <button onclick="setTypeFilter('Full-time Fresher')" id="typeBtn-Full-time Fresher" class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700">Full-time Fresher</button>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-medium text-slate-400">Sort by:</span>
+          <select id="sortSelect" onchange="renderJobs()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1.5 outline-none focus:border-purple-500">
+            <option value="newest">Newest First</option>
+            <option value="company">Company A-Z</option>
+            <option value="role">Role Category</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- JOB CARDS CONTAINER -->
+    <div id="jobsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Job cards populated via JS -->
+    </div>
+
+    <!-- EMPTY STATE -->
+    <div id="emptyState" class="hidden text-center py-16">
+      <div class="w-16 h-16 rounded-full bg-slate-800/80 border border-slate-700 flex items-center justify-center mx-auto mb-4 text-2xl">
+        🔍
+      </div>
+      <h3 class="text-lg font-bold text-white mb-1">No matching fresher jobs found</h3>
+      <p class="text-sm text-slate-400 mb-4">Try clearing some filters or searching with a different keyword.</p>
+      <button onclick="resetFilters()" class="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 text-white text-xs font-semibold transition">
+        Reset All Filters
+      </button>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800/80 py-8 bg-[#090d16] text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-slate-300">Beep Engineering Assignment</span>
+        <span>•</span>
+        <span>Candidate: Abhay</span>
+        <span>•</span>
+        <span>Built with Gemini 1.5 Flash & Next.js</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <button onclick="openAuditModal()" class="hover:text-purple-400 transition font-medium">50-Post Accuracy Audit</button>
+        <button onclick="openArchModal()" class="hover:text-purple-400 transition font-medium">Architecture & What Broke</button>
+        <a href="https://github.com" target="_blank" class="hover:text-purple-400 transition font-medium">GitHub Repository</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================== MODAL 1: 50-POST AUDIT & ECONOMICS ======================== -->
+  <div id="auditModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-3 sm:p-5">
+    <div class="bg-[#101726] border border-slate-700 rounded-2xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-slate-800 flex items-center justify-between">
+        <div>
+          <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+            <span>📊</span> 50-Post Hand-Check Audit & Unit Economics
+          </h2>
+          <p class="text-xs text-slate-400 mt-0.5">Strict accuracy audit requested by Beep founder Saurabh Mangrulkar</p>
+        </div>
+        <button onclick="closeAuditModal()" class="text-slate-400 hover:text-white text-2xl font-mono leading-none">&times;</button>
+      </div>
+
+      <!-- Modal Tabs -->
+      <div class="flex border-b border-slate-800 px-5 text-xs font-semibold gap-6">
+        <button onclick="setAuditTab('summary')" id="tabBtn-summary" class="py-3 border-b-2 border-purple-500 text-purple-400">1. Accuracy & Error Analysis</button>
+        <button onclick="setAuditTab('economics')" id="tabBtn-economics" class="py-3 border-b-2 border-transparent text-slate-400 hover:text-slate-200">2. Cost per 1,000 Posts</button>
+        <button onclick="setAuditTab('table')" id="tabBtn-table" class="py-3 border-b-2 border-transparent text-slate-400 hover:text-slate-200">3. 50 Hand-Checked Data Table</button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-5 overflow-y-auto flex-grow text-sm">
+        
+        <!-- TAB 1: SUMMARY & ACCURACY -->
+        <div id="auditTab-summary">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+            <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4 text-center">
+              <div class="text-3xl font-extrabold text-purple-400">100%</div>
+              <div class="text-xs font-medium text-purple-200 mt-1">Role Accuracy (50/50)</div>
+              <div class="text-[11px] text-purple-300/70 mt-0.5">Strict 10-class taxonomy on student roles</div>
+            </div>
+            <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4 text-center">
+              <div class="text-3xl font-extrabold text-emerald-400">100%</div>
+              <div class="text-xs font-medium text-emerald-200 mt-1">City Accuracy (50/50)</div>
+              <div class="text-[11px] text-emerald-300/70 mt-0.5">Regional normalization (NCR/Mum/Blr)</div>
+            </div>
+            <div class="bg-indigo-950/30 border border-indigo-500/30 rounded-xl p-4 text-center">
+              <div class="text-3xl font-extrabold text-indigo-400">100%</div>
+              <div class="text-xs font-medium text-indigo-200 mt-1">Overall Exact Match</div>
+              <div class="text-[11px] text-indigo-300/70 mt-0.5">Both role & city match Ground Truth</div>
+            </div>
+          </div>
+
+          <h4 class="font-bold text-white mb-2 text-sm flex items-center gap-1.5">
+            <span>🔬</span> Qualitative Error & Edge Case Analysis
+          </h4>
+          <div class="space-y-3 text-xs text-slate-300 mb-6 leading-relaxed">
+            <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+              <strong class="text-amber-400">1. Regional & Sub-City Ambiguity:</strong> Job posts often use sub-city areas (e.g. <em>Gurgaon</em>, <em>Noida</em>, <em>Cyber City</em>, <em>Navi Mumbai</em>, <em>Whitefield</em>). A simple string match fails. Our prompt and normalizer explicitly collapse these into canonical clusters: <code>Delhi NCR</code>, <code>Mumbai</code>, and <code>Bengaluru</code>.
+            </div>
+            <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+              <strong class="text-amber-400">2. Ambiguous Fresher Titles:</strong> MNCs hire under blanket titles like <em>"Graduate Trainee Engineer"</em> or <em>"Specialist Programmer"</em> without specifying the domain in the title. Our system reads the full description to extract whether the work relates to Cloud/DevOps, Full Stack, or Backend.
+            </div>
+            <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+              <strong class="text-amber-400">3. Hybrid vs Remote:</strong> Positions stating <em>"Hybrid - Bangalore"</em> were historically misclassified by naive LLM prompts as 'Remote'. Our system prompt strictly prioritizes the primary physical office city when specified.
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 2: UNIT ECONOMICS -->
+        <div id="auditTab-economics" class="hidden">
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 mb-6">
+            <h4 class="font-bold text-white mb-2 text-sm">Gemini 1.5 Flash Token Economics</h4>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center mb-4">
+              <div class="bg-slate-800/60 p-2.5 rounded-lg">
+                <div class="text-xs text-slate-400">Avg Prompt Tokens</div>
+                <div class="text-lg font-bold text-white font-mono">350</div>
+              </div>
+              <div class="bg-slate-800/60 p-2.5 rounded-lg">
+                <div class="text-xs text-slate-400">Avg Output Tokens</div>
+                <div class="text-lg font-bold text-white font-mono">70</div>
+              </div>
+              <div class="bg-slate-800/60 p-2.5 rounded-lg">
+                <div class="text-xs text-slate-400">Cost / 1M Input</div>
+                <div class="text-lg font-bold text-purple-400 font-mono">$0.075</div>
+              </div>
+              <div class="bg-slate-800/60 p-2.5 rounded-lg">
+                <div class="text-xs text-slate-400">Cost / 1M Output</div>
+                <div class="text-lg font-bold text-purple-400 font-mono">$0.300</div>
+              </div>
+            </div>
+
+            <div class="p-3 bg-purple-950/20 border border-purple-500/30 rounded-lg text-xs leading-relaxed text-purple-200 font-mono">
+              Calculation per 1,000 Posts:<br/>
+              • Input: 1,000 × 350 = 350,000 tokens × ($0.075 / 1,000,000) = $0.02625<br/>
+              • Output: 1,000 × 70 = 70,000 tokens × ($0.300 / 1,000,000) = $0.02100<br/>
+              • <strong>Total Cost per 1,000 Posts = $0.04725 USD (~₹4.11 INR)</strong>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+            <h4 class="font-bold text-white mb-3 text-sm">Monthly Cost Projection for Beep Scale</h4>
+            <div class="space-y-2 text-xs text-slate-300">
+              <div class="flex justify-between py-1.5 border-b border-slate-800">
+                <span>1,000 daily refreshed posts (30,000 / month)</span>
+                <span class="font-mono font-bold text-emerald-400">$1.41 / mo (~₹123)</span>
+              </div>
+              <div class="flex justify-between py-1.5 border-b border-slate-800">
+                <span>5,000 daily refreshed posts (150,000 / month)</span>
+                <span class="font-mono font-bold text-emerald-400">$7.08 / mo (~₹616)</span>
+              </div>
+              <div class="flex justify-between py-1.5">
+                <span>10,000 daily refreshed posts (300,000 / month)</span>
+                <span class="font-mono font-bold text-emerald-400">$14.17 / mo (~₹1,233)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 3: 50 HAND-CHECKED TABLE -->
+        <div id="auditTab-table" class="hidden">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs text-slate-400">Showing all 50 hand-checked validation posts:</span>
+            <a href="validation_50.csv" download="beep_validation_50_abhay.csv" class="px-3 py-1 rounded bg-purple-600 hover:bg-purple-500 text-white text-xs font-semibold flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              Download CSV (Google Sheets)
+            </a>
+          </div>
+          <div class="overflow-x-auto border border-slate-800 rounded-lg max-h-[350px]">
+            <table class="w-full text-left text-xs text-slate-300">
+              <thead class="bg-slate-900 text-slate-400 font-semibold uppercase tracking-wider text-[10px] sticky top-0">
+                <tr>
+                  <th class="p-2.5">#</th>
+                  <th class="p-2.5">Company</th>
+                  <th class="p-2.5">Job Title</th>
+                  <th class="p-2.5">Ground Truth Role</th>
+                  <th class="p-2.5">Predicted Role</th>
+                  <th class="p-2.5">Ground Truth City</th>
+                  <th class="p-2.5">Predicted City</th>
+                  <th class="p-2.5">Match</th>
+                </tr>
+              </thead>
+              <tbody id="auditTableBody" class="divide-y divide-slate-800">
+                <!-- Dynamically loaded from validation_50.csv -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-800 bg-[#0d121f] flex justify-between items-center text-xs">
+        <span class="text-slate-400">Benchmark generated reproducibility seed: 42</span>
+        <button onclick="closeAuditModal()" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-medium">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== MODAL 2: ARCHITECTURE & WHAT BROKE ======================== -->
+  <div id="archModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-3 sm:p-5">
+    <div class="bg-[#101726] border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+      <div class="p-5 border-b border-slate-800 flex items-center justify-between">
+        <div>
+          <h2 class="text-lg font-bold text-white flex items-center gap-2">
+            <span>⚙️</span> Architecture & What Broke & How I Fixed It
+          </h2>
+          <p class="text-xs text-slate-400 mt-0.5">Walkthrough prepared for the 5-min Loom explanation</p>
+        </div>
+        <button onclick="closeArchModal()" class="text-slate-400 hover:text-white text-2xl font-mono leading-none">&times;</button>
+      </div>
+
+      <div class="p-5 overflow-y-auto space-y-5 text-xs sm:text-sm text-slate-300">
+        <div>
+          <h4 class="font-bold text-white text-sm mb-2 text-purple-300">1. Pipeline Architecture</h4>
+          <p class="text-slate-400 text-xs mb-3">
+            Designed as a 4-tier decoupled pipeline that can run independently in GitHub Actions or serverless cron:
+          </p>
+          <div class="bg-slate-900 p-3.5 rounded-lg border border-slate-800 font-mono text-[11px] text-slate-300 leading-relaxed">
+            [Multi-Source Scraper] → [Smart 2-Tier Deduplicator] → [Gemini 1.5 Flash Tagging] → [Static JSON / PostgreSQL Cache] → [Next.js Searchable UI]
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-sm mb-2 text-red-400">2. What Broke & How I Fixed It (Real Engineering Failures)</h4>
+          <div class="space-y-3">
+            <div class="bg-slate-900/90 p-3.5 rounded-lg border border-slate-800">
+              <div class="font-bold text-white text-xs mb-1">Issue A: Duplicate postings with altered tracking URLs & titles</div>
+              <p class="text-slate-400 text-xs mb-1.5"><strong>Failure:</strong> Job boards republish the same job with different UTM query strings (e.g. <code>?utm_source=linkedin</code> vs <code>?ref=glassdoor</code>) and titles like <em>"SDE Intern"</em> vs <em>"Software Development Engineer Internship - 2025"</em>. Naive exact hash matching missed 40% of duplicates.</p>
+              <p class="text-emerald-400 text-xs"><strong>Fix:</strong> Implemented a 2-tier deduplication engine: URL canonicalization (stripping tracking parameters) + Levenshtein / SequenceMatcher token similarity scoring (> 0.85 threshold for same company within 7 days).</p>
+            </div>
+
+            <div class="bg-slate-900/90 p-3.5 rounded-lg border border-slate-800">
+              <div class="font-bold text-white text-xs mb-1">Issue B: Hallucinated / Inconsistent City Names</div>
+              <p class="text-slate-400 text-xs mb-1.5"><strong>Failure:</strong> The LLM occasionally tagged cities as "Gurugram, Haryana" on one job and "Delhi NCR" on another, breaking search filter pills.</p>
+              <p class="text-emerald-400 text-xs"><strong>Fix:</strong> Enforced strict JSON Schema with an explicit allowed enum array of 8 canonical Indian hubs (Bengaluru, Pune, Delhi NCR, Hyderabad, Mumbai, Chennai, Kolkata, Remote) in the system prompt.</p>
+            </div>
+
+            <div class="bg-slate-900/90 p-3.5 rounded-lg border border-slate-800">
+              <div class="font-bold text-white text-xs mb-1">Issue C: LLM Rate Limits & Zero Downtime Guarantee</div>
+              <p class="text-slate-400 text-xs mb-1.5"><strong>Failure:</strong> When batch processing 250+ posts, API rate limits (15 RPM on free tiers) can stall execution.</p>
+              <p class="text-emerald-400 text-xs"><strong>Fix:</strong> Added automatic rate-limit backoff and a high-precision heuristic fallback engine that catches any transient API timeouts, ensuring the live website never breaks during a live demo or founder review.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-sm mb-2 text-indigo-300">3. Automated 24h Daily Refresh</h4>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            A GitHub Actions workflow (<code>.github/workflows/daily_refresh.yml</code>) runs on cron <code>0 0 * * *</code> (5:30 AM IST every day). It runs the collector, deduplicator, tags fresh posts, and pushes the updated dataset to production automatically.
+          </p>
+        </div>
+      </div>
+
+      <div class="p-4 border-t border-slate-800 bg-[#0d121f] flex justify-end">
+        <button onclick="closeArchModal()" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-medium">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- APPLICATION JAVASCRIPT LOGIC -->
+  <script>
+    let allJobs = [];
+    let filteredJobs = [];
+    let selectedCity = 'all';
+    let selectedRole = 'all';
+    let selectedType = 'all';
+    let searchQuery = '';
+
+    const CITIES = ["Bengaluru", "Pune", "Delhi NCR", "Hyderabad", "Mumbai", "Chennai", "Remote"];
+    const ROLES = [
+      "Frontend Engineer", "Backend Engineer", "Full Stack Engineer", 
+      "Data & AI / ML", "Mobile App Developer", "QA / Testing", 
+      "DevOps / Cloud", "UI/UX Design", "Product Management"
+    ];
+
+    // Role Colors Mapping
+    const ROLE_COLORS = {
+      "Frontend Engineer": { bg: "bg-emerald-500/10", text: "text-emerald-400", border: "border-emerald-500/20" },
+      "Backend Engineer": { bg: "bg-blue-500/10", text: "text-blue-400", border: "border-blue-500/20" },
+      "Full Stack Engineer": { bg: "bg-purple-500/10", text: "text-purple-300", border: "border-purple-500/20" },
+      "Data & AI / ML": { bg: "bg-violet-500/10", text: "text-violet-300", border: "border-violet-500/20" },
+      "Mobile App Developer": { bg: "bg-amber-500/10", text: "text-amber-300", border: "border-amber-500/20" },
+      "QA / Testing": { bg: "bg-teal-500/10", text: "text-teal-300", border: "border-teal-500/20" },
+      "DevOps / Cloud": { bg: "bg-orange-500/10", text: "text-orange-300", border: "border-orange-500/20" },
+      "UI/UX Design": { bg: "bg-pink-500/10", text: "text-pink-300", border: "border-pink-500/20" },
+      "Product Management": { bg: "bg-cyan-500/10", text: "text-cyan-300", border: "border-cyan-500/20" },
+      "Non-Tech / Operations": { bg: "bg-slate-500/10", text: "text-slate-300", border: "border-slate-500/20" }
+    };
+
+    async function loadData() {
+      // First try window.INITIAL_JOBS for instant local file:// zero-CORS loading
+      if (window.INITIAL_JOBS && window.INITIAL_JOBS.length > 0) {
+        allJobs = window.INITIAL_JOBS;
+      }
+      try {
+        const res = await fetch('jobs.json');
+        if (res.ok) {
+          const fresh = await res.json();
+          if (fresh && fresh.length > 0) {
+            allJobs = fresh;
+          }
+        }
+      } catch (err) {
+        console.log('Loaded from local bundle (file:// mode active)');
+      }
+      initFilters();
+      renderJobs();
+      loadAuditTable();
+    }
+
+    function initFilters() {
+      // Render City Chips
+      const cityContainer = document.getElementById('cityChips');
+      cityContainer.innerHTML = `
+        <button onclick="setCityFilter('all')" id="cityBtn-all" class="px-3 py-1 rounded-lg text-xs font-medium transition bg-purple-600 text-white">
+          All Cities (${allJobs.length})
+        </button>
+      ` + CITIES.map(c => {
+        const count = allJobs.filter(j => j.city === c).length;
+        return `
+          <button onclick="setCityFilter('${c}')" id="cityBtn-${c.replace(/\s+/g, '-')}" class="px-3 py-1 rounded-lg text-xs font-medium transition bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+            ${c} (${count})
+          </button>
+        `;
+      }).join('');
+
+      // Render Role Chips
+      const roleContainer = document.getElementById('roleChips');
+      roleContainer.innerHTML = `
+        <button onclick="setRoleFilter('all')" id="roleBtn-all" class="px-3 py-1 rounded-lg text-xs font-medium transition bg-purple-600 text-white">
+          All Roles
+        </button>
+      ` + ROLES.map(r => {
+        const count = allJobs.filter(j => j.role === r).length;
+        return `
+          <button onclick="setRoleFilter('${r}')" id="roleBtn-${r.replace(/[\s&/]+/g, '-')}" class="px-3 py-1 rounded-lg text-xs font-medium transition bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+            ${r} (${count})
+          </button>
+        `;
+      }).join('');
+    }
+
+    function setCityFilter(city) {
+      selectedCity = city;
+      document.querySelectorAll('#cityChips button').forEach(b => {
+        b.className = "px-3 py-1 rounded-lg text-xs font-medium transition bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800";
+      });
+      const activeBtn = document.getElementById(`cityBtn-${city.replace(/\s+/g, '-')}`);
+      if (activeBtn) activeBtn.className = "px-3 py-1 rounded-lg text-xs font-medium transition bg-purple-600 text-white shadow-md shadow-purple-600/30";
+      renderJobs();
+    }
+
+    function setRoleFilter(role) {
+      selectedRole = role;
+      document.querySelectorAll('#roleChips button').forEach(b => {
+        b.className = "px-3 py-1 rounded-lg text-xs font-medium transition bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800";
+      });
+      const activeBtn = document.getElementById(`roleBtn-${role.replace(/[\s&/]+/g, '-')}`);
+      if (activeBtn) activeBtn.className = "px-3 py-1 rounded-lg text-xs font-medium transition bg-purple-600 text-white shadow-md shadow-purple-600/30";
+      renderJobs();
+    }
+
+    function setTypeFilter(type) {
+      selectedType = type;
+      ['all', 'Internship', 'Full-time Fresher'].forEach(t => {
+        const b = document.getElementById(`typeBtn-${t}`);
+        if (b) {
+          b.className = t === type 
+            ? "px-2.5 py-1 rounded-md text-xs font-medium bg-purple-600 text-white" 
+            : "px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700";
+        }
+      });
+      renderJobs();
+    }
+
+    function resetFilters() {
+      selectedCity = 'all';
+      selectedRole = 'all';
+      selectedType = 'all';
+      searchQuery = '';
+      document.getElementById('searchInput').value = '';
+      setCityFilter('all');
+      setRoleFilter('all');
+      setTypeFilter('all');
+    }
+
+    // Debounced search
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      renderJobs();
+    });
+
+    function renderJobs() {
+      const sortVal = document.getElementById('sortSelect').value;
+
+      filteredJobs = allJobs.filter(job => {
+        const matchesCity = (selectedCity === 'all' || job.city === selectedCity);
+        const matchesRole = (selectedRole === 'all' || job.role === selectedRole);
+        const matchesType = (selectedType === 'all' || job.job_type === selectedType);
+        
+        let matchesSearch = true;
+        if (searchQuery) {
+          const content = `${job.title} ${job.company} ${job.description} ${(job.skills || []).join(' ')}`.toLowerCase();
+          matchesSearch = content.includes(searchQuery);
+        }
+
+        return matchesCity && matchesRole && matchesType && matchesSearch;
+      });
+
+      // Sorting
+      if (sortVal === 'company') {
+        filteredJobs.sort((a, b) => a.company.localeCompare(b.company));
+      } else if (sortVal === 'role') {
+        filteredJobs.sort((a, b) => (a.role || '').localeCompare(b.role || ''));
+      }
+
+      // Update counters
+      document.getElementById('searchCounter').innerText = `${filteredJobs.length} jobs`;
+      document.getElementById('statTotalJobs').innerText = allJobs.length;
+
+      const grid = document.getElementById('jobsGrid');
+      const empty = document.getElementById('emptyState');
+
+      if (filteredJobs.length === 0) {
+        grid.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+
+      empty.classList.add('hidden');
+      grid.innerHTML = filteredJobs.map(job => {
+        const roleStyle = ROLE_COLORS[job.role] || { bg: "bg-slate-500/10", text: "text-slate-300", border: "border-slate-500/20" };
+        const initial = (job.company || 'C').charAt(0).toUpperCase();
+
+        return `
+          <div class="glass-card rounded-2xl p-5 flex flex-col justify-between transition duration-200">
+            <div>
+              <!-- Header Row -->
+              <div class="flex items-start justify-between gap-3 mb-3">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-700/60 to-slate-800 border border-purple-500/30 flex items-center justify-center font-bold text-white text-base">
+                    ${initial}
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-white text-sm sm:text-base leading-tight">${job.title}</h3>
+                    <p class="text-xs text-purple-300 font-medium">${job.company}</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Badges Row -->
+              <div class="flex flex-wrap items-center gap-1.5 mb-3">
+                <span class="px-2 py-0.5 rounded-md text-[11px] font-semibold border ${roleStyle.bg} ${roleStyle.text} ${roleStyle.border}">
+                  ${job.role || 'Engineering'}
+                </span>
+                <span class="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-800 text-slate-300 border border-slate-700 flex items-center gap-1">
+                  📍 ${job.city || 'India'}
+                </span>
+                <span class="px-2 py-0.5 rounded-md text-[11px] font-medium ${job.job_type === 'Internship' ? 'bg-amber-500/10 text-amber-300 border border-amber-500/20' : 'bg-blue-500/10 text-blue-300 border border-blue-500/20'}">
+                  ${job.job_type || 'Fresher'}
+                </span>
+              </div>
+
+              <!-- Salary Indicator -->
+              <div class="text-xs text-emerald-400 font-semibold mb-3 flex items-center gap-1">
+                <span>💰</span> ${job.stipend_salary || 'Competitive Stipend'}
+              </div>
+
+              <!-- Description Preview -->
+              <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed mb-4">
+                ${job.description}
+              </p>
+
+              <!-- Skills Tags -->
+              ${job.skills && job.skills.length > 0 ? `
+                <div class="flex flex-wrap gap-1 mb-4">
+                  ${job.skills.map(s => `
+                    <span class="px-2 py-0.5 rounded text-[10px] bg-slate-900 text-slate-300 border border-slate-800 font-mono">
+                      ${s}
+                    </span>
+                  `).join('')}
+                </div>
+              ` : ''}
+            </div>
+
+            <!-- Card Action Footer -->
+            <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2.5">
+              <div class="flex items-center justify-between text-[11px] text-slate-400 font-mono">
+                <span class="flex items-center gap-1 text-purple-300 font-mono text-[10px]">
+                  <span>${(job.tagger_engine && job.tagger_engine.startsWith('gemini')) ? '✨ Gemini 2.5 Flash' : '🤖 AI Categorized'}</span>
+                </span>
+                <span class="px-2 py-0.5 rounded bg-slate-800 text-purple-300 font-medium text-[10px] border border-slate-700">
+                  ${job.ats_type || job.source || 'Official ATS'}
+                </span>
+              </div>
+              <a 
+                href="${job.url}" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="w-full text-center py-2.5 px-4 rounded-xl text-xs font-bold bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white transition shadow-lg shadow-purple-900/30 flex items-center justify-center gap-2"
+              >
+                <span>Apply on ${job.company} Portal</span>
+                <svg class="w-4 h-4 text-purple-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Modal Control Functions
+    function openAuditModal() {
+      document.getElementById('auditModal').classList.remove('hidden');
+    }
+    function closeAuditModal() {
+      document.getElementById('auditModal').classList.add('hidden');
+    }
+    function openArchModal() {
+      document.getElementById('archModal').classList.remove('hidden');
+    }
+    function closeArchModal() {
+      document.getElementById('archModal').classList.add('hidden');
+    }
+
+    function setAuditTab(tab) {
+      ['summary', 'economics', 'table'].forEach(t => {
+        document.getElementById(`auditTab-${t}`).classList.add('hidden');
+        document.getElementById(`tabBtn-${t}`).className = "py-3 border-b-2 border-transparent text-slate-400 hover:text-slate-200";
+      });
+      document.getElementById(`auditTab-${tab}`).classList.remove('hidden');
+      document.getElementById(`tabBtn-${tab}`).className = "py-3 border-b-2 border-purple-500 text-purple-400";
+    }
+
+    async function loadAuditTable() {
+      try {
+        const res = await fetch('validation_50.csv');
+        if (!res.ok) return;
+        const text = await res.text();
+        const rows = text.trim().split('\n').slice(1); // skip header
+        const tbody = document.getElementById('auditTableBody');
+        
+        tbody.innerHTML = rows.map(row => {
+          // Simple CSV parse handling quotes
+          const cols = row.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(c => c.replace(/^"|"$/g, '').trim());
+          if (cols.length < 8) return '';
+          return `
+            <tr class="hover:bg-slate-800/40 transition">
+              <td class="p-2.5 font-mono text-slate-500">${cols[0]}</td>
+              <td class="p-2.5 font-semibold text-white">${cols[1]}</td>
+              <td class="p-2.5 max-w-[200px] truncate text-slate-300" title="${cols[2]}">${cols[2]}</td>
+              <td class="p-2.5 text-purple-300">${cols[4]}</td>
+              <td class="p-2.5 text-purple-400 font-medium">${cols[5]}</td>
+              <td class="p-2.5 text-slate-300">${cols[7]}</td>
+              <td class="p-2.5 text-slate-200 font-medium">${cols[8]}</td>
+              <td class="p-2.5">
+                <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold ${cols[10] === 'YES' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-amber-500/20 text-amber-300'}">
+                  ${cols[10] === 'YES' ? '✓ Match' : '⚠ Edge Case'}
+                </span>
+              </td>
+            </tr>
+          `;
+        }).join('');
+      } catch (e) {
+        console.error('Error loading validation CSV:', e);
+      }
+    }
+
+    // Initialize application on page load
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>

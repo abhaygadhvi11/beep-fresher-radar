@@ -43,6 +43,8 @@ def main():
         shutil.copy("data/tagged_jobs.json", os.path.join(target_dir, "jobs.json"))
         shutil.copy("data/validation_50.csv", os.path.join(target_dir, "validation_50.csv"))
         shutil.copy("data/accuracy_report.json", os.path.join(target_dir, "accuracy_report.json"))
+        if os.path.exists("web/public/beepLogo.svg") and target_dir != "web/public":
+            shutil.copy("web/public/beepLogo.svg", os.path.join(target_dir, "beepLogo.svg"))
         shutil.copy("web/public/index.html", os.path.join(target_dir, "index.html"))
     
     # Generate standalone zero-CORS script

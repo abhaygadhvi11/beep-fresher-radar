@@ -34,3 +34,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/ web/public/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(cron): automated daily fresher job refresh [skip ci]" && git push)
+

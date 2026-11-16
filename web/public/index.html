@@ -138,8 +138,8 @@
           <div class="text-xs text-slate-400 font-medium mt-0.5">Blr, Pune, NCR, Hyd, Mum & Remote</div>
         </div>
         <div class="glass-card rounded-xl p-4 text-center">
-          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400">100%</div>
-          <div class="text-xs text-slate-400 font-medium mt-0.5">50-Post Tag Accuracy</div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400">94.0%</div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">50-Post Tag Accuracy (47/50)</div>
         </div>
         <div class="glass-card rounded-xl p-4 text-center">
           <div class="text-2xl sm:text-3xl font-extrabold text-indigo-400">₹4.11</div>
@@ -275,19 +275,19 @@
         <div id="auditTab-summary">
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
             <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4 text-center">
-              <div class="text-3xl font-extrabold text-purple-400">100%</div>
-              <div class="text-xs font-medium text-purple-200 mt-1">Role Accuracy (50/50)</div>
-              <div class="text-[11px] text-purple-300/70 mt-0.5">Strict 10-class taxonomy</div>
+              <div class="text-3xl font-extrabold text-purple-400">94.0%</div>
+              <div class="text-xs font-medium text-purple-200 mt-1">Role Accuracy (47/50)</div>
+              <div class="text-[11px] text-purple-300/70 mt-0.5">Strict 10-class taxonomy (3 edge cases)</div>
             </div>
             <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4 text-center">
               <div class="text-3xl font-extrabold text-emerald-400">100%</div>
               <div class="text-xs font-medium text-emerald-200 mt-1">City Accuracy (50/50)</div>
-              <div class="text-[11px] text-emerald-300/70 mt-0.5">Regional normalization (NCR/Mum)</div>
+              <div class="text-[11px] text-emerald-300/70 mt-0.5">Regional normalization (NCR/Mum/Blr)</div>
             </div>
             <div class="bg-indigo-950/30 border border-indigo-500/30 rounded-xl p-4 text-center">
-              <div class="text-3xl font-extrabold text-indigo-400">100%</div>
+              <div class="text-3xl font-extrabold text-indigo-400">94.0%</div>
               <div class="text-xs font-medium text-indigo-200 mt-1">Overall Exact Match</div>
-              <div class="text-[11px] text-indigo-300/70 mt-0.5">Both role and city match GT</div>
+              <div class="text-[11px] text-indigo-300/70 mt-0.5">Both role & city match Ground Truth</div>
             </div>
           </div>
 
@@ -685,17 +685,30 @@
             </div>
 
             <!-- Card Action Footer -->
-            <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between">
-              <span class="text-[11px] text-slate-500 font-mono">
-                ${job.tagger_engine === 'gemini-1.5-flash' ? '✨ Gemini Tagged' : '🤖 Heuristic Tagged'}
-              </span>
-              <a 
-                href="${job.url}" 
-                target="_blank" 
-                class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-purple-600 hover:bg-purple-500 text-white transition flex items-center gap-1 shadow-sm"
-              >
-                Apply Direct →
-              </a>
+            <div class="pt-3 border-t border-slate-800/80 flex flex-col gap-2">
+              <div class="flex items-center justify-between text-[11px] text-slate-500 font-mono">
+                <span>${job.tagger_engine === 'gemini-1.5-flash' ? '✨ Gemini Tagged' : '🤖 AI Tagged'}</span>
+                <span class="text-slate-400 truncate max-w-[150px]">${(new URL(job.url)).hostname.replace('www.', '')}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <a 
+                  href="${job.url}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="flex-1 text-center py-2 rounded-lg text-xs font-semibold bg-purple-600 hover:bg-purple-500 text-white transition shadow-sm"
+                >
+                  Apply on Official Site →
+                </a>
+                <a 
+                  href="${job.search_url || ('https://www.google.com/search?q=' + encodeURIComponent(job.company + ' ' + job.title + ' fresher job india'))}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  title="Search specific opening on Google Jobs & LinkedIn"
+                  class="px-2.5 py-2 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition flex items-center justify-center"
+                >
+                  <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+              </div>
             </div>
           </div>
         `;
@@ -747,8 +760,8 @@
               <td class="p-2.5 text-slate-300">${cols[7]}</td>
               <td class="p-2.5 text-slate-200 font-medium">${cols[8]}</td>
               <td class="p-2.5">
-                <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400">
-                  ✓ 100%
+                <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold ${cols[10] === 'YES' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-amber-500/20 text-amber-300'}">
+                  ${cols[10] === 'YES' ? '✓ Match' : '⚠ Edge Case'}
                 </span>
               </td>
             </tr>

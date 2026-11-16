@@ -66,3 +66,4 @@ When tagging 200+ jobs via LLM API endpoints in a rapid loop, rate limits (e.g. 
 ### How I Fixed It:
 1. **Dual-Mode Architecture with Heuristic Fallback:** In `pipeline/llm_tagger.py`, every LLM API call is wrapped in a robust try/except handler. If the live API encounters a rate limit or network partition, the pipeline seamlessly falls back to our high-precision rule-based semantic tagger.
 2. **Zero-Downtime Static Cache:** The web application reads from a pre-compiled, cached `jobs.json` file in `web/public/`, ensuring 100% uptime and sub-millisecond response times even during heavy traffic.
+

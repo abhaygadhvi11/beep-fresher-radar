@@ -301,3 +301,4 @@ if __name__ == "__main__":
     print(f"Avg Output Tokens/Job: {metrics['token_metrics']['avg_output_tokens_per_job']}")
     print(f"Cost per 1,000 Posts: ${metrics['cost_analysis_usd']['cost_per_1000_posts_usd']} (~₹{metrics['cost_analysis_usd']['cost_per_1000_posts_inr']})")
     print("=================================================\n")
+

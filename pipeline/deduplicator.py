@@ -75,10 +75,12 @@ def compute_similarity(str1: str, str2: str) -> float:
 def deduplicate_jobs(jobs: List[Dict[str, Any]], similarity_threshold: float = 0.85) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     """
     Deduplicates a list of job postings across all tiers.
-    Returns:
-        (deduplicated_jobs, stats_dict)
+    Deduplicates if:
+    1. Exact canonical URL AND normalized title match
+    2. Exact Company + Normalized Title Hash match
+    3. Fuzzy Title Similarity >= similarity_threshold for the same company
     """
-    seen_urls = set()
+    seen_url_title_pairs = set()
     seen_exact_hashes = set()
     unique_jobs: List[Dict[str, Any]] = []
     
@@ -92,15 +94,17 @@ def deduplicate_jobs(jobs: List[Dict[str, Any]], similarity_threshold: float = 0
         company = job.get("company", "")
         description = job.get("description", "")
         
-        # 1. URL Deduplication
         canon_url = canonicalize_url(url)
-        if canon_url and canon_url in seen_urls:
+        norm_company = normalize_company(company)
+        norm_title = normalize_title(title)
+
+        # 1. Exact URL + Title Deduplication
+        url_title_signature = f"{canon_url}::{norm_title}"
+        if canon_url and url_title_signature in seen_url_title_pairs:
             url_duplicates += 1
             continue
 
-        # 2. Exact Normalized Hash Deduplication
-        norm_company = normalize_company(company)
-        norm_title = normalize_title(title)
+        # 2. Exact Normalized Hash Deduplication (Company + Title)
         exact_signature = f"{norm_company}::{norm_title}"
         exact_hash = hashlib.sha256(exact_signature.encode("utf-8")).hexdigest()
 
@@ -108,18 +112,17 @@ def deduplicate_jobs(jobs: List[Dict[str, Any]], similarity_threshold: float = 0
             exact_duplicates += 1
             continue
 
-        # 3. Fuzzy Matching across existing unique jobs
+        # 3. Fuzzy Matching across existing unique jobs for the same company
         is_fuzzy_duplicate = False
         for idx, existing_job in enumerate(unique_jobs):
             existing_company = normalize_company(existing_job.get("company", ""))
-            # Only compare if companies match
             if norm_company == existing_company:
                 existing_title = normalize_title(existing_job.get("title", ""))
                 sim_score = compute_similarity(norm_title, existing_title)
                 if sim_score >= similarity_threshold:
                     fuzzy_duplicates += 1
                     is_fuzzy_duplicate = True
-                    # If the new job has a richer description, replace it
+                    # Retain the one with the richer description
                     if len(description) > len(existing_job.get("description", "")):
                         unique_jobs[idx] = job
                     break
@@ -129,10 +132,9 @@ def deduplicate_jobs(jobs: List[Dict[str, Any]], similarity_threshold: float = 0
 
         # If it passed all filters, keep it
         if canon_url:
-            seen_urls.add(canon_url)
+            seen_url_title_pairs.add(url_title_signature)
         seen_exact_hashes.add(exact_hash)
         
-        # Add deduplication metadata to the job record
         job_copy = dict(job)
         job_copy["canonical_url"] = canon_url
         job_copy["dedup_hash"] = exact_hash[:12]
@@ -187,3 +189,4 @@ if __name__ == "__main__":
         with open("data/deduplicated_jobs.json", "w", encoding="utf-8") as f:
             json.dump(unique_jobs, f, indent=2, ensure_ascii=False)
         print("Saved deduplicated jobs to data/deduplicated_jobs.json")
+

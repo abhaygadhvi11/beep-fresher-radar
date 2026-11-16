@@ -3,7 +3,7 @@
 [![Daily Refresh Cron](https://img.shields.io/badge/cron-daily%20refresh%20active-emerald?style=flat-square&logo=github-actions)](https://github.com)
 [![Jobs Curated](https://img.shields.io/badge/verified%20jobs-266%20live-purple?style=flat-square)](https://github.com)
 [![Tagging Engine](https://img.shields.io/badge/LLM-Gemini%201.5%20Flash-blue?style=flat-square&logo=google)](https://github.com)
-[![Accuracy](https://img.shields.io/badge/50--post%20accuracy-100%25-brightgreen?style=flat-square)](docs/ACCURACY_AND_COST.md)
+[![Accuracy](https://img.shields.io/badge/50--post%20accuracy-94%25-brightgreen?style=flat-square)](docs/ACCURACY_AND_COST.md)
 [![Cost per 1k](https://img.shields.io/badge/cost%20%2F%201k%20posts-%240.047%20(%E2%82%B94.11)-indigo?style=flat-square)](docs/ACCURACY_AND_COST.md)
 
 > Built by **Abhay** for the **Gen AI & Engineering Role** take-home assessment at **Beep** (Founder: Saurabh Mangrulkar).
@@ -27,7 +27,7 @@
 | **3. LLM Tagging** | Standardized roles (10 categories) and cities (8 tech hubs) using **Gemini 1.5 Flash** with strict JSON Schema and explainable reasoning. | ✅ Done |
 | **4. Searchable Web Page** | High-performance student career portal with sub-millisecond search, city/role filter chips, salary indicators, and dark mode UI. | ✅ Done |
 | **5. Automated Daily Refresh** | **GitHub Actions cron** (`0 0 * * *`) runs daily at 05:30 AM IST, triggers the pipeline, and syncs production data automatically. | ✅ Done |
-| **6. 50-Post Hand-Check Audit** | Hand-checked 50 random postings against human ground truth: **100% Role Accuracy**, **100% City Accuracy**. Exported to CSV. | ✅ Done |
+| **6. 50-Post Hand-Check Audit** | Hand-checked 50 random postings against human ground truth: **94% Role Accuracy**, **100% City Accuracy** (analyzed 3 ambiguous MNC umbrella titles). Exported to CSV. | ✅ Done |
 | **7. Unit Economics** | Exact cost calculation: **$0.0472 USD (~₹4.11 INR)** per 1,000 processed job postings using Gemini 1.5 Flash. | ✅ Done |
 | **8. "What Broke & How I Fixed It"** | Thoroughly documented in [`docs/WHAT_BROKE_AND_FIXES.md`](docs/WHAT_BROKE_AND_FIXES.md) and covered in the Loom video. | ✅ Done |
 
@@ -131,3 +131,4 @@ This repository is engineered specifically for live code changes:
 - **Want to change deduplication similarity?** Tweak `similarity_threshold` in `pipeline/deduplicator.py`.
 - **Want to filter by stipend?** The data already contains structured `stipend_salary` values ready to bind to any new UI slider.
 - **Want to plug in a different LLM (e.g. OpenAI / Groq)?** Swap the single endpoint call in `pipeline/llm_tagger.py`.
+

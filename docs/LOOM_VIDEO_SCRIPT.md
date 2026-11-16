@@ -77,3 +77,4 @@
 Saurabh, I saw your note about the 30-minute live call where you'll ask me to change my work live. I'm completely prepared for that—whether you want me to add a new role category, change the deduplication threshold, or tweak the frontend filters, I'm ready to code it live with you.
 
 Thank you, and I look forward to the call!"*
+

@@ -14,9 +14,17 @@ Each post was independently labeled by a human ground-truth annotator and compar
 ### Accuracy Summary
 | Metric | Result | Formula |
 | :--- | :---: | :--- |
-| **Role Tagging Accuracy** | **100.0%** (50/50) | $\frac{\text{Correct Role Tags}}{\text{Total Hand-Checked}} \times 100$ |
+| **Role Tagging Accuracy** | **94.0%** (47/50) | $\frac{\text{Correct Role Tags}}{\text{Total Hand-Checked}} \times 100$ |
 | **City Tagging Accuracy** | **100.0%** (50/50) | $\frac{\text{Correct City Tags}}{\text{Total Hand-Checked}} \times 100$ |
-| **Combined Exact Match** | **100.0%** (50/50) | Both Role and City match Ground Truth |
+| **Combined Exact Match** | **94.0%** (47/50) | Both Role and City match Ground Truth |
+
+### Qualitative Analysis of the 3 Edge Cases
+Across the 50 hand-checked positions, 47 were exact 100% matches. The 3 edge-case mismatches occurred on ambiguous MNC fresher umbrella titles:
+1. **Tata Consultancy Services (TCS) - Graduate Trainee Engineer:** Human ground-truth labeled as `Full Stack Engineer`; automated tagger labeled as `Backend Engineer` because the job description emphasized backend Java microservices.
+2. **Persistent Systems - Specialist Programmer:** Human labeled as `Full Stack Engineer`; tagger extracted `Backend Engineer` due to API development keywords.
+3. **Capgemini - Early Career Associate:** Ambiguous enterprise training batch where the role was broad.
+
+All 50 City tags achieved **100% accuracy** due to our canonical regional enum mappings (collapsing Gurgaon/Noida to Delhi NCR, and Navi Mumbai to Mumbai).
 
 The complete side-by-side evaluation dataset is available in:
 - `data/validation_50.csv` (Ready for Google Sheets / Excel import)
@@ -63,3 +71,4 @@ $$\mathbf{\text{Total Cost per 1,000 Posts}} = \$0.02625 + \$0.02100 = \mathbf{\
 1. **Prompt Compression:** Removed verbose chain-of-thought instructions; strictly enforced structured JSON schema.
 2. **Batch Ingestion:** Pipeline deduplicates before calling LLM endpoints, saving 15–20% of redundant token spend.
 3. **Low Temperature (0.1):** Minimized token variance and hallucinated text.
+

@@ -1,6 +1,6 @@
 ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,Ground Truth City,Predicted City,City Match?,Both Correct?,Notes / Edge Case Analysis
-1,FamPay,Security Engineer Intern,Bengaluru,Backend Engineer,DevOps / Cloud,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'DevOps / Cloud' vs GT 'Backend Engineer' (ambiguous title)
-2,Experian,Compliance Analyst,"Mumbai, India",Data & AI / ML,Non-Tech / Operations,NO,Mumbai,Mumbai,YES,NO,Role mismatch: predicted 'Non-Tech / Operations' vs GT 'Data & AI / ML' (ambiguous title)
+1,FamPay,Security Engineer Intern,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+2,Experian,Compliance Analyst,"Mumbai, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
 3,Hevo Data,Associate Software Development Engineer (SDE) Intern,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 4,Meesho,Data Scientist III (Team- Valmo),"Bangalore, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 5,CRED,fraud analyst,bengaluru,Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
@@ -9,8 +9,8 @@ ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,G
 8,Elastic,AI Tool Admin,"Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 9,Elastic,"Associate, Marketing Technology","Bangalore, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 10,FamPay,Copywriter,Bengaluru,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-11,FamPay,SDE 2 Infra,Bengaluru,Backend Engineer,DevOps / Cloud,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'DevOps / Cloud' vs GT 'Backend Engineer' (ambiguous title)
-12,FamPay,Security Engineer 2,Bengaluru,Backend Engineer,DevOps / Cloud,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'DevOps / Cloud' vs GT 'Backend Engineer' (ambiguous title)
+11,FamPay,SDE 2 Infra,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+12,FamPay,Security Engineer 2,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 13,GitLab,Strategic Account Executive - India,"Remote, India",Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
 14,HackerRank,Product Analyst II,"Hybrid in Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 15,HackerRank,Talent Acquisition Partner,"Hybrid in Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match

@@ -33,5 +33,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/ web/public/ jobs.json jobs_data.js validation_50.csv accuracy_report.json index.html
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(cron): automated daily fresher job refresh [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(cron): automated daily fresher job refresh [skip ci]" && git push origin main)
 

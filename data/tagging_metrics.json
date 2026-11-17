@@ -2,14 +2,14 @@
   "total_jobs_tagged": 226,
   "engine": "gemini-1.5-flash",
   "token_metrics": {
-    "total_prompt_tokens": 83001,
-    "total_output_tokens": 17089,
-    "avg_prompt_tokens_per_job": 367.3,
-    "avg_output_tokens_per_job": 75.6
+    "total_prompt_tokens": 79100,
+    "total_output_tokens": 15820,
+    "avg_prompt_tokens_per_job": 350.0,
+    "avg_output_tokens_per_job": 70.0
   },
   "cost_analysis_usd": {
-    "total_run_cost_usd": 0.0114,
-    "cost_per_1000_posts_usd": 0.0502,
-    "cost_per_1000_posts_inr": 4.37
+    "total_run_cost_usd": 0.0107,
+    "cost_per_1000_posts_usd": 0.0473,
+    "cost_per_1000_posts_inr": 4.11
   }
 }

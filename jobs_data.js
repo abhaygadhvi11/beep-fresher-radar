@@ -23,8 +23,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-077",
@@ -50,8 +49,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-095",
@@ -77,8 +75,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-102",
@@ -104,8 +101,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-209",
@@ -131,8 +127,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-047",
@@ -158,8 +153,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-063",
@@ -185,8 +179,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-108",
@@ -212,8 +205,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-127",
@@ -239,8 +231,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-150",
@@ -264,8 +255,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-154",
@@ -291,8 +281,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-155",
@@ -319,8 +308,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-157",
@@ -344,8 +332,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-161",
@@ -371,8 +358,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-167",
@@ -398,8 +384,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-176",
@@ -425,8 +410,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-187",
@@ -452,8 +436,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-191",
@@ -479,8 +462,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-036",
@@ -506,8 +488,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-037",
@@ -533,8 +514,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-038",
@@ -560,8 +540,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-039",
@@ -587,8 +566,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-040",
@@ -614,8 +592,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-041",
@@ -641,8 +618,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-042",
@@ -668,8 +644,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-043",
@@ -695,8 +670,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-052",
@@ -722,8 +696,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-053",
@@ -749,8 +722,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-054",
@@ -776,8 +748,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-055",
@@ -803,8 +774,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-056",
@@ -830,8 +800,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-058",
@@ -857,8 +826,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-059",
@@ -884,8 +852,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-060",
@@ -911,8 +878,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'UI/UX Design' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-069",
@@ -938,8 +904,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-070",
@@ -965,8 +930,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-071",
@@ -992,8 +956,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-072",
@@ -1019,8 +982,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-073",
@@ -1046,8 +1008,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-075",
@@ -1073,8 +1034,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-076",
@@ -1100,8 +1060,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-079",
@@ -1127,8 +1086,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-080",
@@ -1154,8 +1112,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-081",
@@ -1181,8 +1138,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-082",
@@ -1208,8 +1164,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-083",
@@ -1235,8 +1190,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-084",
@@ -1262,8 +1216,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-085",
@@ -1289,8 +1242,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-086",
@@ -1316,8 +1268,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-087",
@@ -1343,8 +1294,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-088",
@@ -1370,8 +1320,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-096",
@@ -1397,8 +1346,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-098",
@@ -1424,8 +1372,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-099",
@@ -1451,8 +1398,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-100",
@@ -1478,8 +1424,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-101",
@@ -1505,8 +1450,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-104",
@@ -1532,8 +1476,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-206",
@@ -1559,8 +1502,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-207",
@@ -1586,8 +1528,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-208",
@@ -1613,8 +1554,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-210",
@@ -1640,8 +1580,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-211",
@@ -1667,8 +1606,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-212",
@@ -1694,8 +1632,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-213",
@@ -1721,8 +1658,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-214",
@@ -1748,8 +1684,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-216",
@@ -1775,8 +1710,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-217",
@@ -1802,8 +1736,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-218",
@@ -1829,8 +1762,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-219",
@@ -1856,8 +1788,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-220",
@@ -1883,8 +1814,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-221",
@@ -1910,8 +1840,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-222",
@@ -1937,8 +1866,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-223",
@@ -1964,8 +1892,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-224",
@@ -1991,8 +1918,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-225",
@@ -2018,8 +1944,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-226",
@@ -2045,8 +1970,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-227",
@@ -2072,8 +1996,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-228",
@@ -2099,8 +2022,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-229",
@@ -2126,8 +2048,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-230",
@@ -2153,8 +2074,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-231",
@@ -2180,8 +2100,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-232",
@@ -2207,8 +2126,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-233",
@@ -2234,8 +2152,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-234",
@@ -2261,8 +2178,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-237",
@@ -2288,8 +2204,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-239",
@@ -2315,8 +2230,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-240",
@@ -2342,8 +2256,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-001",
@@ -2369,8 +2282,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-002",
@@ -2396,8 +2308,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-003",
@@ -2423,8 +2334,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-004",
@@ -2450,8 +2360,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-005",
@@ -2477,8 +2386,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-006",
@@ -2504,8 +2412,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-007",
@@ -2531,8 +2438,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-008",
@@ -2558,8 +2464,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-009",
@@ -2585,8 +2490,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-010",
@@ -2612,8 +2516,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-011",
@@ -2639,8 +2542,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-012",
@@ -2666,8 +2568,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-013",
@@ -2693,8 +2594,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-014",
@@ -2720,8 +2620,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-015",
@@ -2747,8 +2646,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-016",
@@ -2774,8 +2672,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-017",
@@ -2801,8 +2698,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-018",
@@ -2828,8 +2724,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-019",
@@ -2855,8 +2750,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-020",
@@ -2882,8 +2776,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-021",
@@ -2909,8 +2802,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-022",
@@ -2934,8 +2826,7 @@ window.INITIAL_JOBS = [
       "Python"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-023",
@@ -2961,8 +2852,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Mobile App Developer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-024",
@@ -2988,8 +2878,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-025",
@@ -3015,8 +2904,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-026",
@@ -3040,8 +2928,7 @@ window.INITIAL_JOBS = [
       "Java"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-027",
@@ -3067,8 +2954,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-028",
@@ -3094,8 +2980,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-029",
@@ -3121,8 +3006,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-030",
@@ -3148,8 +3032,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-031",
@@ -3175,8 +3058,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-032",
@@ -3202,8 +3084,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-033",
@@ -3229,8 +3110,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-034",
@@ -3256,8 +3136,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-035",
@@ -3283,8 +3162,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-044",
@@ -3310,8 +3188,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-045",
@@ -3337,8 +3214,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-046",
@@ -3364,8 +3240,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-048",
@@ -3389,8 +3264,7 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-049",
@@ -3416,8 +3290,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-050",
@@ -3441,8 +3314,7 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-051",
@@ -3468,8 +3340,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-061",
@@ -3495,8 +3366,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-062",
@@ -3522,8 +3392,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-064",
@@ -3549,8 +3418,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-065",
@@ -3576,8 +3444,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-066",
@@ -3603,8 +3470,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-067",
@@ -3630,8 +3496,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-068",
@@ -3657,8 +3522,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Hyderabad' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-078",
@@ -3684,8 +3548,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-089",
@@ -3711,8 +3574,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-090",
@@ -3738,8 +3600,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-091",
@@ -3765,8 +3626,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-092",
@@ -3792,8 +3652,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-093",
@@ -3819,8 +3678,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-094",
@@ -3846,8 +3704,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-105",
@@ -3873,8 +3730,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-106",
@@ -3900,8 +3756,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-107",
@@ -3927,8 +3782,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-109",
@@ -3954,8 +3808,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-110",
@@ -3981,8 +3834,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-111",
@@ -4008,8 +3860,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-112",
@@ -4035,8 +3886,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-115",
@@ -4062,8 +3912,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-117",
@@ -4089,8 +3938,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-118",
@@ -4116,8 +3964,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-119",
@@ -4143,8 +3990,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-120",
@@ -4170,8 +4016,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-121",
@@ -4197,8 +4042,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-122",
@@ -4224,8 +4068,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-123",
@@ -4251,8 +4094,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-124",
@@ -4278,8 +4120,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-125",
@@ -4305,8 +4146,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-126",
@@ -4332,8 +4172,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-128",
@@ -4359,8 +4198,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-129",
@@ -4386,8 +4224,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-130",
@@ -4413,8 +4250,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-131",
@@ -4440,8 +4276,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-132",
@@ -4467,8 +4302,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-133",
@@ -4494,8 +4328,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-134",
@@ -4521,8 +4354,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-135",
@@ -4548,8 +4380,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-136",
@@ -4575,8 +4406,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-137",
@@ -4602,8 +4432,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-138",
@@ -4629,8 +4458,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-139",
@@ -4656,8 +4484,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-140",
@@ -4681,8 +4508,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-142",
@@ -4706,8 +4532,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-143",
@@ -4733,8 +4558,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-144",
@@ -4758,8 +4582,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-146",
@@ -4785,8 +4608,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-147",
@@ -4812,8 +4634,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-148",
@@ -4839,8 +4660,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-149",
@@ -4866,8 +4686,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-151",
@@ -4891,8 +4710,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-152",
@@ -4916,8 +4734,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-153",
@@ -4941,8 +4758,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-156",
@@ -4966,8 +4782,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-158",
@@ -4991,8 +4806,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-159",
@@ -5016,8 +4830,7 @@ window.INITIAL_JOBS = [
       "MongoDB"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-162",
@@ -5043,8 +4856,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-163",
@@ -5070,8 +4882,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-164",
@@ -5096,8 +4907,7 @@ window.INITIAL_JOBS = [
       "JavaScript"
     ],
     "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-165",
@@ -5121,8 +4931,7 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-166",
@@ -5148,8 +4957,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-168",
@@ -5175,8 +4983,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-169",
@@ -5202,8 +5009,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-170",
@@ -5229,8 +5035,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-171",
@@ -5254,8 +5059,7 @@ window.INITIAL_JOBS = [
       "SQL"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-172",
@@ -5281,8 +5085,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-173",
@@ -5308,8 +5111,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-174",
@@ -5335,8 +5137,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-175",
@@ -5362,8 +5163,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-177",
@@ -5389,8 +5189,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-178",
@@ -5416,8 +5215,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-179",
@@ -5443,8 +5241,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-180",
@@ -5470,8 +5267,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-181",
@@ -5497,8 +5293,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-182",
@@ -5524,8 +5319,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-183",
@@ -5551,8 +5345,7 @@ window.INITIAL_JOBS = [
       "Spring Boot"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-184",
@@ -5579,8 +5372,7 @@ window.INITIAL_JOBS = [
       "Pandas"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-185",
@@ -5607,8 +5399,7 @@ window.INITIAL_JOBS = [
       "Spring Boot"
     ],
     "reasoning": "Tagged as 'Frontend Engineer' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-186",
@@ -5634,8 +5425,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-188",
@@ -5661,8 +5451,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-189",
@@ -5688,8 +5477,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-190",
@@ -5715,8 +5503,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-192",
@@ -5742,8 +5529,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Other India' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-193",
@@ -5769,8 +5555,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-194",
@@ -5796,8 +5581,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-195",
@@ -5823,8 +5607,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-196",
@@ -5850,8 +5633,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-197",
@@ -5875,8 +5657,7 @@ window.INITIAL_JOBS = [
       "Go"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-198",
@@ -5902,8 +5683,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-199",
@@ -5929,8 +5709,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-201",
@@ -5956,8 +5735,7 @@ window.INITIAL_JOBS = [
       "Git"
     ],
     "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-202",
@@ -5983,8 +5761,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-203",
@@ -6010,8 +5787,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-205",
@@ -6037,8 +5813,7 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   },
   {
     "id": "beep-job-077",
@@ -6064,7 +5839,6 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback",
-    "error_fallback": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    "tagger_engine": "heuristic_fallback"
   }
 ];

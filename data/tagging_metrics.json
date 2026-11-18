@@ -1,9 +1,9 @@
 {
-  "total_jobs_tagged": 226,
+  "total_jobs_tagged": 227,
   "engine": "heuristic_fallback",
   "token_metrics": {
-    "total_prompt_tokens": 79100,
-    "total_output_tokens": 15820,
+    "total_prompt_tokens": 79450,
+    "total_output_tokens": 15890,
     "avg_prompt_tokens_per_job": 350.0,
     "avg_output_tokens_per_job": 70.0
   },

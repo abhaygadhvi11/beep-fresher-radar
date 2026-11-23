@@ -39,13 +39,13 @@ ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,G
 38,NielsenIQ,"Backend Engineer with Python, PHP along with web scraping","Pune, MH, India",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
 39,NielsenIQ,Cartographer,"Vadodara, GJ, India",Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
 40,NielsenIQ,"Engineer, Collaboration Infrastructure (Active Directory, Entra ID and PowerShell)","Chennai, TN, India",DevOps / Cloud,DevOps / Cloud,YES,Chennai,Chennai,YES,YES,Clean exact match
-41,NielsenIQ,Order Management Specialist,"Pune, MH, India",Non-Tech / Operations,Non-Tech / Operations,YES,Pune,Pune,YES,YES,Clean exact match
-42,NielsenIQ,Report Automation Specialist - (Advance Excel and PowerPoint Expert),"Gurgaon, HR, India",QA / Testing,Non-Tech / Operations,NO,Delhi NCR,Delhi NCR,YES,NO,Role mismatch: predicted 'Non-Tech / Operations' vs GT 'QA / Testing' (ambiguous title)
-43,NielsenIQ,Software Engineer,"Chennai, TN, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
-44,Okta,"Enterprise Account Executive, Mumbai","Mumbai, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
-45,Okta,Payroll Accountant,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-46,Okta,Solution Engineer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-47,PubMatic,"Programmatic Trading Specialist, APAC","Gurugram, IN",Non-Tech / Operations,Non-Tech / Operations,YES,Other India,Other India,YES,YES,Clean exact match
-48,Pure Storage,Cloud Native Technical Services Engineer,"Bangalore, India",DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-49,Pure Storage,Recruiting Coordinator (12 months contract),"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-50,Pure Storage,"SDET, Portworx","Bangalore, India",Backend Engineer,QA / Testing,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'QA / Testing' vs GT 'Backend Engineer' (ambiguous title)
+41,NielsenIQ,Report Automation Specialist - (Advance Excel and PowerPoint Expert),"Gurgaon, HR, India",QA / Testing,Non-Tech / Operations,NO,Delhi NCR,Delhi NCR,YES,NO,Role mismatch: predicted 'Non-Tech / Operations' vs GT 'QA / Testing' (ambiguous title)
+42,NielsenIQ,Research Analyst,"Mumbai, MH, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+43,NielsenIQ,"Software Engineer (python,Django,Pandas/ Polars)","Pune, MH, India",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
+44,Okta,People Operations Specialist,"Bengaluru, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+45,Okta,People Operations Specialist (Payroll & Compensation ),Bengaluru,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+46,PubMatic,Business Intelligence Associate,"Pune, IN",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
+47,Pure Storage,Cloud Native Escalation Engineer,"Bangalore, India",DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+48,Pure Storage,GTM Integration Developer - Boomi,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+49,Pure Storage,Salesforce Developer,"Bangalore, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+50,Pure Storage,ServiceNow Platform Support,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match

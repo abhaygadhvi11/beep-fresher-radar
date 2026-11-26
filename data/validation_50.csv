@@ -1,51 +1,51 @@
 ID,Company,Job Title,Raw Location,Ground Truth Role,Predicted Role,Role Match?,Ground Truth City,Predicted City,City Match?,Both Correct?,Notes / Edge Case Analysis
 1,FamPay,Security Engineer Intern,Bengaluru,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-2,Hevo Data,Associate Software Development Engineer (SDE) Intern,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-3,Meesho,Data Scientist III (Team- Valmo),"Bangalore, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-4,MongoDB,Early Talent Recruiter,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+2,Databricks,SAP Functional SME,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+3,Hevo Data,Associate Software Development Engineer (SDE) Intern,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+4,Meesho,Data Scientist III (Team- Valmo),"Bangalore, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 5,Elastic,"Business Analyst, Marketing-1 (Fixed Term)","Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 6,Elastic,Enterprise Account Executive (BFSI),"Mumbai, India",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
 7,Elastic,"Marketing Coordinators, AMER (Fixed Term)","Bangalore, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 8,FamPay,Data Analyst,Bengaluru,Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 9,FamPay,People Operations Associate,Bengaluru,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 10,GitLab,People Systems Engineer,"Bangalore, India; Remote, Poland",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-11,HackerRank,Deep Learning Research Engineer,"Hybrid in Bangalore, India",Backend Engineer,Data & AI / ML,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'Data & AI / ML' vs GT 'Backend Engineer' (ambiguous title)
-12,HackerRank,DevOps Engineer II,"Hybrid in Bangalore, India",DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-13,Paytm,CST - Associate - Email CST,"Noida, Uttar Pradesh",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-14,Paytm,Customer Support Associate,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
-15,Paytm,Customer Support Associate- Paytm Money,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
-16,Paytm,Employee investigations/Forensics,"Noida, Uttar Pradesh",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-17,Paytm,Financial Analyst - AM - Lending,"Noida, Uttar Pradesh",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-18,Paytm,Growth Affiliates-Paytm Money,"Noida, Uttar Pradesh, Bangalore, Karnataka",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-19,Paytm,HR Business Partner - Noida,"Noida, Uttar Pradesh",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-20,Paytm,HR HelpDesk,"Noida, Uttar Pradesh",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
-21,Bosch,AMS_Senior_Associate_Ban,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-22,Bosch,ASCET_DotNet_Developer,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-23,Bosch,ASIC Verification EEJ 2026,"bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-24,Bosch,Application Engineering ADAS,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-25,Bosch,Audio techstack: Automotive Android and QNX developer,"bangalore, India",Mobile App Developer,Mobile App Developer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-26,Bosch,BGSW_2026_SAP_PDM_Consultant,"bangalore, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-27,Bosch,BGSW_2026_SAP_SD_JIT,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-28,Druva,Sales Engineer,"Pune, Maharashtra, India",Non-Tech / Operations,Non-Tech / Operations,YES,Pune,Pune,YES,YES,Clean exact match
-29,Hevo Data,Account Executive,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-30,Hevo Data,Strategy & Ops (Founder's Office),"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-31,InMobi,Machine Learning Engineer II - Backend,Bengaluru,Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+11,GitLab,Strategic Account Executive - India,"Remote, India",Backend Engineer,Backend Engineer,YES,Remote,Remote,YES,YES,Clean exact match
+12,HackerRank,Deep Learning Research Engineer,"Hybrid in Bangalore, India",Backend Engineer,Data & AI / ML,NO,Bengaluru,Bengaluru,YES,NO,Role mismatch: predicted 'Data & AI / ML' vs GT 'Backend Engineer' (ambiguous title)
+13,Paytm,CST - Associate - Bill Payments CST,"Noida, Uttar Pradesh",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+14,Paytm,Credit Risk Analyst,"Noida, Uttar Pradesh",Data & AI / ML,Data & AI / ML,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+15,Paytm,Customer Support Associate,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+16,Paytm,Customer Support Associate- Paytm Money,"Mumbai, Maharashtra",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
+17,Paytm,Field Facilitator - Digital & Financial Literacy - 6 months Contractual,"Noida, Uttar Pradesh",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+18,Paytm,Graphic Designer,"Noida, Uttar Pradesh",Backend Engineer,Backend Engineer,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+19,Paytm,Growth Operations -Paytm Money,"Noida, Uttar Pradesh, Bangalore, Karnataka",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+20,Paytm,HR Business Partner - Noida,"Noida, Uttar Pradesh",Non-Tech / Operations,Non-Tech / Operations,YES,Delhi NCR,Delhi NCR,YES,YES,Clean exact match
+21,Bosch,AI/ML Expert,"coimbatore, India",Data & AI / ML,Data & AI / ML,YES,Other India,Other India,YES,YES,Clean exact match
+22,Bosch,AMS_Senior_Associate_Ban,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+23,Bosch,Algorithm SW (ASW) Developer for Braking Systems (Hybrid Electric & Autonomous Vehicle Functions) -2026,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+24,Bosch,Audio Signal processing expert,"coimbatore, India",Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+25,Bosch,BGSW_2026_SAP_HCM_SF_SolnExpert,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+26,Bosch,BGSW_2026_SAP_MDG_TechnoFunctional_Developer,"bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+27,Druva,Sales Engineer,"Pune, Maharashtra, India",Non-Tech / Operations,Non-Tech / Operations,YES,Pune,Pune,YES,YES,Clean exact match
+28,Hevo Data,Account Executive,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+29,Hevo Data,Strategy & Ops (Founder's Office),"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+30,InMobi,Consultant- Global Business Operations,Bangalore,Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+31,Meesho,Instructional Designer- ValMo Training,"Bangalore, Karnataka",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 32,Meesho,Security Engineer III - Infra Security,"Bangalore, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-33,Meesho,Security Engineer IV,"Bangalore, Karnataka",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-34,Mindtickle,Customer Success Engineer - II,"Pune, Maharashtra",Backend Engineer,Backend Engineer,YES,Pune,Pune,YES,YES,Clean exact match
-35,MongoDB,Associate TSE,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
-36,MongoDB,Contract Technical Recruiter,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
-37,MongoDB,Technical Services Engineer,Bengaluru; Gurugram,Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+33,Mindtickle,Associate Client Partner,"Bengaluru, Karnataka, Pune, Maharashtra",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+34,MongoDB,Associate Recruiter,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+35,MongoDB,Cloud Operations Engineer,Bengaluru,DevOps / Cloud,DevOps / Cloud,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+36,MongoDB,Talent Discovery Sourcer,Gurugram,Backend Engineer,Backend Engineer,YES,Other India,Other India,YES,YES,Clean exact match
+37,NielsenIQ,Analytics and Activation Sales Specialist,"Mumbai, MH, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
 38,NielsenIQ,Associate Data Scientist,"Pune, MH, India",Data & AI / ML,Data & AI / ML,YES,Pune,Pune,YES,YES,Clean exact match
-39,NielsenIQ,"Associate Software Test Engineer (Playwright, Typescript/ Javascript)","Pune, MH, India",QA / Testing,QA / Testing,YES,Pune,Pune,YES,YES,Clean exact match
-40,NielsenIQ,E2E Project Coordinator,"Mumbai, MH, India",Backend Engineer,Backend Engineer,YES,Mumbai,Mumbai,YES,YES,Clean exact match
-41,NielsenIQ,Operations Client Partner,"Chennai, TN, India",Non-Tech / Operations,Non-Tech / Operations,YES,Chennai,Chennai,YES,YES,Clean exact match
-42,NielsenIQ,Order Management Specialist,"Pune, MH, India",Non-Tech / Operations,Non-Tech / Operations,YES,Pune,Pune,YES,YES,Clean exact match
+39,NielsenIQ,Data Scientist,"Pune, MH, India",Data & AI / ML,Data & AI / ML,YES,Pune,Pune,YES,YES,Clean exact match
+40,NielsenIQ,Expert,"Chennai, TN, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
+41,NielsenIQ,"Expert (Azure Data Factory, Fabric and SQL preferred)","Chennai, TN, India",Data & AI / ML,Data & AI / ML,YES,Chennai,Chennai,YES,YES,Clean exact match
+42,NielsenIQ,Research Analyst,"Mumbai, MH, India",Data & AI / ML,Data & AI / ML,YES,Mumbai,Mumbai,YES,YES,Clean exact match
 43,NielsenIQ,Research Scientist,"Chennai, TN, India",Backend Engineer,Backend Engineer,YES,Chennai,Chennai,YES,YES,Clean exact match
-44,Okta,Developer Support Engineer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-45,Okta,"Enterprise Account Executive, Bengaluru","Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-46,Okta,People Operations Specialist,"Bengaluru, India",Non-Tech / Operations,Non-Tech / Operations,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-47,Okta,Workday Extend Developer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
-48,Pure Storage,Business Intelligence Analyst - Tableau & SQL,"Bangalore, India",Data & AI / ML,Data & AI / ML,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+44,Okta,Demo Engineering Developer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+45,Okta,Developer Support Engineer,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+46,Okta,Payroll Accountant,"Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+47,Okta,"Solutions Engineer, Okta","Bengaluru, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
+48,PubMatic,"Programmatic Trading Specialist, APAC","Gurugram, IN",Non-Tech / Operations,Non-Tech / Operations,YES,Other India,Other India,YES,YES,Clean exact match
 49,Pure Storage,MTS - Performance Engineering,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match
 50,Pure Storage,MTS-Exa,"Bangalore, India",Backend Engineer,Backend Engineer,YES,Bengaluru,Bengaluru,YES,YES,Clean exact match

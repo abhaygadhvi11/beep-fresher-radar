@@ -1,6 +1,6 @@
 window.INITIAL_JOBS = [
   {
-    "id": "beep-job-064",
+    "id": "beep-job-066",
     "title": "People Operations Intern",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -26,7 +26,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-067",
+    "id": "beep-job-069",
     "title": "Security Engineer Intern",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -52,7 +52,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-083",
+    "id": "beep-job-085",
     "title": "AI Researcher Intern",
     "company": "HackerRank",
     "location": "Onsite in Bangalore",
@@ -78,7 +78,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-088",
+    "id": "beep-job-091",
     "title": "Software Development Engineer Intern",
     "company": "HackerRank",
     "location": "Onsite in Bangalore",
@@ -104,7 +104,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-228",
+    "id": "beep-job-233",
     "title": "IT Audit",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -130,7 +130,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-022",
+    "id": "beep-job-024",
     "title": "Asst. Manager_Plant Controlling (ChiP/CTG)",
     "company": "Bosch",
     "location": "Oragadam, TN, India",
@@ -182,7 +182,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-094",
+    "id": "beep-job-098",
     "title": "Associate Software Development Engineer (SDE) Intern",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -208,7 +208,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-115",
+    "id": "beep-job-120",
     "title": "Data Scientist III (Team- Valmo)",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -234,7 +234,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-136",
+    "id": "beep-job-141",
     "title": "Early Talent Recruiter",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -258,7 +258,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-141",
+    "id": "beep-job-146",
     "title": "Software Engineer 3 - Enterprise Architecture",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -285,7 +285,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-143",
+    "id": "beep-job-148",
     "title": "Specialist, Sales Performance",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -309,7 +309,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-150",
+    "id": "beep-job-155",
     "title": "Analyst – Global Income Tax",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -335,7 +335,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-155",
+    "id": "beep-job-159",
     "title": "Data Management Administrator",
     "company": "NielsenIQ",
     "location": "Mumbai, MH, India",
@@ -361,7 +361,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-180",
+    "id": "beep-job-181",
+    "title": "Software Test Engineer",
+    "company": "NielsenIQ",
+    "location": "Chennai, TN, India",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163746569",
+    "source": "NielsenIQ (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "Analyses testing requirements and creates relevant and applicable test strategies, plans and scripts. • Carries out testing for new and improved functionality for internal and external facing Company software and applications. • Responsibilities • Analyses requirements for testing and creates test strategies for new projects as well as existing projects where changes are required. • Creates and documents test plans, scenarios and scripts for validation by Developers and Analysts. • Creates automation scripts for use in Regression testing. • Executes testing scripts in all IT environments, tracking and reporting progress in line with the Defect Management Cycle • Identifies new and existing d",
+    "job_type": "Internship",
+    "experience_level": "0 YOE",
+    "salary_raw": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163746569",
+    "dedup_hash": "e772fbf11163",
+    "role": "QA / Testing",
+    "city": "Chennai",
+    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'QA / Testing' based on title keywords and 'Chennai' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-183",
     "title": "Support Engineer",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -384,6 +410,32 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-187",
+    "title": "Visualization Analyst",
+    "company": "NielsenIQ",
+    "location": "Chennai, TN, India",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000161764785",
+    "source": "NielsenIQ (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "Job Summary • We are seeking a creative and detail-oriented Visualization Analyst to design compelling, professional presentations that communicate ideas clearly, align with our NIQ brand identity, and influence audiences. You will collaborate with internal teams to support strategic initiatives, from executive meetings and investor decks to sales pitches and internal communications. • Key Responsibilities • Design visually engaging and brand-consistent PowerPoint and Google Slides . • Create visually engaging, brand-consistent flyers and promotional materials using Adobe Creative Suite , etc. • Collaborate with executives, marketers, and subject matter experts to translate complex ideas int",
+    "job_type": "Internship",
+    "experience_level": "0 YOE",
+    "salary_raw": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "posted_at": "2026-11-16",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000161764785",
+    "dedup_hash": "ce366482cc8a",
+    "role": "Data & AI / ML",
+    "city": "Chennai",
+    "stipend_salary": "Competitive Stipend (₹30,000 - ₹50,000 / mo)",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Chennai' based on detected location match.",
     "tagger_engine": "heuristic_fallback"
   },
   {
@@ -517,7 +569,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-047",
+    "id": "beep-job-048",
     "title": "AI Tool Admin",
     "company": "Elastic",
     "location": "Bangalore, India",
@@ -543,7 +595,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-048",
+    "id": "beep-job-049",
     "title": "Associate, Marketing Technology",
     "company": "Elastic",
     "location": "Bangalore, India",
@@ -569,7 +621,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-049",
+    "id": "beep-job-050",
     "title": "Business Analyst, Marketing-1 (Fixed Term)",
     "company": "Elastic",
     "location": "Bangalore, India",
@@ -595,7 +647,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-050",
+    "id": "beep-job-051",
     "title": "Enterprise Account Executive (BFSI)",
     "company": "Elastic",
     "location": "Mumbai, India",
@@ -621,7 +673,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-051",
+    "id": "beep-job-052",
     "title": "Marketing Coordinators, AMER (Fixed Term)",
     "company": "Elastic",
     "location": "Bangalore, India",
@@ -647,7 +699,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-052",
+    "id": "beep-job-053",
     "title": "Marketplace Deal Operations Specialist, EMEA",
     "company": "Elastic",
     "location": "Bangalore, India",
@@ -673,7 +725,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-061",
+    "id": "beep-job-063",
     "title": "Data Analyst",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -699,7 +751,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-062",
+    "id": "beep-job-064",
     "title": "Data Engineer (SDE 2)",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -725,7 +777,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-063",
+    "id": "beep-job-065",
     "title": "People Operations Associate",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -751,7 +803,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-065",
+    "id": "beep-job-067",
     "title": "SDE 2 Infra",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -777,7 +829,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-066",
+    "id": "beep-job-068",
     "title": "Security Engineer 2",
     "company": "FamPay",
     "location": "Bengaluru",
@@ -803,7 +855,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-069",
+    "id": "beep-job-071",
     "title": "Applied AI Engineer, Enterprise AI",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -829,7 +881,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-070",
+    "id": "beep-job-072",
     "title": "Customer Success Engineer, India",
     "company": "GitLab",
     "location": "Remote, India",
@@ -855,7 +907,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-071",
+    "id": "beep-job-073",
     "title": "Intermediate Backend Engineer , Security Factory",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -881,7 +933,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-072",
+    "id": "beep-job-074",
     "title": "Intermediate Backend Engineer, India",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -907,7 +959,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-073",
+    "id": "beep-job-075",
     "title": "People Systems Engineer",
     "company": "GitLab",
     "location": "Bangalore, India; Remote, Poland",
@@ -933,7 +985,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-074",
+    "id": "beep-job-076",
     "title": "Recruiter, R&D (APJ)",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -959,7 +1011,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-075",
+    "id": "beep-job-077",
     "title": "Release Engineer, Salesforce",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -985,7 +1037,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-076",
+    "id": "beep-job-078",
     "title": "Software Engineer, Delivery : Release",
     "company": "GitLab",
     "location": "Bangalore, India",
@@ -1011,7 +1063,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-077",
+    "id": "beep-job-079",
     "title": "Strategic Account Executive - India",
     "company": "GitLab",
     "location": "Remote, India",
@@ -1037,7 +1089,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-084",
+    "id": "beep-job-086",
+    "title": "Customer Experience Engineering",
+    "company": "HackerRank",
+    "location": "Hybrid in Bangalore, India",
+    "url": "https://job-boards.greenhouse.io/hackerrank/jobs/6993983",
+    "source": "HackerRank (Greenhouse ATS)",
+    "ats_type": "Greenhouse ATS",
+    "description": "HackerRank helps companies like NVIDIA, Amazon, and Microsoft hire and upskill the next generation of developers based on skills, not pedigree. Our platform is trusted by over 2,500 of the world’s most innovative companies to build strong engineering teams ready for what’s next. • Software has entered an era where humans and AI build side by side. As this shift accelerates, the definition of strong technical talent is changing. We give companies better ways to identify and invest in next-generation skills. • People at HackerRank care deeply about the impact of their work and sweat the small details so our customers can be wildly successful with products they genuinely love to use. We move wi",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2025-07-09",
+    "canonical_url": "https://job-boards.greenhouse.io/hackerrank/jobs/6993983",
+    "dedup_hash": "32b3edc160b1",
+    "role": "Backend Engineer",
+    "city": "Bengaluru",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-087",
     "title": "Deep Learning Research Engineer",
     "company": "HackerRank",
     "location": "Hybrid in Bangalore, India",
@@ -1063,7 +1141,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-085",
+    "id": "beep-job-088",
     "title": "DevOps Engineer II",
     "company": "HackerRank",
     "location": "Hybrid in Bangalore, India",
@@ -1089,7 +1167,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-086",
+    "id": "beep-job-089",
     "title": "Forward Deployed Engineer",
     "company": "HackerRank",
     "location": "Hybrid in Bengaluru, India",
@@ -1115,7 +1193,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-087",
+    "id": "beep-job-090",
     "title": "Product Analyst II",
     "company": "HackerRank",
     "location": "Hybrid in Bangalore, India",
@@ -1141,7 +1219,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-090",
+    "id": "beep-job-093",
     "title": "Talent Acquisition Partner",
     "company": "HackerRank",
     "location": "Hybrid in Bangalore, India",
@@ -1167,7 +1245,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-196",
+    "id": "beep-job-200",
     "title": "AM / DM | Non IT Purchase",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1193,7 +1271,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-197",
+    "id": "beep-job-201",
     "title": "Associate - Motor Insurance",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1219,7 +1297,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-198",
+    "id": "beep-job-202",
     "title": "Associate - User Growth (Field Marketing)",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh, Bangalore, Karnataka, Pune, Maharashtra, Chennai, Tamil Nadu, Hyderabad, Telangana, Ahmedabad, Gujarat, Jaipur, Rajasthan, Delhi-NCR, Thane,Maharashtra, Mumbai, Maharashtra, Kolkata, West Bengal, Kavali, Andhra Pradesh, Chittoor, Andhra Pradesh, Surat, Gujarat, Kurnool, Andhra Pradesh",
@@ -1245,7 +1323,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-199",
+    "id": "beep-job-203",
     "title": "Business Analytics- Paytm Gold | Experience : 5-7 yrs",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1271,7 +1349,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-200",
+    "id": "beep-job-204",
     "title": "Business Finance (Lending)",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1297,7 +1375,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-201",
+    "id": "beep-job-205",
     "title": "CST - Associate - Bill Payments CST",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1323,7 +1401,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-202",
+    "id": "beep-job-206",
     "title": "CST - Associate - Email CST",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1349,7 +1427,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-204",
+    "id": "beep-job-208",
     "title": "CST - Executive/Associate - Paytm Travel (Flights)",
     "company": "Paytm",
     "location": "Bengaluru, Karnataka",
@@ -1375,7 +1453,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-205",
+    "id": "beep-job-209",
     "title": "Campaign Management- Traffic Management- Growth",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1401,7 +1479,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-206",
+    "id": "beep-job-210",
     "title": "Campaign Management- User Growth",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1427,7 +1505,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-207",
+    "id": "beep-job-211",
     "title": "Credit Risk Analyst",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1453,7 +1531,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-208",
+    "id": "beep-job-212",
     "title": "Customer Support Associate",
     "company": "Paytm",
     "location": "Mumbai, Maharashtra",
@@ -1479,7 +1557,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-209",
+    "id": "beep-job-213",
     "title": "Customer Support Associate- Paytm Money",
     "company": "Paytm",
     "location": "Mumbai, Maharashtra",
@@ -1505,7 +1583,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-210",
+    "id": "beep-job-214",
     "title": "Employee investigations/Forensics",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1531,7 +1609,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-211",
+    "id": "beep-job-215",
     "title": "Field Facilitator - Digital & Financial Literacy - 6 months Contractual",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1557,7 +1635,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-212",
+    "id": "beep-job-216",
     "title": "Financial Analyst - AM - Lending",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1583,7 +1661,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-213",
+    "id": "beep-job-217",
+    "title": "Forward Deployed Engineer",
+    "company": "Paytm",
+    "location": "Bangalore, Karnataka, Noida, Uttar Pradesh",
+    "url": "https://jobs.lever.co/paytm/7e33e30e-af1e-4f21-ae0c-b91881731bb7",
+    "source": "Paytm (Lever ATS)",
+    "ats_type": "Lever ATS",
+    "description": "About Us:\nPaytm is India's leading mobile payments and financial services distribution company. Pioneer of the mobile QR payments revolution in India, Paytm builds technologies that help small businesses with payments and commerce. Paytm’s mission is to serve half a billion Indians and bring them to the mainstream economy with the help of technology.\n \nAbout Team:\nPi Agents is Paytm's AI agent platform for businesses. It runs customer journeys across Voice AI, WhatsApp, RCS and SMS, with AI deciding the next best action for each customer. Our Forward Deployed team works directly with clients to take Pi Agents from first POC to production, measured on the business outcomes it delivers.\n\nYou b",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-10-23",
+    "canonical_url": "https://jobs.lever.co/paytm/7e33e30e-af1e-4f21-ae0c-b91881731bb7",
+    "dedup_hash": "a8967718c5fc",
+    "role": "Backend Engineer",
+    "city": "Delhi NCR",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-218",
     "title": "GM/DGM - Telco Sales (Africa & LATAM  Markets)",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1609,7 +1713,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-214",
+    "id": "beep-job-219",
     "title": "Graphic Designer",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1635,7 +1739,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-215",
+    "id": "beep-job-220",
     "title": "Growth Affiliates-Paytm Money",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh, Bangalore, Karnataka",
@@ -1661,7 +1765,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-216",
+    "id": "beep-job-221",
     "title": "Growth Management & Analytics- Recharges & Utilities I Exp- 4-6 Years",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh, Gurugram, Haryana, Bangalore, Karnataka",
@@ -1687,7 +1791,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-217",
+    "id": "beep-job-222",
     "title": "Growth Management - Merchant Lending (AM/DM)",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1713,7 +1817,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-218",
+    "id": "beep-job-223",
     "title": "Growth Management - Telco I Experience 2-4 Years",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1739,7 +1843,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-219",
+    "id": "beep-job-224",
     "title": "Growth Management - UPI Growth | Experience : 3-5 yrs",
     "company": "Paytm",
     "location": "Bangalore, Karnataka, Mumbai, Maharashtra, Hyderabad, Telangana, Noida, Uttar Pradesh",
@@ -1765,7 +1869,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-220",
+    "id": "beep-job-225",
     "title": "Growth Management - User Growth I Exp- 5 -10 Years",
     "company": "Paytm",
     "location": "Bengaluru, Karnataka",
@@ -1791,7 +1895,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-221",
+    "id": "beep-job-226",
     "title": "Growth Management- DGM/ GM- Lending EMI",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1817,7 +1921,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-224",
+    "id": "beep-job-229",
     "title": "Growth Operations -Paytm Money",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh, Bangalore, Karnataka",
@@ -1843,7 +1947,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-225",
+    "id": "beep-job-230",
     "title": "HR Business Partner - Noida",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1869,7 +1973,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-226",
+    "id": "beep-job-231",
     "title": "HR HelpDesk",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1895,7 +1999,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-227",
+    "id": "beep-job-232",
     "title": "HRBP_Bangalore",
     "company": "Paytm",
     "location": "Bangalore, Karnataka",
@@ -1921,7 +2025,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-229",
+    "id": "beep-job-234",
     "title": "IT Procurement",
     "company": "Paytm",
     "location": "Noida, Uttar Pradesh",
@@ -1935,32 +2039,6 @@ window.INITIAL_JOBS = [
     "posted_at": "2026-07-21",
     "canonical_url": "https://jobs.lever.co/paytm/3f86f13d-14a1-42b6-a36f-b238325c7ff8",
     "dedup_hash": "7307e04a4e80",
-    "role": "Backend Engineer",
-    "city": "Delhi NCR",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-230",
-    "title": "IT Procurement (Europe/EMEA Market)",
-    "company": "Paytm",
-    "location": "Noida, Uttar Pradesh",
-    "url": "https://jobs.lever.co/paytm/324abad0-0cfa-44bc-bef3-210150b50239",
-    "source": "Paytm (Lever ATS)",
-    "ats_type": "Lever ATS",
-    "description": "Position Summary:\n\nWe are seeking a dynamic and experienced IT Procurement Professional with 8–10 years of proven expertise in strategic IT procurement, including substantial experience managing procurement activities across the European region. The ideal candidate will have a strong track record of leading end-to-end sourcing initiatives for IT hardware, software, cloud technologies, SaaS applications, telecommunications, and technology services. This role requires expertise in strategic sourcing, supplier relationship management, contract\nnegotiations, cost optimization, and procurement governance, while ensuring compliance with organizational policies and applicable European regulatory re",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-07-21",
-    "canonical_url": "https://jobs.lever.co/paytm/324abad0-0cfa-44bc-bef3-210150b50239",
-    "dedup_hash": "c7643c3feb87",
     "role": "Backend Engineer",
     "city": "Delhi NCR",
     "stipend_salary": "₹7 - 16 LPA",
@@ -2233,6 +2311,32 @@ window.INITIAL_JOBS = [
   },
   {
     "id": "beep-job-011",
+    "title": "AI and Automation Specialist in Logistics",
+    "company": "Bosch",
+    "location": "bangalore, India",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163823439",
+    "source": "Bosch (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "The AI & Automation Specialist – Logistics drives the identification, development, implementation and scaling of Artificial Intelligence, Machine Learning and automation solutions across Warehousing, Transportation and Foreign Trade. • 1. AI & Automation Strategy and Use-Case Management • Identify and prioritize AI, GenAI, Machine Learning, analytics and automation opportunities across logistics. • Build and maintain an AI & Automation roadmap based on business value, feasibility, data availability and implementation effort. • Translate logistics pain points into clearly defined digital use cases and technical requirements. • Develop business cases covering productivity, cost, service, quali",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-26",
+    "canonical_url": "https://jobs.smartrecruiters.com/BoschGroup/744000163823439",
+    "dedup_hash": "be8c8784bd7f",
+    "role": "Data & AI / ML",
+    "city": "Bengaluru",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-012",
     "title": "AI/ML Expert",
     "company": "Bosch",
     "location": "coimbatore, India",
@@ -2258,7 +2362,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-012",
+    "id": "beep-job-013",
     "title": "AMS_Senior_Associate_Ban",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2284,7 +2388,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-013",
+    "id": "beep-job-014",
     "title": "ASCET_DotNet_Developer",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2310,7 +2414,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-014",
+    "id": "beep-job-015",
     "title": "ASIC Verification EEJ 2026",
     "company": "Bosch",
     "location": "bengaluru, India",
@@ -2336,7 +2440,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-015",
+    "id": "beep-job-016",
     "title": "Airbag Developer and Tester",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2360,7 +2464,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-016",
+    "id": "beep-job-017",
     "title": "Algorithm SW (ASW) Developer for Braking Systems (Hybrid Electric & Autonomous Vehicle Functions) -2026",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2386,7 +2490,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-017",
+    "id": "beep-job-018",
     "title": "Application Engineering ADAS",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2412,7 +2516,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-018",
+    "id": "beep-job-019",
+    "title": "Application SW Dev Experts, Matlab Modelling",
+    "company": "Bosch",
+    "location": "bangalore, India",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163697168",
+    "source": "Bosch (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "Develop and maintain BCM application features using MATLAB/Simulink following MBD guidelines. • Implement body domain functions like -lighting, access, wipers, comfort, power distribution etc.. • Ensure model quality, modularity, and reuse across projects and OEM programs. • Perform MIL/simulation-based validation and support early defect detection.Align models with AUTOSAR Classic SWC concepts and support integration activities. • Contribute to ISO 26262 safety and ASPICE SWE2/SWE3-compliant development.Support standardization, asset reuse, and cross-functional collaboration. • B.Tech • 8-15 yrs",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/BoschGroup/744000163697168",
+    "dedup_hash": "3be6e6292cf9",
+    "role": "Backend Engineer",
+    "city": "Bengaluru",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-020",
     "title": "Application SW Developer (Model-based) for Steering Platform",
     "company": "Bosch",
     "location": "Coimbatore, TN, India",
@@ -2438,7 +2568,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-019",
+    "id": "beep-job-021",
     "title": "Assistant Manager_eAxle System engineer",
     "company": "Bosch",
     "location": "Bengaluru, Karnataka, India",
@@ -2464,7 +2594,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-020",
+    "id": "beep-job-022",
     "title": "Assistant Manager_eAxle validation engineer",
     "company": "Bosch",
     "location": "Bengaluru, Karnataka, India",
@@ -2490,7 +2620,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-021",
+    "id": "beep-job-023",
     "title": "Associate _ Project Management Associate",
     "company": "Bosch",
     "location": "coimbatore, India",
@@ -2516,7 +2646,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-023",
+    "id": "beep-job-025",
     "title": "Audio Signal processing expert",
     "company": "Bosch",
     "location": "coimbatore, India",
@@ -2540,7 +2670,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-024",
+    "id": "beep-job-026",
     "title": "Audio techstack: Automotive Android and QNX developer",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2566,7 +2696,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-025",
+    "id": "beep-job-027",
     "title": "Automotive Diagnostic and troubleshooting Engineer for EV & HEV Systems - BAN",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2592,7 +2722,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-026",
+    "id": "beep-job-028",
     "title": "Automotive Systems Diagnostic and troubleshooting Engineer (Grade X & OTX/ODX)",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2618,7 +2748,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-027",
+    "id": "beep-job-029",
     "title": "Autosar Communication engineer",
     "company": "Bosch",
     "location": "hosur road bangalore, India",
@@ -2644,7 +2774,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-028",
+    "id": "beep-job-030",
     "title": "Azure Infra Consultant",
     "company": "Bosch",
     "location": "telengana, India",
@@ -2670,7 +2800,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-029",
+    "id": "beep-job-031",
     "title": "BBM_SAPSD_S4HANA_Consultant",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2696,7 +2826,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-030",
+    "id": "beep-job-032",
     "title": "BGSW_2026_SAP_ARIBA",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2722,7 +2852,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-031",
+    "id": "beep-job-033",
     "title": "BGSW_2026_SAP_CONTROLLING_SME",
     "company": "Bosch",
     "location": "hosur road bangalore, India",
@@ -2748,7 +2878,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-032",
+    "id": "beep-job-034",
     "title": "BGSW_2026_SAP_HCM_Payroll&Time",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2774,7 +2904,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-033",
+    "id": "beep-job-035",
     "title": "BGSW_2026_SAP_HCM_SF_SolnExpert",
     "company": "Bosch",
     "location": "bangalore, India",
@@ -2797,56 +2927,6 @@ window.INITIAL_JOBS = [
       "Node.js"
     ],
     "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-034",
-    "title": "BGSW_2026_SAP_MDG_TechnoFunctional_Developer",
-    "company": "Bosch",
-    "location": "bangalore, India",
-    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158726258",
-    "source": "Bosch (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "Roles & Responsibilities : • Role: Lead the design and delivery of SAP MDG solutions, with MDG technical as the core skill and full configuration knowledge. • Must-have requirements: • Minimum 4 to 7 years of SAP MDG development experience. • Strong ABAP skills (OO ABAP, enhancements) • Hands-on expertise in workflow design and change request handling (CR types, rule-based workflow, multi-step approvals). • Good knowledge of MDG BAdIs (validation, derivation, data model, UI, and replication), plus data modeling, DRF, and key mapping. • Strong MDG configuration knowledge (data models, UI modeling, process modeling, governance rules). • Educational qualification: • Experience : • 4-7 • Mandato",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-10-30",
-    "canonical_url": "https://jobs.smartrecruiters.com/BoschGroup/744000158726258",
-    "dedup_hash": "56f77a29b18b",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-035",
-    "title": "BGSW_2026_SAP_PDM_Consultant",
-    "company": "Bosch",
-    "location": "bangalore, India",
-    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162716687",
-    "source": "Bosch (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "Roles & Responsibilities : • · Minimum one SAP PLM implementation experience (design, configuration, testing, migration, go-live) • · SAP Material Management - integration with other modules. • · BOM management: BOM types and usages, item categories, multi-level and alternative BOMs, explosion, where-used • · Engineering change management: change numbers, ECR/ECN, effectivity, and status handling. Engineering Record/Change Record • · Handover to manufacturing: release of engineering data to plants, plant-specific BOMs, and implementation control of changes • · iPPE (Integrated Product and Process Engineering) • · Variant configuration: characteristics, classes, dependencies, configuration pr",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-20",
-    "canonical_url": "https://jobs.smartrecruiters.com/BoschGroup/744000162716687",
-    "dedup_hash": "c2eee65f8263",
-    "role": "Non-Tech / Operations",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Go"
-    ],
-    "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Bengaluru' based on detected location match.",
     "tagger_engine": "heuristic_fallback"
   },
   {
@@ -2879,26 +2959,26 @@ window.INITIAL_JOBS = [
     "id": "beep-job-042",
     "title": "Deployment Strategist",
     "company": "Databricks",
-    "location": "India",
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8630011002",
+    "location": "Remote - India",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637736002",
     "source": "Databricks (Official Portal)",
     "ats_type": "Official Portal",
     "description": "About the Team • The FDE (Forward Deployed Engineering) team is a new, strategic initiative sponsored from the CEO and Founders down. Our mission is to win C-suite-sponsored, high-value AI opportunities by selling and delivering outcomes , not just a platform. • You will be part of the founding team, embedded with our most strategic customers from the very first sales call, all the way through to a production-ready solution. You will be the \"product manager\" for the customer's problem, responsible for the \"why\" and \"what,\" while our FDEs (Engineers) will be your partners responsible for the \"how.\" • Role Description • As a Deployment Strategist (DS), you are the critical bridge between a cus",
     "job_type": "Full-time Fresher",
     "experience_level": "0-1 YOE",
     "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-07-28",
-    "canonical_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8630011002",
+    "posted_at": "2026-07-30",
+    "canonical_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637736002",
     "dedup_hash": "66cabf36a33b",
     "role": "Backend Engineer",
-    "city": "Other India",
+    "city": "Remote",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
       "JavaScript",
       "React",
       "Node.js"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Remote' based on detected location match.",
     "tagger_engine": "heuristic_fallback"
   },
   {
@@ -2927,6 +3007,32 @@ window.INITIAL_JOBS = [
   },
   {
     "id": "beep-job-045",
+    "title": "Software Engineer, Infrastructure",
+    "company": "Databricks",
+    "location": "Bengaluru, India",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002",
+    "source": "Databricks (Official Portal)",
+    "ats_type": "Official Portal",
+    "description": "GAQ327R265 • About the Role • At Databricks Information Technology, we are a product-led organisation transforming the way we work, from how easy it is to use our IT services to the applications we develop to help us scale seamlessly amid incredible growth. • As an IT Software Engineer (Infrastructure) , you will be a core technical contributor on the IT CorpEng Infrastructure team, owning and driving the evolution of our core infrastructure and observability platforms. This role requires a strong software engineering mindset, deep technical breadth across SRE and infrastructure worlds, and the ability to deliver high-quality, scalable solutions for currently \"immature\" system problems. You ",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-09-30",
+    "canonical_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002",
+    "dedup_hash": "a27ed94255d0",
+    "role": "DevOps / Cloud",
+    "city": "Bengaluru",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'DevOps / Cloud' based on title keywords and 'Bengaluru' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-046",
     "title": "Strategic Core Account Executive - Conglomerates",
     "company": "Databricks",
     "location": "Bengaluru, India; Mumbai, India",
@@ -2950,7 +3056,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-046",
+    "id": "beep-job-047",
     "title": "Sales Engineer",
     "company": "Druva",
     "location": "Pune, Maharashtra, India",
@@ -2976,7 +3082,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-053",
+    "id": "beep-job-054",
     "title": "Analytics Consultant",
     "company": "Experian",
     "location": "Mumbai, India",
@@ -3002,7 +3108,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-054",
+    "id": "beep-job-055",
+    "title": "Application Support Analyst",
+    "company": "Experian",
+    "location": "Hyderabad, India",
+    "url": "https://jobs.smartrecruiters.com/Experian/744000163717049",
+    "source": "Experian (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "As an Application Support Analyst, you will join Experian's Marketplace & Eligibility Application Support team, providing L2 support for critical UK & Ireland products and services. You will investigate and resolve production issues, support customer-facing applications and integrations, and help ensure reliable service delivery for lenders, fintechs, and digital marketplace clients. Working with Engineering, Product, Delivery, and Operations teams across multiple locations, you will contribute to incident resolution, service improvements, and the development of operational knowledge within a growing support function. • What You'll Do (Roles & Responsibilities): • Investigate and resolve ass",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/Experian/744000163717049",
+    "dedup_hash": "21f964775e9d",
+    "role": "Data & AI / ML",
+    "city": "Hyderabad",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Hyderabad' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-056",
     "title": "BI Developer (Oracle Apex)",
     "company": "Experian",
     "location": "Hyderabad, India",
@@ -3028,7 +3160,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-055",
+    "id": "beep-job-057",
     "title": "Demand & Software Asset management Specialist II",
     "company": "Experian",
     "location": "Hyderabad, India",
@@ -3054,7 +3186,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-056",
+    "id": "beep-job-058",
     "title": "Risk Analyst – Data Science & Analytics",
     "company": "Experian",
     "location": "Mumbai, India",
@@ -3080,7 +3212,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-057",
+    "id": "beep-job-059",
     "title": "Sales Specialist",
     "company": "Experian",
     "location": "Mumbai, India",
@@ -3106,7 +3238,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-058",
+    "id": "beep-job-060",
     "title": "Security Vulnerability Analyst",
     "company": "Experian",
     "location": "Hyderabad, India",
@@ -3132,7 +3264,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-059",
+    "id": "beep-job-061",
     "title": "Servicenow Configuration Analyst",
     "company": "Experian",
     "location": "Hyderabad, India",
@@ -3158,7 +3290,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-060",
+    "id": "beep-job-062",
     "title": "Workplace Operations Coordinator",
     "company": "Experian",
     "location": "Hyderabad, India",
@@ -3184,7 +3316,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-068",
+    "id": "beep-job-070",
     "title": "Deal Desk Strategist",
     "company": "Freshworks",
     "location": "Chennai, India",
@@ -3210,7 +3342,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-078",
+    "id": "beep-job-080",
     "title": "Creative Illustrator",
     "company": "Groww",
     "location": "Bengaluru-VTP, India",
@@ -3236,7 +3368,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-079",
+    "id": "beep-job-081",
     "title": "Finance Content Creator",
     "company": "Groww",
     "location": "Bengaluru, India",
@@ -3262,7 +3394,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-080",
+    "id": "beep-job-082",
     "title": "Portfolio Specialist - Wealth",
     "company": "Groww",
     "location": "Bengaluru-VTP, India",
@@ -3288,7 +3420,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-081",
+    "id": "beep-job-083",
     "title": "Procurement Specialist",
     "company": "Groww",
     "location": "Bengaluru-VTP, India",
@@ -3314,7 +3446,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-082",
+    "id": "beep-job-084",
     "title": "Product Research Specialist (W from Groww)",
     "company": "Groww",
     "location": "Bengaluru-VTP, India",
@@ -3340,7 +3472,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-091",
+    "id": "beep-job-094",
     "title": "Account Executive",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3366,7 +3498,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-092",
+    "id": "beep-job-095",
     "title": "Associate Account Executive (SMB - US)",
     "company": "Hevo Data",
     "location": "Bengaluru, India",
@@ -3392,7 +3524,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-093",
+    "id": "beep-job-096",
     "title": "Associate SDE",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3418,7 +3550,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-095",
+    "id": "beep-job-099",
     "title": "Business Development Representative (US)",
     "company": "Hevo Data",
     "location": "Bengaluru, India",
@@ -3444,7 +3576,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-096",
+    "id": "beep-job-100",
     "title": "Business System Engineer",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3470,7 +3602,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-097",
+    "id": "beep-job-101",
+    "title": "Customer Data engineer",
+    "company": "Hevo Data",
+    "location": "Bangalore, India",
+    "url": "https://jobs.lever.co/hevodata/ac91f4b5-76a8-45a3-bed2-41859dc64d17",
+    "source": "Hevo Data (Lever ATS)",
+    "ats_type": "Lever ATS",
+    "description": "About the role\n\nThis role is a strong fit for data engineers with 2 to 4 years of experience who want to take their technical depth into a customer-facing role. If you have spent the last few years building pipelines, working with cloud warehouses, and solving real data problems, but you are starting to wonder what comes next, this is worth a closer look.\n\nIn this role, you will work directly with Heads of Data, Data Engineering Managers, and CTOs at companies evaluating Hevo across the US, Europe, Southeast Asia, and ANZ. You will help them design the right data architecture, walk them through trade-offs, and earn the technical trust that turns an evaluation into a partnership. You will do ",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-26",
+    "canonical_url": "https://jobs.lever.co/hevodata/ac91f4b5-76a8-45a3-bed2-41859dc64d17",
+    "dedup_hash": "d1bea28b4538",
+    "role": "Data & AI / ML",
+    "city": "Bengaluru",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Bengaluru' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-102",
     "title": "Customer Experience Engineer",
     "company": "Hevo Data",
     "location": "Pune, Maharashtra",
@@ -3496,7 +3654,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-098",
+    "id": "beep-job-103",
     "title": "Growth Specialist",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3522,7 +3680,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-099",
+    "id": "beep-job-104",
     "title": "SDE I",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3548,7 +3706,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-102",
+    "id": "beep-job-107",
     "title": "Solution Engineer (Post-sales)",
     "company": "Hevo Data",
     "location": "Pune, Maharashtra",
@@ -3574,7 +3732,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-104",
+    "id": "beep-job-109",
     "title": "Solutions Engineer",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3600,7 +3758,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-105",
+    "id": "beep-job-110",
     "title": "Strategy & Ops (Founder's Office)",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3626,7 +3784,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-106",
+    "id": "beep-job-111",
     "title": "Tech Recruiter",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3652,7 +3810,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-107",
+    "id": "beep-job-112",
     "title": "Technical Writer",
     "company": "Hevo Data",
     "location": "Bangalore, India",
@@ -3678,7 +3836,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-108",
+    "id": "beep-job-113",
     "title": "Applied Scientist III",
     "company": "InMobi",
     "location": "Bangalore",
@@ -3704,7 +3862,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-109",
+    "id": "beep-job-114",
     "title": "Consultant- Global Business Operations",
     "company": "InMobi",
     "location": "Bangalore",
@@ -3730,7 +3888,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-110",
+    "id": "beep-job-115",
     "title": "Machine Learning Engineer II - Backend",
     "company": "InMobi",
     "location": "Bengaluru",
@@ -3756,7 +3914,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-111",
+    "id": "beep-job-116",
     "title": "Practice Counsel",
     "company": "InMobi",
     "location": "Bangalore",
@@ -3782,7 +3940,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-112",
+    "id": "beep-job-117",
     "title": "SDE II - AI",
     "company": "InMobi",
     "location": "Bangalore",
@@ -3808,7 +3966,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-113",
+    "id": "beep-job-118",
     "title": "AM/M - Risk Analytics - User Lending",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3834,7 +3992,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-114",
+    "id": "beep-job-119",
     "title": "Data Scientist III",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3860,7 +4018,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-116",
+    "id": "beep-job-121",
     "title": "Executive Assistant",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3886,7 +4044,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-117",
+    "id": "beep-job-122",
     "title": "Instructional Designer- ValMo Training",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3912,7 +4070,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-118",
+    "id": "beep-job-123",
     "title": "Security Engineer III - Infra Security",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3938,7 +4096,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-119",
+    "id": "beep-job-124",
     "title": "Security Engineer IV",
     "company": "Meesho",
     "location": "Bangalore, Karnataka",
@@ -3964,7 +4122,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-120",
+    "id": "beep-job-125",
     "title": "AI Product Engineer",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra, Bengaluru, Karnataka",
@@ -3990,7 +4148,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-121",
+    "id": "beep-job-126",
     "title": "Associate Client Partner",
     "company": "Mindtickle",
     "location": "Bengaluru, Karnataka, Pune, Maharashtra",
@@ -4016,7 +4174,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-122",
+    "id": "beep-job-127",
     "title": "Customer Success Engineer - II",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra",
@@ -4042,7 +4200,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-123",
+    "id": "beep-job-128",
     "title": "Learning Consultant",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra",
@@ -4068,7 +4226,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-124",
+    "id": "beep-job-129",
     "title": "SDE-III",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra, Bengaluru, Karnataka",
@@ -4094,7 +4252,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-125",
+    "id": "beep-job-130",
     "title": "SME Engineer IT",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra",
@@ -4120,7 +4278,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-126",
+    "id": "beep-job-131",
     "title": "Security and Automation Engineer",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra",
@@ -4146,7 +4304,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-127",
+    "id": "beep-job-132",
     "title": "Specialist, Information Security and Privacy",
     "company": "Mindtickle",
     "location": "Pune, Maharashtra, Bengaluru, Karnataka",
@@ -4172,31 +4330,31 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-128",
+    "id": "beep-job-133",
     "title": "Account Development Representative",
     "company": "MongoDB",
-    "location": "Gurugram",
-    "url": "https://www.mongodb.com/careers/job/?gh_jid=7318558",
+    "location": "Bengaluru",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=7318466",
     "source": "MongoDB (Official Portal)",
     "ats_type": "Official Portal",
     "description": "An Account Development Representative at MongoDB is the starting point for building a serious career in technology sales. • This role is the foundation of our sales organization. You will partner closely with Account Executives to identify new opportunities within strategic accounts, helping drive meaningful pipeline and long-term customer growth. • From day one, you will learn and apply structured sales frameworks including MEDDIC qualification, account mapping, multi-threading strategies, and value-based discovery. You will develop technical fluency across modern application architectures, cloud infrastructure, and database technologies, gaining real exposure to how complex software soluti",
     "job_type": "Full-time Fresher",
     "experience_level": "0-1 YOE",
     "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-07-27",
-    "canonical_url": "https://www.mongodb.com/careers/job?gh_jid=7318558",
+    "posted_at": "2026-07-22",
+    "canonical_url": "https://www.mongodb.com/careers/job?gh_jid=7318466",
     "dedup_hash": "f7b977aa53ec",
     "role": "Backend Engineer",
-    "city": "Other India",
+    "city": "Bengaluru",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
       "MongoDB"
     ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Other India' based on detected location match.",
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-130",
+    "id": "beep-job-135",
     "title": "Application Engineer",
     "company": "MongoDB",
     "location": "Bengaluru",
@@ -4220,7 +4378,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-131",
+    "id": "beep-job-136",
     "title": "Associate Recruiter",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4246,7 +4404,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-132",
+    "id": "beep-job-137",
     "title": "Associate TSE",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4270,7 +4428,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-133",
+    "id": "beep-job-138",
     "title": "Business Systems Analyst 3",
     "company": "MongoDB",
     "location": "Bengaluru; Gurugram",
@@ -4296,7 +4454,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-134",
+    "id": "beep-job-139",
     "title": "Cloud Operations Engineer",
     "company": "MongoDB",
     "location": "Bengaluru",
@@ -4322,7 +4480,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-135",
+    "id": "beep-job-140",
     "title": "Contract Technical Recruiter",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4348,7 +4506,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-137",
+    "id": "beep-job-142",
     "title": "Forward Deployed Engineer, Industry Solutions",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4372,7 +4530,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-138",
+    "id": "beep-job-143",
     "title": "Real Estate Analyst",
     "company": "MongoDB",
     "location": "Bengaluru; Gurugram",
@@ -4396,7 +4554,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-139",
+    "id": "beep-job-144",
     "title": "Salesforce Developer III",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4420,19 +4578,19 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-140",
+    "id": "beep-job-145",
     "title": "Software Engineer 3",
     "company": "MongoDB",
     "location": "Gurugram",
-    "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+    "url": "https://www.mongodb.com/careers/job/?gh_jid=8208074",
     "source": "MongoDB (Official Portal)",
     "ats_type": "Official Portal",
-    "description": "The Application Modernization Platform (AMP) team is dedicated to solving one of the industry's biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. • This new team",
+    "description": "Enterprise Advanced is a distributed team across Europe and India that builds the software running MongoDB on any infrastructure, at global scale — from on-prem data centers to private cloud. You'll work primarily on Ops Manager and Automation, the systems that let customers deploy fault-tolerant, globally distributed MongoDB clusters in minutes. Our software manages some of the largest self-managed MongoDB deployments in the world, with production clusters running hundreds of shards and nodes under a single deployment. • The main focus of this team is to adapt our software to manage MongoDB clusters which are deployed in data centers or private cloud platforms. • You will work on the core f",
     "job_type": "Full-time Fresher",
     "experience_level": "0-1 YOE",
     "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-09-29",
-    "canonical_url": "https://www.mongodb.com/careers/job?gh_jid=8239047",
+    "posted_at": "2026-09-24",
+    "canonical_url": "https://www.mongodb.com/careers/job?gh_jid=8208074",
     "dedup_hash": "b5955355ec63",
     "role": "Backend Engineer",
     "city": "Other India",
@@ -4444,7 +4602,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-142",
+    "id": "beep-job-147",
     "title": "Software Engineer 3, AI Framework Integrations",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4468,7 +4626,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-144",
+    "id": "beep-job-149",
     "title": "Talent Discovery Sourcer",
     "company": "MongoDB",
     "location": "Gurugram",
@@ -4492,7 +4650,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-145",
+    "id": "beep-job-150",
     "title": "Technical Services Engineer",
     "company": "MongoDB",
     "location": "Bengaluru",
@@ -4516,7 +4674,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-147",
+    "id": "beep-job-152",
     "title": "Technical Services Engineer (Weekend working)",
     "company": "MongoDB",
     "location": "Bengaluru",
@@ -4540,7 +4698,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-148",
+    "id": "beep-job-153",
     "title": "AI Analyst, BI",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -4564,7 +4722,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-149",
+    "id": "beep-job-154",
     "title": "AI Engineer",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -4590,33 +4748,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-151",
-    "title": "Analytics and Activation Sales Specialist",
-    "company": "NielsenIQ",
-    "location": "Mumbai, MH, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155707709",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "This role sits at the intersection of domain expertise and commercial impact – driving the growth of analytics and activation practice while being anchored in research thinking and conceptualizing/modifying solutions to address client's business problem. • Responsibilities • 1) Solution Ownership and Commercial Growth • Accountable for A&A portfolio including Route to Market, RTM (Distribution Optimization, Market Prioritization, Precision Areas/Grids, Store Clustering etc.) and Revenue Growth Management, RGM (including Line and price optimizer, Bases Price Advisor, Pricing Conjoint and Custom PnP) • Work closely with India SAI sales team and EEMEA practice area experts to define outreach fo",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-10-15",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155707709",
-    "dedup_hash": "c5847ac4843d",
-    "role": "Data & AI / ML",
-    "city": "Mumbai",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL",
-      "Git"
-    ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Mumbai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-152",
+    "id": "beep-job-156",
     "title": "Associate Data Scientist",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -4642,7 +4774,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-153",
+    "id": "beep-job-157",
     "title": "Audio Video Engineer",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -4668,7 +4800,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-154",
+    "id": "beep-job-158",
     "title": "Cartographer",
     "company": "NielsenIQ",
     "location": "Vadodara, GJ, India",
@@ -4692,59 +4824,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-156",
-    "title": "Data Processing Specialist (Quantum and SPSS)",
-    "company": "NielsenIQ",
-    "location": "Gurgaon, HR, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163606268",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "Purpose of the role: • Working with data collected from market research surveys to provide a variety of output reports, using software products such as Quantum, SPSS, Dimensions • Processing, formatting and presenting the data in accordance with global NIQ quality standards • Prioritize, structure and deliver data processing (data table production, file creation, quality checking and workflow communication) of high complexity projects individually • Execute day-to-day operations and tasks • Prioritize and distribute projects / tasks within the team • Propose optimizations and efficient solutions • Take decisions related to project delivery in case of any ambiguous situation • Contribute to d",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-25",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163606268",
-    "dedup_hash": "f2f293ed32e9",
-    "role": "Data & AI / ML",
-    "city": "Delhi NCR",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL",
-      "Git"
-    ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Delhi NCR' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-157",
-    "title": "Data Scientist",
-    "company": "NielsenIQ",
-    "location": "Pune, MH, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000161728829",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "NielsenIQ Advanced Analytics team develops and promotes a portfolio of global products. Leveraging NielsenIQ’s unparalleled data and global platforms, the Advanced Analytics team creates solutions to enable our clients to make better business decisions every day. We partner with Product Owners and Core Technology Teams to build scalable, always on, analytic products using relevant modeling/ML techniques. • We’re looking for a passionate and talented Senior Data Scientist to join our growing team. In this role, you’ll have the chance to roll up your sleeves and apply data science methods and analytics to sustain NielsenIQ Analytics growth. Successful candidates are intellectually curious buil",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-16",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000161728829",
-    "dedup_hash": "fdf6f2474fb4",
-    "role": "Data & AI / ML",
-    "city": "Pune",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL",
-      "Git"
-    ],
-    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-158",
+    "id": "beep-job-160",
     "title": "Digital Content & Learning Technology Specialist",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -4770,7 +4850,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-159",
+    "id": "beep-job-161",
     "title": "E2E Project Coordinator",
     "company": "NielsenIQ",
     "location": "Mumbai, MH, India",
@@ -4796,7 +4876,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-160",
+    "id": "beep-job-162",
     "title": "Engineer, Collaboration Infrastructure (Active Directory, Entra ID and PowerShell)",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -4822,7 +4902,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-161",
+    "id": "beep-job-163",
     "title": "Engineer, IAM with GCP & Azure (must have)",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -4848,33 +4928,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-162",
-    "title": "Expert",
-    "company": "NielsenIQ",
-    "location": "Chennai, TN, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163214634",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "Job Description • The Reference Data Operations Expert is responsible for ensuring high-quality, timely and accurate Reference Data delivery across EU markets. The role combines operational execution, quality governance, stakeholder collaboration, process improvement and technical expertise to support end-to-end delivery—from input through to client delivery. • The role brings an AI-first, continuous-improvement mindset, identifying where AI, automation, analytics and intelligent controls can reduce manual effort, strengthen preventive quality checks and improve operational outcomes. • Key Responsibilities • Execute and support high-quality Reference Data operations across EU markets, ensuri",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-23",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163214634",
-    "dedup_hash": "075ed416c562",
-    "role": "Backend Engineer",
-    "city": "Chennai",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-163",
+    "id": "beep-job-164",
     "title": "Expert (Azure Data Factory, Fabric and SQL preferred)",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -4898,7 +4952,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-164",
+    "id": "beep-job-165",
+    "title": "Expert - EU RD",
+    "company": "NielsenIQ",
+    "location": "Chennai, TN, India",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163634130",
+    "source": "NielsenIQ (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "Job Description • The Reference Data Operations Expert is responsible for ensuring high-quality, timely and accurate Reference Data delivery across EU markets. The role combines operational execution, quality governance, stakeholder collaboration, process improvement and technical expertise to support end-to-end delivery—from input through to client delivery. • The role brings an AI-first, continuous-improvement mindset, identifying where AI, automation, analytics and intelligent controls can reduce manual effort, strengthen preventive quality checks and improve operational outcomes. • Key Responsibilities • Execute and support high-quality Reference Data operations across EU markets, ensuri",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163634130",
+    "dedup_hash": "5153ea7a4ea5",
+    "role": "Backend Engineer",
+    "city": "Chennai",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-166",
     "title": "Expert, NIQ One Platform",
     "company": "NielsenIQ",
     "location": "Gurgoan, India",
@@ -4924,21 +5004,21 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-165",
-    "title": "Operations Client Partner",
+    "id": "beep-job-167",
+    "title": "Graphic Designer",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163388980",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163631839",
     "source": "NielsenIQ (SmartRecruiters)",
     "ats_type": "SmartRecruiters",
-    "description": "As the Operations Client Partner, you will manage ongoing manufacturer database maintenance quality and scoping of change requests, reviewing new item placements and coding and leading client inquiry triage and resolution. You will directly communicate with clients and client operations support teams and collaborate with cross-functional Operations and Technology teams. • Responsibilities: • Scope and prototype change requests for custom databases. • Review new item reports and ensure items are placed as per client DB standards • Communicate with Sr. Client Operations Leaders and manufacturing clients regarding database updates and changes, including timelines for implementation. • Assist in",
+    "description": "You will be an integral part of the three-person Creative Solutions team working in a fast-paced environment and directly supporting the innovation processes at some of the world’s leading companies. • The Creative Solutions team creates and incorporates a wide range of digital client content into SA&I / NIQ's various product offerings, most specifically Design, Line and Price and Optimizers. • Accountabilities • Retouch, manipulate and sometime create from scratch, product images and assets in Adobe Photoshop and possibly Adobe Illustrator, that will be used across our different client initiatives. These assets will be used to create virtual shopping shelves, and custom images to be used th",
     "job_type": "Full-time Fresher",
     "experience_level": "0-1 YOE",
     "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-24",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163388980",
-    "dedup_hash": "4181a49e31e0",
-    "role": "Non-Tech / Operations",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163631839",
+    "dedup_hash": "6ffc9c7cedaa",
+    "role": "Backend Engineer",
     "city": "Chennai",
     "stipend_salary": "₹7 - 16 LPA",
     "skills": [
@@ -4946,11 +5026,11 @@ window.INITIAL_JOBS = [
       "React",
       "Node.js"
     ],
-    "reasoning": "Tagged as 'Non-Tech / Operations' based on title keywords and 'Chennai' based on detected location match.",
+    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-166",
+    "id": "beep-job-168",
     "title": "Order Management Specialist",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -4976,7 +5056,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-167",
+    "id": "beep-job-169",
     "title": "Report Automation Specialist - (Advance Excel and PowerPoint Expert)",
     "company": "NielsenIQ",
     "location": "Gurgaon, HR, India",
@@ -5002,7 +5082,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-168",
+    "id": "beep-job-170",
     "title": "Research Analyst",
     "company": "NielsenIQ",
     "location": "Mumbai, MH, India",
@@ -5028,7 +5108,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-169",
+    "id": "beep-job-171",
     "title": "Research Executive- CS II",
     "company": "NielsenIQ",
     "location": "Mumbai, MH, India",
@@ -5054,33 +5134,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-170",
-    "title": "Research Scientist",
-    "company": "NielsenIQ",
-    "location": "Chennai, TN, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000141447384",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "Develop and apply machine learning innovations to business problems with minimal technical supervision. • Assess your own and others’ results to understand their applicability in the real world. • Understand stakeholders’ requirements and communicate results and conclusions accurately, clearly and winsomely. • Perform feasibility studies and analyze data to determine the most appropriate solution. • Work on many different data challenges, always ensuring a combination of simplicity, scalability, reproducibility and maintainability within the ML solutions and source code. • Maintain and develop data and software with high-quality standards and minimal defects. • Collaborate with technical col",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-08-04",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000141447384",
-    "dedup_hash": "74d11c399208",
-    "role": "Backend Engineer",
-    "city": "Chennai",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-171",
+    "id": "beep-job-172",
     "title": "Revenue Associate",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5106,7 +5160,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-172",
+    "id": "beep-job-173",
     "title": "SME - Collections",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5132,7 +5186,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-173",
+    "id": "beep-job-174",
     "title": "Sales & Commission Data Governance Analyst",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5158,7 +5212,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-174",
+    "id": "beep-job-175",
     "title": "Sales Business Analyst",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5184,56 +5238,32 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-175",
-    "title": "Software Engineer",
-    "company": "NielsenIQ",
-    "location": "Chennai, TN, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163494701",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "About Job, • Software Engineer, Chennai • You will • Understanding business requirements and how they fit into the overall, global solution design • Embracing end-to-end the development and maintenance of any new feature including the estimation, the development and validation of new code, the design of testing scenarios up to the deployment into production • Following source and test-driven development best practices • Troubleshooting and identifying root cause analysis while resolving the issues • Minimum of 3-7 years of experience as a java full stack engineer including Postgres and C++ knowledge • Development experience in unit and integration test cases • Good Understanding on CI/CD Pip",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-24",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163494701",
-    "dedup_hash": "1967c7d26334",
-    "role": "Backend Engineer",
-    "city": "Chennai",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Java"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-176",
-    "title": "Software Engineer (Oracle PL/SQL and Python)",
-    "company": "NielsenIQ",
-    "location": "Chennai, TN, India",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163486198",
-    "source": "NielsenIQ (SmartRecruiters)",
-    "ats_type": "SmartRecruiters",
-    "description": "About Job • Software Engineer (Oracle PL/SQL, Python AND AI), Chennai • The NIQ technology teams are working on building a unified, global, open data ecosystem powered by Microsoft Azure. Our clients around the world rely on NielsenIQ data and insights to innovate and grow. • We are looking for an experienced PL/SQL and Python Developer and Cloud Developer with Gen AI skillset to be part of our Technology hub in India to build, maintain and transform our factory systems, that are critical to the business. • Responsibilities • Design & develop solutions using Oracle PL/SQL, Python, Cloud, Unix Shell Scripting • Design, develop, and deploy AI and Generative AI solutions, models, MCP aligned wi",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-11-24",
-    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163486198",
-    "dedup_hash": "d710ef61278e",
-    "role": "Backend Engineer",
-    "city": "Chennai",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "Python",
-      "SQL"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Chennai' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
     "id": "beep-job-177",
+    "title": "Software Engineer (Fullstack- Java (must have) + React)",
+    "company": "NielsenIQ",
+    "location": "Chennai, TN, India",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163646599",
+    "source": "NielsenIQ (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "Software Engineer, Chennai • At NIQ, we deliver the most complete and clear understanding of consumer buying behavior that reveals new pathways to growth. Our NIQ Activate team is working on our new SaaS platform that serves leading retailers globally. Our clients around the world rely on Activate’s insights to innovate and grow. We are looking for a Senior Front-End Developer to join our R&D team. This is a highly technical position in an exciting new development area we will be introducing into our retail analytics business platform. • The Backend Software Engineer is responsible for building new product solutions for our rapidly expanding customer base, working with the top server side te",
+    "job_type": "Full-time Fresher",
+    "experience_level": "0-1 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-25",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163646599",
+    "dedup_hash": "4f0c7b14759c",
+    "role": "Frontend Engineer",
+    "city": "Chennai",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "Java",
+      "React"
+    ],
+    "reasoning": "Tagged as 'Frontend Engineer' based on title keywords and 'Chennai' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-178",
     "title": "Software Engineer (Python, GenAI, FastAPi)",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -5258,7 +5288,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-178",
+    "id": "beep-job-179",
     "title": "Software Engineer (python,Django,Pandas/ Polars)",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5285,7 +5315,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-179",
+    "id": "beep-job-182",
     "title": "Specialist, Infrastructure Delivery",
     "company": "NielsenIQ",
     "location": "Chennai, TN, India",
@@ -5311,7 +5341,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-181",
+    "id": "beep-job-184",
     "title": "Task Specialist",
     "company": "NielsenIQ",
     "location": "Mumbai, MH, India",
@@ -5337,7 +5367,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-182",
+    "id": "beep-job-185",
     "title": "Technical Support Specialist",
     "company": "NielsenIQ",
     "location": "Pune, MH, India",
@@ -5363,7 +5393,33 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-183",
+    "id": "beep-job-186",
+    "title": "Training Associate",
+    "company": "NielsenIQ",
+    "location": "Pune, MH, India",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162500330",
+    "source": "NielsenIQ (SmartRecruiters)",
+    "ats_type": "SmartRecruiters",
+    "description": "We are looking for a Learning Associate to join the Design & Content team within NIQ's Global Knowledge & Training function. In this role, you will build and update digital learning assets, including e-learning modules, instructional videos, presentations and job aids, that support Client Training and internal learning programs for a global audience. • This is an individual contributor role for someone early in their learning design career who enjoys hands-on creation and wants to keep growing. You will work from approved briefs, storyboards, templates and design standards, independently complete routine content changes and maintenance, and work alongside more experienced colleagues on new l",
+    "job_type": "Internship",
+    "experience_level": "0 YOE",
+    "salary_raw": "₹7 - 16 LPA",
+    "posted_at": "2026-11-19",
+    "canonical_url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162500330",
+    "dedup_hash": "6dfb7e64a4c1",
+    "role": "Data & AI / ML",
+    "city": "Pune",
+    "stipend_salary": "₹7 - 16 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "reasoning": "Tagged as 'Data & AI / ML' based on title keywords and 'Pune' based on detected location match.",
+    "tagger_engine": "heuristic_fallback"
+  },
+  {
+    "id": "beep-job-188",
     "title": "AP & Expenses Projects Analyst",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5389,7 +5445,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-184",
+    "id": "beep-job-189",
     "title": "Benefits Operations Specialist",
     "company": "Okta",
     "location": "Bengaluru",
@@ -5415,7 +5471,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-185",
+    "id": "beep-job-190",
     "title": "Commercial Account Executive",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5441,7 +5497,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-186",
+    "id": "beep-job-191",
     "title": "Demo Engineering Developer",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5465,33 +5521,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-187",
-    "title": "Developer Support Engineer",
-    "company": "Okta",
-    "location": "Bengaluru, India",
-    "url": "https://www.okta.com/company/careers/opportunity/7770733?gh_jid=7770733",
-    "source": "Okta (Official Portal)",
-    "ats_type": "Official Portal",
-    "description": "Secure Every Identity, from AI to Human • Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. • This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. • About the Role • As a Developer Support Engineer, you will serve as a key technical contact for customers using our Customer Identity SaaS platform. You will be responsible fo",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-04-02",
-    "canonical_url": "https://www.okta.com/company/careers/opportunity/7770733?gh_jid=7770733",
-    "dedup_hash": "619c4f485f0a",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-188",
+    "id": "beep-job-192",
     "title": "Enterprise Account Executive, Bengaluru",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5517,7 +5547,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-190",
+    "id": "beep-job-194",
     "title": "Enterprise Account Executive, Mumbai",
     "company": "Okta",
     "location": "Mumbai, India",
@@ -5543,7 +5573,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-191",
+    "id": "beep-job-195",
     "title": "Payroll Accountant",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5569,7 +5599,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-192",
+    "id": "beep-job-196",
     "title": "People Operations Specialist",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5595,7 +5625,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-193",
+    "id": "beep-job-197",
     "title": "People Operations Specialist (Payroll & Compensation )",
     "company": "Okta",
     "location": "Bengaluru",
@@ -5621,7 +5651,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-194",
+    "id": "beep-job-198",
     "title": "Solutions Engineer, Okta",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5647,7 +5677,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-195",
+    "id": "beep-job-199",
     "title": "Workday Extend Developer",
     "company": "Okta",
     "location": "Bengaluru, India",
@@ -5673,7 +5703,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-231",
+    "id": "beep-job-235",
     "title": "Business Intelligence Associate",
     "company": "PubMatic",
     "location": "Pune, IN",
@@ -5699,7 +5729,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-232",
+    "id": "beep-job-236",
     "title": "Programmatic Trading Specialist, APAC",
     "company": "PubMatic",
     "location": "Gurugram, IN",
@@ -5725,7 +5755,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-233",
+    "id": "beep-job-237",
     "title": "Cloud Native Escalation Engineer",
     "company": "Pure Storage",
     "location": "Bangalore, India",
@@ -5751,7 +5781,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-234",
+    "id": "beep-job-238",
     "title": "Cloud Native Technical Services Engineer",
     "company": "Pure Storage",
     "location": "Bangalore, India",
@@ -5777,7 +5807,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-235",
+    "id": "beep-job-239",
     "title": "Datapath Engineer, Portworx",
     "company": "Pure Storage",
     "location": "Bangalore, India",
@@ -5803,7 +5833,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-236",
+    "id": "beep-job-240",
     "title": "GTM Integration Developer - Boomi",
     "company": "Pure Storage",
     "location": "Bangalore, India",
@@ -5827,111 +5857,7 @@ window.INITIAL_JOBS = [
     "tagger_engine": "heuristic_fallback"
   },
   {
-    "id": "beep-job-237",
-    "title": "Learning Partner",
-    "company": "Pure Storage",
-    "location": "Bangalore, India",
-    "url": "https://job-boards.greenhouse.io/purestorage/jobs/8300071",
-    "source": "Pure Storage (Greenhouse ATS)",
-    "ats_type": "Greenhouse ATS",
-    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. • This type of work—work that changes the world—is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. • THE ROLE • As a Learning Partner on Everpure's Talent Transformation team, you will drive enterprise capability building by turning business p",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-10-20",
-    "canonical_url": "https://job-boards.greenhouse.io/purestorage/jobs/8300071",
-    "dedup_hash": "2c5bf2d57a50",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-238",
-    "title": "MTS - Performance Engineering",
-    "company": "Pure Storage",
-    "location": "Bangalore, India",
-    "url": "https://job-boards.greenhouse.io/purestorage/jobs/8169046",
-    "source": "Pure Storage (Greenhouse ATS)",
-    "ats_type": "Greenhouse ATS",
-    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. • This type of work—work that changes the world—is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. • THE ROLE • To be a expert performance engineer to define and validate the industry-leading performance of our mission-critical FlashArray port",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-09-17",
-    "canonical_url": "https://job-boards.greenhouse.io/purestorage/jobs/8169046",
-    "dedup_hash": "e77cf1c0dbb4",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-239",
-    "title": "MTS-Exa",
-    "company": "Pure Storage",
-    "location": "Bangalore, India",
-    "url": "https://job-boards.greenhouse.io/purestorage/jobs/8131772",
-    "source": "Pure Storage (Greenhouse ATS)",
-    "ats_type": "Greenhouse ATS",
-    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. • This type of work—work that changes the world—is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. • THE ROLE • Join the high-growth FlashBlade team as a foundational engineering leader building our next-generation, scale-out all-flash file an",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2026-08-24",
-    "canonical_url": "https://job-boards.greenhouse.io/purestorage/jobs/8131772",
-    "dedup_hash": "a9de9ad0caf6",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-240",
-    "title": "Recruiting Coordinator (12 months contract)",
-    "company": "Pure Storage",
-    "location": "Bangalore, India",
-    "url": "https://job-boards.greenhouse.io/purestorage/jobs/6952672",
-    "source": "Pure Storage (Greenhouse ATS)",
-    "ats_type": "Greenhouse ATS",
-    "description": "Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. • This type of work—work that changes the world—is what the tech industry was founded on. So, if you're ready to seize the endless opportunities and leave your mark, come join us. • The Recruiting Coordinator will play a critical role in facilitating complex, high-touch recruitment processes, serving as a pillar of support",
-    "job_type": "Full-time Fresher",
-    "experience_level": "0-1 YOE",
-    "salary_raw": "₹7 - 16 LPA",
-    "posted_at": "2025-06-04",
-    "canonical_url": "https://job-boards.greenhouse.io/purestorage/jobs/6952672",
-    "dedup_hash": "967b96c6a221",
-    "role": "Backend Engineer",
-    "city": "Bengaluru",
-    "stipend_salary": "₹7 - 16 LPA",
-    "skills": [
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "reasoning": "Tagged as 'Backend Engineer' based on title keywords and 'Bengaluru' based on detected location match.",
-    "tagger_engine": "heuristic_fallback"
-  },
-  {
-    "id": "beep-job-067",
+    "id": "beep-job-069",
     "title": "Security Engineer Intern (Immediate Joiner / 2025)",
     "company": "FamPay",
     "location": "Bengaluru",
